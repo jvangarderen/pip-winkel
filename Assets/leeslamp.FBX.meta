@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: f6e1b5f94e0e8e3479eaa277da9dbf01
+timeCreated: 1521203406
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera01
+    100002: Camera01.Target
+    100004: Desk Lamp
+    100006: Ground
+    100008: LAMP body
+    100010: LAMP Glass
+    100012: //RootNode
+    100014: Sphere01
+    100016: Sphere02
+    100018: Sphere03
+    100020: Sphere04
+    100022: Sphere05
+    100024: Sphere06
+    100026: Sphere07
+    100028: Sphere08
+    100030: Sphere09
+    100032: Sphere10
+    100034: Sphere11
+    100036: Sphere12
+    100038: Sphere13
+    100040: Sphere14
+    100042: Sphere15
+    100044: Spot01
+    100046: Spot01.Target
+    100048: Spot02
+    100050: Spot02.Target
+    400000: Camera01
+    400002: Camera01.Target
+    400004: Desk Lamp
+    400006: Ground
+    400008: LAMP body
+    400010: LAMP Glass
+    400012: //RootNode
+    400014: Sphere01
+    400016: Sphere02
+    400018: Sphere03
+    400020: Sphere04
+    400022: Sphere05
+    400024: Sphere06
+    400026: Sphere07
+    400028: Sphere08
+    400030: Sphere09
+    400032: Sphere10
+    400034: Sphere11
+    400036: Sphere12
+    400038: Sphere13
+    400040: Sphere14
+    400042: Sphere15
+    400044: Spot01
+    400046: Spot01.Target
+    400048: Spot02
+    400050: Spot02.Target
+    2000000: Camera01
+    2100000: Wood_Cedfence
+    2100002: Brass
+    2100004: BLACK MATTE
+    2100006: GREEN LAMP GLASS
+    2300000: Ground
+    2300002: LAMP body
+    2300004: LAMP Glass
+    2300006: Sphere01
+    2300008: Sphere02
+    2300010: Sphere03
+    2300012: Sphere04
+    2300014: Sphere05
+    2300016: Sphere06
+    2300018: Sphere07
+    2300020: Sphere08
+    2300022: Sphere09
+    2300024: Sphere10
+    2300026: Sphere11
+    2300028: Sphere12
+    2300030: Sphere13
+    2300032: Sphere14
+    2300034: Sphere15
+    3300000: Ground
+    3300002: LAMP body
+    3300004: LAMP Glass
+    3300006: Sphere01
+    3300008: Sphere02
+    3300010: Sphere03
+    3300012: Sphere04
+    3300014: Sphere05
+    3300016: Sphere06
+    3300018: Sphere07
+    3300020: Sphere08
+    3300022: Sphere09
+    3300024: Sphere10
+    3300026: Sphere11
+    3300028: Sphere12
+    3300030: Sphere13
+    3300032: Sphere14
+    3300034: Sphere15
+    4300000: Ground
+    4300002: LAMP body
+    4300004: LAMP Glass
+    4300006: Sphere14
+    4300008: Sphere01
+    4300010: Sphere02
+    4300012: Sphere03
+    4300014: Sphere04
+    4300016: Sphere05
+    4300018: Sphere06
+    4300020: Sphere07
+    4300022: Sphere08
+    4300024: Sphere09
+    4300026: Sphere10
+    4300028: Sphere11
+    4300030: Sphere12
+    4300032: Sphere13
+    4300034: Sphere15
+    9500000: //RootNode
+    10800000: Spot01
+    10800002: Spot02
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
