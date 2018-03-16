@@ -1,0 +1,55 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl Material3720
+Ka 0.187926 0.165506 0.257132
+Kd 0.599013 0.527551 0.819608
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1084/FCL1-PSW002-02_2534222.png
+map_Kd C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1084/FCL1-PSW002-02_2534222.png
+newmtl Material3714
+Ka 0.020997 0.000000 0.187738
+Kd 0.066928 0.000000 0.598416
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1084/FCL1-PSW002-02.png
+map_Kd C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1084/FCL1-PSW002-02.png
+newmtl Material3730
+Ka 0.257132 0.200664 0.001008
+Kd 0.819608 0.639616 0.003214
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+newmtl Material3752
+Ka 0.257132 0.257132 0.257132
+Kd 0.819608 0.819608 0.819608
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1088/2.3mm_3_Edit.png
+map_Kd C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1088/2.3mm_3_Edit.png
+newmtl Material3695
+Ka 0.257132 0.257132 0.257132
+Kd 0.819608 0.819608 0.819608
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1081/wood_3_4_dark.jpg
+map_Kd C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1081/wood_3_4_dark.jpg
+map_Ka C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1081/wood_3_4_dark.jpg
+newmtl Material3700
+Ka 0.257132 0.257132 0.257132
+Kd 0.819608 0.819608 0.819608
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1081/metal4.jpg
+map_Kd C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1081/metal4.jpg
+map_Ka C:/Users/Jelle/AppData/Local/CLO/CLO Enterprise OnlineAuth/2996/1081/metal4.jpg
