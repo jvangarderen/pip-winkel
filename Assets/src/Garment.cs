@@ -17,7 +17,7 @@ public class Garment : MonoBehaviour {
 	}
 
     void OnGUI()
-    {
+    {/*
         GUI.Box(new Rect(0,0,200,Screen.height),"");
         for (int i = 0; i < garmentPieces.Count; i++)
         {
@@ -38,7 +38,13 @@ public class Garment : MonoBehaviour {
         {
             Manager manager = GameObject.Find("Manager").GetComponent<Manager>();
             manager.AddToShoppingList(gameObject);
-        }
+        }*/
+    }
+
+
+    public List<GameObject> GetGarmentPieces()
+    {
+        return garmentPieces;
     }
 
     public void PrintGarmentDetails()

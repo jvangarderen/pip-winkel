@@ -33,6 +33,11 @@ public class ChangeStripes : MonoBehaviour {
             meshrenderer.material = myMat[curmatID];
         }
     }
+
+    public void SetMatByIndex(int index)
+    {
+        meshrenderer.material = myMat[index];
+    }
     
     public void PrevMat()
     {
