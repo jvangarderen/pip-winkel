@@ -93,6 +93,11 @@ public class Manager : MonoBehaviour
                 if (objectHit.tag == "btn_color")
                 {
                     curStripe.SetMatByIndex(int.Parse(objectHit.name));
+                    if (dropdown.transform.childCount != 4)
+                    {
+                        //curStripe.SetMatByIndex(int.Parse(objectHit.name));
+                    }
+                    
                 }
                 if (objectHit.tag == "popup")
                 {
@@ -145,6 +150,7 @@ public class Manager : MonoBehaviour
         }
         Debug.Log(names);
         dropdown.AddOptions(names);
+        DropDown_IndexChanged(0);
     }
 
     public void AddToShoppingList(GameObject obj)
