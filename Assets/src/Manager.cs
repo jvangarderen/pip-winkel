@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class Manager : MonoBehaviour 
 {
+    public Light light;
     public List<GameObject> shoppingList;
+    public CamController camController;
     public GameObject garmentDisplay;
     public float garmentDisplayRotSpeed;
     public GameObject curSelectedGarment;
@@ -85,23 +87,31 @@ public class Manager : MonoBehaviour
 
             if (Input.GetMouseButtonUp(0))
             {
+                if (objectHit.name == "btn_add")
+                {
+                    AddToShoppingList(curSelectedGarment);
+                }
                 if (objectHit.name == "btn_close")
                 {
+                    light.shadowStrength = 1;
                     popUP.SetActive(false);
+                    camController.enabled = true;
                     Destroy(curSelectedGarment);
                 }
                 if (objectHit.tag == "btn_color")
                 {
-                    curStripe.SetMatByIndex(int.Parse(objectHit.name));
+                    //curStripe.SetMatByIndex(int.Parse(objectHit.name));
                     if (dropdown.transform.childCount != 4)
                     {
-                        //curStripe.SetMatByIndex(int.Parse(objectHit.name));
+                        curStripe.SetMatByIndex(int.Parse(objectHit.name));
                     }
                     
                 }
                 if (objectHit.tag == "popup")
                 {
                     popUP.SetActive(true);
+                    light.shadowStrength = 0;
+                    camController.enabled = false;
                     if(lasthittedpopupname == objectHit.name)
                     {
                         if(curSelectedGarment==null)

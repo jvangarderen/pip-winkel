@@ -32,7 +32,7 @@ public class CamController : MonoBehaviour {
                 float difX = Input.mousePosition.x - lastX;
                 float difY = Input.mousePosition.y - lastY;
                 transform.Rotate(Vector3.down * difX * Time.deltaTime);
-                transform.Rotate(Vector3.right * difY * Time.deltaTime);
+              //  transform.Rotate(Vector3.right * difY * Time.deltaTime);
             }
         }
 
