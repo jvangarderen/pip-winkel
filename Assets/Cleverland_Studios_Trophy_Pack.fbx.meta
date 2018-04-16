@@ -682,7 +682,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: fab20a9b9105f284aba7247f9dd7409e, type: 2}
+    second: {fileID: 2100000, guid: 2c7a0df0eab512a4cb4f70f7e82360e0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -720,7 +720,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

@@ -842,7 +842,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 36033840}
   m_LocalRotation: {x: -0, y: -0.9997866, z: -0, w: -0.020658508}
-  m_LocalPosition: {x: -7, y: 4.86, z: 15.4}
+  m_LocalPosition: {x: -13.49, y: 4.18, z: 22.95}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2035,6 +2035,10 @@ Prefab:
       propertyPath: m_Name
       value: Left
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: cd9d929949195414c99b7d981fdb2cbb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5dd978c6d826f4849b45a7f6aef6aa3c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd9d929949195414c99b7d981fdb2cbb, type: 3}
   m_IsPrefabParent: 0
@@ -7379,6 +7383,10 @@ Prefab:
       propertyPath: m_Name
       value: Right
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: cd9d929949195414c99b7d981fdb2cbb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5dd978c6d826f4849b45a7f6aef6aa3c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd9d929949195414c99b7d981fdb2cbb, type: 3}
   m_IsPrefabParent: 0
@@ -13821,7 +13829,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 987994902}
   m_LocalRotation: {x: -0, y: -0.9997866, z: -0, w: -0.020658508}
-  m_LocalPosition: {x: 4.2599998, y: 4.68, z: 12.48}
+  m_LocalPosition: {x: -6.74, y: 4.18, z: 21.52}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15466,7 +15474,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1077951688}
   m_LocalRotation: {x: -0, y: -0.9997866, z: -0, w: -0.020658508}
-  m_LocalPosition: {x: -11.38, y: 5.57, z: 14.809998}
+  m_LocalPosition: {x: -18.53, y: 4.1, z: 22.93}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -23402,7 +23410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7baf08971f75a4b459b8fbfc65f6273e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
+  light: {fileID: 1547722652}
   shoppingList: []
   camController: {fileID: 1094683419}
   garmentDisplay: {fileID: 1322622395}
@@ -30934,7 +30942,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2060542630}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.11, y: 0.64, z: 10.29}
+  m_LocalPosition: {x: 4.11, y: 0.63999987, z: 10.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 543382338}

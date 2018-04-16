@@ -39,6 +39,12 @@ public class Manager : MonoBehaviour
             float maxCollums = 2;
             float curCollum = 0;
             float curRow = 0;
+
+            //trick to fix location for 3d color buttons//
+            Quaternion camrot = camController.gameObject.transform.localRotation;
+            camController.transform.rotation = Quaternion.identity;
+            //trick to fix location for 3d color buttons//
+
             for (int i = 0; i < curStripe.myMat.Count; i++)
             {
                 Vector3 ofset;
@@ -54,20 +60,23 @@ public class Manager : MonoBehaviour
                     curCollum = 0;
                 }
                 GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                cube.transform.position = ColorOptionsStartPoint.transform.position + ofset;
+                cube.transform.position = ColorOptionsStartPoint.transform.position+ofset;
+                cube.transform.parent = ColorOptionsStartPoint.transform;
                 cube.name = i.ToString();
                 cube.tag = "btn_color";
                 MeshRenderer mr = cube.GetComponent<MeshRenderer>();
                 mr.material = curStripe.myMat[i];
-                cube.transform.parent = ColorOptionsStartPoint.transform;
             }
+
+            //trick to fix location for 3d color buttons//
+            camController.transform.rotation = camrot;
+            //trick to fix location for 3d color buttons//
         }
     }
 	
 	// Update is called once per frame
-	void Update () {
-        
-
+	void Update () 
+    {
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit))
@@ -105,7 +114,6 @@ public class Manager : MonoBehaviour
                     {
                         curStripe.SetMatByIndex(int.Parse(objectHit.name));
                     }
-                    
                 }
                 if (objectHit.tag == "popup")
                 {
