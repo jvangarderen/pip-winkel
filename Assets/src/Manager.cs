@@ -18,11 +18,15 @@ public class Manager : MonoBehaviour
     public GameObject ColorOptionsStartPoint;
     List<string> names = new List<string>();
     List<GameObject> items;
-
+    Camera originalcam;
+    public Camera vid1cam;
+    private Camera curcam;
     GameObject gPiece;
     ChangeStripes curStripe;
 	// Use this for initialization
 	void Start () {
+        originalcam = Camera.main;
+        curcam = originalcam;
 	}
 
     public void DropDown_IndexChanged(int index)
@@ -78,65 +82,98 @@ public class Manager : MonoBehaviour
 	void Update () 
     {
         RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit))
-        {
-            Transform objectHit = hit.transform;
-            if (Input.GetMouseButton(0))
-            {
-                if (objectHit.name == "Left")
-                {
-                    garmentDisplay.transform.Rotate(Vector3.up, garmentDisplayRotSpeed * Time.deltaTime);
-                }
-                if (objectHit.name == "Right")
-                {
-                    garmentDisplay.transform.Rotate(Vector3.down, garmentDisplayRotSpeed * Time.deltaTime);
-                }
-            }
 
-            if (Input.GetMouseButtonUp(0))
+        if (curcam == originalcam)
+        {
+            Ray ray = curcam.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
             {
-                if (objectHit.name == "btn_add")
+                Transform objectHit = hit.transform;
+                if (Input.GetMouseButton(0))
                 {
-                    AddToShoppingList(curSelectedGarment);
-                }
-                if (objectHit.name == "btn_close")
-                {
-                    light.shadowStrength = 1;
-                    popUP.SetActive(false);
-                    camController.enabled = true;
-                    Destroy(curSelectedGarment);
-                }
-                if (objectHit.tag == "btn_color")
-                {
-                    //curStripe.SetMatByIndex(int.Parse(objectHit.name));
-                    if (dropdown.transform.childCount != 4)
+                    if (objectHit.name == "vid1")
                     {
-                        curStripe.SetMatByIndex(int.Parse(objectHit.name));
+                        curcam = vid1cam;
+                        originalcam.enabled = false;
+                        vid1cam.enabled = true;
+                        camController.enabled = false;
+                    }
+
+                    if (objectHit.name == "Left")
+                    {
+                        garmentDisplay.transform.Rotate(Vector3.up, garmentDisplayRotSpeed * Time.deltaTime);
+                    }
+                    if (objectHit.name == "Right")
+                    {
+                        garmentDisplay.transform.Rotate(Vector3.down, garmentDisplayRotSpeed * Time.deltaTime);
                     }
                 }
-                if (objectHit.tag == "popup")
+
+                if (Input.GetMouseButtonUp(0))
                 {
-                    popUP.SetActive(true);
-                    light.shadowStrength = 0;
-                    camController.enabled = false;
-                    if(lasthittedpopupname == objectHit.name)
+                    if (objectHit.name == "btn_add")
                     {
-                        if(curSelectedGarment==null)
+                        AddToShoppingList(curSelectedGarment);
+                    }
+                    if (objectHit.name == "btn_close")
+                    {
+                        light.shadowStrength = 1;
+                        popUP.SetActive(false);
+                        camController.enabled = true;
+                        Destroy(curSelectedGarment);
+                    }
+                    if (objectHit.tag == "btn_color")
+                    {
+                        //curStripe.SetMatByIndex(int.Parse(objectHit.name));
+                        if (dropdown.transform.childCount != 4)
                         {
-                            SpawnGarment(objectHit);
+                            curStripe.SetMatByIndex(int.Parse(objectHit.name));
+                        }
+                    }
+                    if (objectHit.tag == "popup")
+                    {
+                        popUP.SetActive(true);
+                        light.shadowStrength = 0;
+                        camController.enabled = false;
+                        if (lasthittedpopupname == objectHit.name)
+                        {
+                            if (curSelectedGarment == null)
+                            {
+                                SpawnGarment(objectHit);
+                            }
+                            else
+                            {
+                                Destroy(curSelectedGarment);
+                            }
                         }
                         else
                         {
                             Destroy(curSelectedGarment);
+                            SpawnGarment(objectHit);
                         }
+                        lasthittedpopupname = objectHit.name;
                     }
-                    else
+                }
+            }
+        }
+        else
+        {
+            Ray ray = curcam.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
+            {
+                Debug.Log("in raycast");
+                Transform objectHit = hit.transform;
+                if (Input.GetMouseButtonUp(0))
+                {
+                    Debug.Log("Mouse up");
+                    if (objectHit.name == "vid1")
                     {
-                        Destroy(curSelectedGarment);
-                        SpawnGarment(objectHit);
+                        Debug.Log("back out of video");
+                        originalcam.enabled = true;
+                        vid1cam.enabled = false;
+                        curcam = originalcam;
+                        camController.enabled = true;
                     }
-                    lasthittedpopupname = objectHit.name;
                 }
             }
         }
