@@ -29,6 +29,11 @@ public class Manager : MonoBehaviour
         curcam = originalcam;
 	}
 
+    public void ChangeSize_IndexChanged(int index)
+    {
+        Debug.Log(index);
+    }
+
     public void DropDown_IndexChanged(int index)
     {
         foreach (Transform child in ColorOptionsStartPoint.transform)
