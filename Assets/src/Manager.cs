@@ -163,9 +163,9 @@ public class Manager : MonoBehaviour
             {
                 Debug.Log("in raycast");
                 Transform objectHit = hit.transform;
-                if (Input.GetMouseButtonUp(0))
+                if (Input.GetMouseButtonDown(0))
                 {
-                    Debug.Log("Mouse up");
+                    Debug.Log("Mouse down");
                     if (objectHit.name == "vid1")
                     {
                         Debug.Log("back out of video");
