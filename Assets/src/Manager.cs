@@ -94,7 +94,7 @@ public class Manager : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 Transform objectHit = hit.transform;
-                if (Input.GetMouseButton(0))
+                if (Input.GetMouseButtonUp(0))
                 {
                     if (objectHit.name == "vid1")
                     {
