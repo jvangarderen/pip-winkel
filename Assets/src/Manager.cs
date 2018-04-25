@@ -23,6 +23,10 @@ public class Manager : MonoBehaviour
     private Camera curcam;
     GameObject gPiece;
     ChangeStripes curStripe;
+    private int sizeindex;
+
+    private SizeManager sm;
+
 	// Use this for initialization
 	void Start () {
         originalcam = Camera.main;
@@ -31,7 +35,9 @@ public class Manager : MonoBehaviour
 
     public void ChangeSize_IndexChanged(int index)
     {
-        Debug.Log(index);
+        sizeindex = index;
+        sm.SetCurSize(sizeindex);
+        curSelectedGarment = sm.GetCurGarment();
     }
 
     public void DropDown_IndexChanged(int index)
@@ -102,8 +108,11 @@ public class Manager : MonoBehaviour
                         originalcam.enabled = false;
                         vid1cam.enabled = true;
                         camController.enabled = false;
-                    }
+                    }                    
+                }
 
+                if (Input.GetMouseButton(0))
+                {
                     if (objectHit.name == "Left")
                     {
                         garmentDisplay.transform.Rotate(Vector3.up, garmentDisplayRotSpeed * Time.deltaTime);
@@ -135,6 +144,9 @@ public class Manager : MonoBehaviour
                             curStripe.SetMatByIndex(int.Parse(objectHit.name));
                         }
                     }
+                    /*
+                     * Spawn right GarmentPiece SizeManager
+                     * */
                     if (objectHit.tag == "popup")
                     {
                         popUP.SetActive(true);
@@ -188,26 +200,34 @@ public class Manager : MonoBehaviour
     {
         int index = int.Parse(objectHit.name);
         GameObject temp = Instantiate(allGarments[index], garmentDisplay.transform);
-        temp.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+
+        //for originall garment directly not neceserry when garment is under parent
+        //temp.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
         SetCurGarment(temp);
     }
 
     private void PopulateList()
     {
-        Debug.Log("PopulateList");
+        //Debug.Log("PopulateList");
         if (curSelectedGarment == null)
         {
             Debug.Log("curSelectedGarment nog null");
             PopulateList();
         }
-        Garment g = curSelectedGarment.GetComponent<Garment>();
 
+        sm = curSelectedGarment.GetComponent<SizeManager>();
+        sm.SetCurSize(sizeindex);
+        //Debug.Log(sm.transform.name);
+        Debug.Log(curSelectedGarment.name);
+        Debug.Log(sm.GetCurGarment().name);
+        Garment g = sm.GetCurGarment().GetComponent<Garment>();
         items = g.GetGarmentPieces();
         
         for (int i = 0; i < items.Count; i++)
         {
             names.Add(items[i].name);
         }
+        
         Debug.Log(names);
         dropdown.AddOptions(names);
         DropDown_IndexChanged(0);
