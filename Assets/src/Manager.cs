@@ -131,7 +131,7 @@ public class Manager : MonoBehaviour
                     }
                     if (objectHit.name == "btn_close")
                     {
-                        light.shadowStrength = 1;
+                        //light.shadowStrength = 1;
                         popUP.SetActive(false);
                         camController.enabled = true;
                         Destroy(curSelectedGarment);
@@ -150,7 +150,7 @@ public class Manager : MonoBehaviour
                     if (objectHit.tag == "popup")
                     {
                         popUP.SetActive(true);
-                        light.shadowStrength = 0;
+                       // light.shadowStrength = 0;
                         camController.enabled = false;
                         if (lasthittedpopupname == objectHit.name)
                         {

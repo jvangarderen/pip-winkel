@@ -2,11 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[System.Serializable]
 public class SizeManager : MonoBehaviour {
 
     public List<GameObject> clothSizes;
     public List<Garment> garments;
+    
     public GameObject curGarmentOBJ;
+
+    [System.Serializable]
+    public struct rowData
+    {
+        public List<GameObject> gameobject;
+    }
+
+    public List<rowData> numberOfGroups = new List<rowData>();
+
 	// Use this for initialization
 	void Start () {
         
