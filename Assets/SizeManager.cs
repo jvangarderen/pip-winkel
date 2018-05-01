@@ -8,8 +8,11 @@ public class SizeManager : MonoBehaviour {
 
     public List<GameObject> clothSizes;
     public List<Garment> garments;
-    
+    public GatherMaterials gatherMats;
     public GameObject curGarmentOBJ;
+
+
+    public List<Material> mats = new List<Material>();
 
     [System.Serializable]
     public struct rowData
@@ -28,7 +31,7 @@ public class SizeManager : MonoBehaviour {
         }
 
         //temp test large
-        
+        gatherMats = clothSizes[0].GetComponent<GatherMaterials>();
 	}
 
     // Update is called once per frame
@@ -40,8 +43,6 @@ public class SizeManager : MonoBehaviour {
 
     public void SetCurSize(int index)
     {
-        //Debug.Log(clothSizes.Count);
-       // index = 2;
         for (int i = 0; i < clothSizes.Count; i++)
         {
             if (i == index)
@@ -54,6 +55,43 @@ public class SizeManager : MonoBehaviour {
                 clothSizes[i].active = false;
             }
         }
+    }
+
+    public void ChangeSelectedGroupMat(int groupIndex, int newMatIndex)
+    {
+
+        Material newmat = gatherMats.GetMatByIndex(newMatIndex);
+        List<GameObject> garmentPieces = new List<GameObject>();
+        foreach (GameObject obj in clothSizes)
+        {
+            GatherMaterials gm = obj.GetComponent<GatherMaterials>();
+            List<GameObject> temp =  gm.GetGroupObj(groupIndex);
+            foreach (GameObject piece in temp)
+            {
+                garmentPieces.Add(piece);
+            }
+        }
+
+        for (int i = 0; i < garmentPieces.Count; i++)
+        {
+            MeshRenderer mr = garmentPieces[i].GetComponent<MeshRenderer>();
+            mr.material = mats[newMatIndex];
+        }
+    }
+
+    public List<Material> GetMatList()
+    {
+        return gatherMats.GetMaterials();
+    }
+    public void SetMatList(List<Material> mat)
+    {
+        mats = mat;
+    }
+
+    public int GetGroupNumber()
+    {
+        gatherMats = curGarmentOBJ.GetComponent<GatherMaterials>();
+        return gatherMats.GetMaterials().Count;
     }
 
     public GameObject GetCurGarment()

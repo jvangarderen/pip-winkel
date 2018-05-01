@@ -17,6 +17,7 @@ public class Manager : MonoBehaviour
     public Dropdown dropdown;
     public GameObject ColorOptionsStartPoint;
     List<string> names = new List<string>();
+    List<string> groupsnames = new List<string>();
     List<GameObject> items;
     Camera originalcam;
     public Camera vid1cam;
@@ -24,7 +25,7 @@ public class Manager : MonoBehaviour
     GameObject gPiece;
     ChangeStripes curStripe;
     private int sizeindex;
-
+    int groupindex;
     private SizeManager sm;
 
 	// Use this for initialization
@@ -37,15 +38,47 @@ public class Manager : MonoBehaviour
     {
         sizeindex = index;
         sm.SetCurSize(sizeindex);
-        curSelectedGarment = sm.GetCurGarment();
+        //curSelectedGarment = sm.GetCurGarment();
     }
 
     public void DropDown_IndexChanged(int index)
     {
+        groupindex = index;
         foreach (Transform child in ColorOptionsStartPoint.transform)
         {
             GameObject.Destroy(child.gameObject);
         }
+
+
+        float maxCollums = 2;
+        float curCollum = 0;
+        float curRow = 0;
+        Debug.Log("collors:"+sm.GetMatList().Count);
+        List<Material> mats = sm.GetMatList();
+        for (int i = 0; i < mats.Count; i++)
+        {
+            Vector3 ofset;
+            if (curCollum < maxCollums)
+            {
+                ofset = new Vector3(1 + (curCollum * 2), 1 + -(2 * curRow), 0);
+                curCollum++;
+            }
+            else
+            {
+                ofset = new Vector3(1 + (curCollum * 2), 1 + -(2 * curRow), 0);
+                curRow++;
+                curCollum = 0;
+            }
+            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            cube.transform.position = ColorOptionsStartPoint.transform.position + ofset;
+            cube.transform.parent = ColorOptionsStartPoint.transform;
+            cube.name = i.ToString();
+            cube.tag = "btn_color";
+            MeshRenderer mr = cube.GetComponent<MeshRenderer>();
+            mr.material = mats[i];
+        }
+
+        /*
         if (index >= 0)
         {
             gPiece = items[index];
@@ -59,7 +92,7 @@ public class Manager : MonoBehaviour
             Quaternion camrot = camController.gameObject.transform.localRotation;
             camController.transform.rotation = Quaternion.identity;
             //trick to fix location for 3d color buttons//
-
+            /*
             for (int i = 0; i < curStripe.myMat.Count; i++)
             {
                 Vector3 ofset;
@@ -86,11 +119,11 @@ public class Manager : MonoBehaviour
             //trick to fix location for 3d color buttons//
             camController.transform.rotation = camrot;
             //trick to fix location for 3d color buttons//
-        }
+        }*/
     }
-	
-	// Update is called once per frame
-	void Update () 
+
+    // Update is called once per frame
+    void Update() 
     {
         RaycastHit hit;
 
@@ -138,11 +171,7 @@ public class Manager : MonoBehaviour
                     }
                     if (objectHit.tag == "btn_color")
                     {
-                        //curStripe.SetMatByIndex(int.Parse(objectHit.name));
-                        if (dropdown.transform.childCount != 4)
-                        {
-                            curStripe.SetMatByIndex(int.Parse(objectHit.name));
-                        }
+                        sm.ChangeSelectedGroupMat(groupindex, int.Parse(objectHit.name));
                     }
                     /*
                      * Spawn right GarmentPiece SizeManager
@@ -163,12 +192,15 @@ public class Manager : MonoBehaviour
                                 Destroy(curSelectedGarment);
                             }
                         }
+
                         else
                         {
                             Destroy(curSelectedGarment);
-                            SpawnGarment(objectHit);
+                            //SpawnGarment(objectHit);
+                            SpawnGarment2(objectHit);
                         }
                         lasthittedpopupname = objectHit.name;
+                        
                     }
                 }
             }
@@ -195,6 +227,13 @@ public class Manager : MonoBehaviour
             }
         }
 	}
+
+    private void SpawnGarment2(Transform objectHit)
+    {
+        int index = int.Parse(objectHit.name);
+        GameObject temp = Instantiate(allGarments[index], garmentDisplay.transform);
+        SetCurGarment2(temp);
+    }
 
     private void SpawnGarment(Transform objectHit)
     {
@@ -233,6 +272,44 @@ public class Manager : MonoBehaviour
         DropDown_IndexChanged(0);
     }
 
+    private void PopulateList2()
+    {
+        SizeManager sm = curSelectedGarment.GetComponent<SizeManager>();
+        sm.SetCurSize(sizeindex);
+        //Debug.Log(sm.GetGroupNumber());
+        int count = sm.GetGroupNumber();
+        for (int i = 0; i < count; i++)
+        {
+            groupsnames.Add("garment group "+(i+1).ToString());
+        }
+        dropdown.AddOptions(groupsnames);
+        DropDown_IndexChanged(0);
+        /*
+        //Debug.Log("PopulateList");
+        if (curSelectedGarment == null)
+        {
+            Debug.Log("curSelectedGarment nog null");
+            PopulateList();
+        }
+
+        sm = curSelectedGarment.GetComponent<SizeManager>();
+        sm.SetCurSize(sizeindex);
+        //Debug.Log(sm.transform.name);
+        Debug.Log(curSelectedGarment.name);
+        Debug.Log(sm.GetCurGarment().name);
+        Garment g = sm.GetCurGarment().GetComponent<Garment>();
+        items = g.GetGarmentPieces();
+
+        for (int i = 0; i < items.Count; i++)
+        {
+            names.Add(items[i].name);
+        }
+
+        Debug.Log(names);
+        dropdown.AddOptions(names);
+        DropDown_IndexChanged(0);*/
+    }
+
     public void AddToShoppingList(GameObject obj)
     {
         shoppingList.Add(obj);
@@ -243,6 +320,14 @@ public class Manager : MonoBehaviour
         curSelectedGarment = garment;
         curSelectedGarment.transform.parent = garmentDisplay.transform;
         PopulateList();
+    }
+
+    public void SetCurGarment2(GameObject garment)
+    {
+        curSelectedGarment = garment;
+        sm = garment.GetComponent<SizeManager>();
+        curSelectedGarment.transform.parent = garmentDisplay.transform;
+        PopulateList2();
     }
 
     void OnGUI()

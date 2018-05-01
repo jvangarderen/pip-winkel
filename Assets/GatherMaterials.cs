@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class GatherMaterias : MonoBehaviour {
+public class GatherMaterials : MonoBehaviour {
 
     public List<Material> mats;
-
+    SizeManager sm;
     //List<GameObject[, ,]> group = new List<GameObject[, ,]>();
     //public List<GameObject> groups = new List<GameObject>();
     //public  GameObject[,] playingRings;
@@ -27,18 +27,14 @@ public class GatherMaterias : MonoBehaviour {
     private List<GameObject> group9 = new List<GameObject>();
     private List<GameObject> group10 = new List<GameObject>();
 
-	void Start () {
 
+    void Awake()
+    {
         foreach (Transform child in transform)
         {
             bool add = true;
-            
+
             MeshRenderer mr = child.GetComponent<MeshRenderer>();
-            if (child.gameObject.name == "MatShape_64461")
-            {
-              //  Debug.Log("Vreemd");
-              //  Debug.Log(mr.material.color);
-            }
             for (int i = 0; i < mats.Count; i++)
             {
                 if (mats[i].color == mr.material.color)
@@ -50,7 +46,7 @@ public class GatherMaterias : MonoBehaviour {
             if (add)
             {
                 mats.Add(mr.material);
-                addChildAtIndex(child.gameObject,mats.Count-1);
+                addChildAtIndex(child.gameObject, mats.Count - 1);
             }
         }
 
@@ -73,10 +69,10 @@ public class GatherMaterias : MonoBehaviour {
         int mathshape = 0;
         for (int i = 0; i < grouplist.Count; i++)
         {
-            Debug.Log(grouplist[i].Count);
+            // Debug.Log(grouplist[i].Count);
             for (int j = 0; j < grouplist[i].Count; j++)
             {
-                
+
                 if (grouplist[i][j].name.Contains("MatShape"))
                 {
                     //Debug.Log("!!!!!!!!"+grouplist[i][j].name);mathshape++; }
@@ -86,6 +82,13 @@ public class GatherMaterias : MonoBehaviour {
             //Debug.Log("MatShape:" + mathshape);
             createGroupBasedOnMat();
         }
+    }
+	void Start () {
+
+       
+        sm = gameObject.transform.parent.GetComponent<SizeManager>();
+        sm.SetMatList(mats);
+        //Debug.Log("mats after start:" + mats.Count);
 	}
 
     private void addChildAtIndex(GameObject child, int index)
@@ -110,9 +113,24 @@ public class GatherMaterias : MonoBehaviour {
         }
     }
 
+    public Material GetMatByIndex(int index)
+    {
+        return mats[index];
+    }
+
+    public List<GameObject> GetGroupObj(int index)
+    {
+        return grouplist[index];
+    }
+
     public void createGroupBasedOnMat()
     {
 
+    }
+
+    public List<Material> GetMaterials()
+    {
+        return mats;
     }
 	
 	// Update is called once per frame
