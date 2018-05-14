@@ -11,7 +11,7 @@ public class SizeManager : MonoBehaviour {
     public GatherMaterials gatherMats;
     public GameObject curGarmentOBJ;
 
-
+    public bool skipFirstGroup=false;
     public List<Material> mats = new List<Material>();
 
     [System.Serializable]
@@ -43,18 +43,27 @@ public class SizeManager : MonoBehaviour {
 
     public void SetCurSize(int index)
     {
-        for (int i = 0; i < clothSizes.Count; i++)
+        if (clothSizes.Count > 1)
         {
-            if (i == index)
+            for (int i = 0; i < clothSizes.Count; i++)
             {
-                curGarmentOBJ = clothSizes[index];
-                curGarmentOBJ.active = true;
-            }
-            else
-            {
-                clothSizes[i].active = false;
+                if (i == index)
+                {
+                    curGarmentOBJ = clothSizes[index];
+                    curGarmentOBJ.active = true;
+                }
+                else
+                {
+                    clothSizes[i].active = false;
+                }
             }
         }
+        else
+        {
+            curGarmentOBJ = clothSizes[0];
+            curGarmentOBJ.active = true;
+        }
+        
     }
 
     public void ChangeSelectedGroupMat(int groupIndex, int newMatIndex)
@@ -90,8 +99,11 @@ public class SizeManager : MonoBehaviour {
 
     public int GetGroupNumber()
     {
+        int count;
         gatherMats = curGarmentOBJ.GetComponent<GatherMaterials>();
-        return gatherMats.GetMaterials().Count;
+        count = gatherMats.GetMaterials().Count;
+        if (skipFirstGroup) count = count - 1;
+        return count;
     }
 
     public GameObject GetCurGarment()

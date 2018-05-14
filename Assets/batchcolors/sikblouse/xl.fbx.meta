@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 28c9d2b2bd0ca944c9bb95b51f99699b
+timeCreated: 1525690865
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body_Back
+    100002: Body_Back 1
+    100004: Body_Back_Yoke
+    100006: Body_Back_Yoke 1
+    100008: Body_Front_Placket
+    100010: Body_Front_Placket 1
+    100012: Collar
+    100014: Collar_Stand
+    100016: MatShape_27949
+    100018: MatShape_45704
+    100020: Pattern2D_1303834
+    100022: Pattern2D_1303835
+    100024: Pattern2D_706044
+    100026: Pattern2D_710313
+    100028: Pattern2D_710314
+    100030: Sleeves
+    100032: Sleeves_1
+    100034: Sleeves_Panel
+    100036: Sleeves_Panel_1
+    100038: StitchMatShape_45830
+    100040: StitchMatShape_45911
+    100042: StitchMatShape_45980
+    100044: //RootNode
+    400000: Body_Back
+    400002: Body_Back 1
+    400004: Body_Back_Yoke
+    400006: Body_Back_Yoke 1
+    400008: Body_Front_Placket
+    400010: Body_Front_Placket 1
+    400012: Collar
+    400014: Collar_Stand
+    400016: MatShape_27949
+    400018: MatShape_45704
+    400020: Pattern2D_1303834
+    400022: Pattern2D_1303835
+    400024: Pattern2D_706044
+    400026: Pattern2D_710313
+    400028: Pattern2D_710314
+    400030: Sleeves
+    400032: Sleeves_1
+    400034: Sleeves_Panel
+    400036: Sleeves_Panel_1
+    400038: StitchMatShape_45830
+    400040: StitchMatShape_45911
+    400042: StitchMatShape_45980
+    400044: //RootNode
+    2100000: Material3656
+    2100002: Material3670
+    2100004: Material3692
+    2100006: Material3815
+    2300000: Body_Back
+    2300002: Body_Back 1
+    2300004: Body_Back_Yoke
+    2300006: Body_Back_Yoke 1
+    2300008: Body_Front_Placket
+    2300010: Body_Front_Placket 1
+    2300012: Collar
+    2300014: Collar_Stand
+    2300016: MatShape_27949
+    2300018: MatShape_45704
+    2300020: Pattern2D_1303834
+    2300022: Pattern2D_1303835
+    2300024: Pattern2D_706044
+    2300026: Pattern2D_710313
+    2300028: Pattern2D_710314
+    2300030: Sleeves
+    2300032: Sleeves_1
+    2300034: Sleeves_Panel
+    2300036: Sleeves_Panel_1
+    2300038: StitchMatShape_45830
+    2300040: StitchMatShape_45911
+    2300042: StitchMatShape_45980
+    3300000: Body_Back
+    3300002: Body_Back 1
+    3300004: Body_Back_Yoke
+    3300006: Body_Back_Yoke 1
+    3300008: Body_Front_Placket
+    3300010: Body_Front_Placket 1
+    3300012: Collar
+    3300014: Collar_Stand
+    3300016: MatShape_27949
+    3300018: MatShape_45704
+    3300020: Pattern2D_1303834
+    3300022: Pattern2D_1303835
+    3300024: Pattern2D_706044
+    3300026: Pattern2D_710313
+    3300028: Pattern2D_710314
+    3300030: Sleeves
+    3300032: Sleeves_1
+    3300034: Sleeves_Panel
+    3300036: Sleeves_Panel_1
+    3300038: StitchMatShape_45830
+    3300040: StitchMatShape_45911
+    3300042: StitchMatShape_45980
+    4300000: Body_Back
+    4300002: Body_Back_Yoke
+    4300004: Body_Back
+    4300006: Body_Back_Yoke
+    4300008: Body_Front_Placket
+    4300010: Body_Front_Placket
+    4300012: Collar_Stand
+    4300014: Collar
+    4300016: MatShape_27949
+    4300018: Sleeves_Panel
+    4300020: Sleeves
+    4300022: Sleeves_Panel_1
+    4300024: Sleeves_1
+    4300026: Pattern2D_706044
+    4300028: Pattern2D_710313
+    4300030: Pattern2D_710314
+    4300032: Pattern2D_1303834
+    4300034: Pattern2D_1303835
+    4300036: MatShape_45704
+    4300038: StitchMatShape_45830
+    4300040: StitchMatShape_45911
+    4300042: StitchMatShape_45980
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3656
+    second: {fileID: 2100000, guid: 6b09cf8b88527384b94a8ed1729e4cd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3670
+    second: {fileID: 2100000, guid: 6b0e9c4ddf59e274bb51870b0b04cf41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3692
+    second: {fileID: 2100000, guid: 26f1d2c9249177243b7e28b1b4be543d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3815
+    second: {fileID: 2100000, guid: b5df2f64a449d2b4cb6cae1c4dda1444, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

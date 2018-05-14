@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: ff2e7b71a42b8634d8a5885d9124fdf3
+timeCreated: 1525619287
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Pattern2D_3627920
+    100002: Pattern2D_3628178
+    100004: Pattern2D_3630701
+    100006: Pattern2D_3631058
+    100008: Pattern2D_3634939
+    100010: Pattern2D_3635177
+    100012: Pattern2D_3637876
+    100014: Pattern2D_3638224
+    100016: Pattern2D_3648309
+    100018: Pattern2D_3648891
+    100020: Pattern2D_3648941
+    100022: Pattern2D_3692580
+    100024: Pattern2D_3692761
+    100026: Pattern2D_3739184
+    100028: Pattern2D_3741299
+    100030: Pattern2D_3741463
+    100032: Pattern2D_3741476
+    100034: Pattern2D_3742323
+    100036: Pattern2D_3742324
+    100038: Pattern2D_3817910
+    100040: //RootNode
+    400000: Pattern2D_3627920
+    400002: Pattern2D_3628178
+    400004: Pattern2D_3630701
+    400006: Pattern2D_3631058
+    400008: Pattern2D_3634939
+    400010: Pattern2D_3635177
+    400012: Pattern2D_3637876
+    400014: Pattern2D_3638224
+    400016: Pattern2D_3648309
+    400018: Pattern2D_3648891
+    400020: Pattern2D_3648941
+    400022: Pattern2D_3692580
+    400024: Pattern2D_3692761
+    400026: Pattern2D_3739184
+    400028: Pattern2D_3741299
+    400030: Pattern2D_3741463
+    400032: Pattern2D_3741476
+    400034: Pattern2D_3742323
+    400036: Pattern2D_3742324
+    400038: Pattern2D_3817910
+    400040: //RootNode
+    2100000: Material3656
+    2100002: Material3662
+    2100004: Material3667
+    2300000: Pattern2D_3627920
+    2300002: Pattern2D_3628178
+    2300004: Pattern2D_3630701
+    2300006: Pattern2D_3631058
+    2300008: Pattern2D_3634939
+    2300010: Pattern2D_3635177
+    2300012: Pattern2D_3637876
+    2300014: Pattern2D_3638224
+    2300016: Pattern2D_3648309
+    2300018: Pattern2D_3648891
+    2300020: Pattern2D_3648941
+    2300022: Pattern2D_3692580
+    2300024: Pattern2D_3692761
+    2300026: Pattern2D_3739184
+    2300028: Pattern2D_3741299
+    2300030: Pattern2D_3741463
+    2300032: Pattern2D_3741476
+    2300034: Pattern2D_3742323
+    2300036: Pattern2D_3742324
+    2300038: Pattern2D_3817910
+    3300000: Pattern2D_3627920
+    3300002: Pattern2D_3628178
+    3300004: Pattern2D_3630701
+    3300006: Pattern2D_3631058
+    3300008: Pattern2D_3634939
+    3300010: Pattern2D_3635177
+    3300012: Pattern2D_3637876
+    3300014: Pattern2D_3638224
+    3300016: Pattern2D_3648309
+    3300018: Pattern2D_3648891
+    3300020: Pattern2D_3648941
+    3300022: Pattern2D_3692580
+    3300024: Pattern2D_3692761
+    3300026: Pattern2D_3739184
+    3300028: Pattern2D_3741299
+    3300030: Pattern2D_3741463
+    3300032: Pattern2D_3741476
+    3300034: Pattern2D_3742323
+    3300036: Pattern2D_3742324
+    3300038: Pattern2D_3817910
+    4300000: Pattern2D_3627920
+    4300002: Pattern2D_3628178
+    4300004: Pattern2D_3630701
+    4300006: Pattern2D_3631058
+    4300008: Pattern2D_3634939
+    4300010: Pattern2D_3635177
+    4300012: Pattern2D_3637876
+    4300014: Pattern2D_3638224
+    4300016: Pattern2D_3648309
+    4300018: Pattern2D_3648891
+    4300020: Pattern2D_3648941
+    4300022: Pattern2D_3692580
+    4300024: Pattern2D_3692761
+    4300026: Pattern2D_3739184
+    4300028: Pattern2D_3741299
+    4300030: Pattern2D_3741463
+    4300032: Pattern2D_3741476
+    4300034: Pattern2D_3742323
+    4300036: Pattern2D_3742324
+    4300038: Pattern2D_3817910
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

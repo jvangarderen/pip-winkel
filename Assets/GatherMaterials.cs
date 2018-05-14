@@ -93,11 +93,6 @@ public class GatherMaterials : MonoBehaviour {
 
     private void addChildAtIndex(GameObject child, int index)
     {
-        if (child.gameObject.name == "MatShape_64461")
-        {
-            //Debug.Log("in een groep");
-            //Debug.Log("index:" + index);
-        }
         switch (index)
         {
             case 0: group1.Add(child.gameObject); break;

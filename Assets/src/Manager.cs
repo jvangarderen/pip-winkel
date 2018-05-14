@@ -53,8 +53,11 @@ public class Manager : MonoBehaviour
         float maxCollums = 2;
         float curCollum = 0;
         float curRow = 0;
-        Debug.Log("collors:"+sm.GetMatList().Count);
+        //Debug.Log("collors:"+sm.GetMatList().Count);
         List<Material> mats = sm.GetMatList();
+        //trick to fix location for 3d color buttons//
+        Quaternion camrot = camController.gameObject.transform.localRotation;
+        camController.transform.rotation = Quaternion.identity;
         for (int i = 0; i < mats.Count; i++)
         {
             Vector3 ofset;
@@ -77,6 +80,9 @@ public class Manager : MonoBehaviour
             MeshRenderer mr = cube.GetComponent<MeshRenderer>();
             mr.material = mats[i];
         }
+        //trick to fix location for 3d color buttons//
+        camController.transform.rotation = camrot;
+        //trick to fix location for 3d color buttons//
 
         /*
         if (index >= 0)
@@ -178,7 +184,9 @@ public class Manager : MonoBehaviour
                      * */
                     if (objectHit.tag == "popup")
                     {
+                        Debug.Log("Need to show popup");
                         popUP.SetActive(true);
+                        Debug.DebugBreak();
                        // light.shadowStrength = 0;
                         camController.enabled = false;
                         if (lasthittedpopupname == objectHit.name)
@@ -272,42 +280,23 @@ public class Manager : MonoBehaviour
         DropDown_IndexChanged(0);
     }
 
+
     private void PopulateList2()
     {
+        //Debug.Log(curSelectedGarment.name);
         SizeManager sm = curSelectedGarment.GetComponent<SizeManager>();
         sm.SetCurSize(sizeindex);
         //Debug.Log(sm.GetGroupNumber());
         int count = sm.GetGroupNumber();
+        dropdown.options.Clear();
+       // dropdown.ClearOptions();
+        groupsnames = new List<string>();
         for (int i = 0; i < count; i++)
         {
             groupsnames.Add("garment group "+(i+1).ToString());
         }
         dropdown.AddOptions(groupsnames);
         DropDown_IndexChanged(0);
-        /*
-        //Debug.Log("PopulateList");
-        if (curSelectedGarment == null)
-        {
-            Debug.Log("curSelectedGarment nog null");
-            PopulateList();
-        }
-
-        sm = curSelectedGarment.GetComponent<SizeManager>();
-        sm.SetCurSize(sizeindex);
-        //Debug.Log(sm.transform.name);
-        Debug.Log(curSelectedGarment.name);
-        Debug.Log(sm.GetCurGarment().name);
-        Garment g = sm.GetCurGarment().GetComponent<Garment>();
-        items = g.GetGarmentPieces();
-
-        for (int i = 0; i < items.Count; i++)
-        {
-            names.Add(items[i].name);
-        }
-
-        Debug.Log(names);
-        dropdown.AddOptions(names);
-        DropDown_IndexChanged(0);*/
     }
 
     public void AddToShoppingList(GameObject obj)

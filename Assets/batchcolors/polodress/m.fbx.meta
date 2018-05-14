@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 1cd476db0b52c264aa626f0070d9631e
+timeCreated: 1525681735
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body_Front_Placket
+    100002: Body_Front_Placket 1
+    100004: Collar
+    100006: Collar 1
+    100008: //RootNode
+    100010: MatShape_3788
+    100012: MatShape_3795
+    100014: Pattern2D_696624
+    100016: Pattern2D_698881
+    100018: Pattern2D_708682
+    100020: Pattern2D_711690
+    100022: Pattern2D_736079
+    100024: Pattern2D_738109
+    100026: Pattern2D_744327
+    100028: Pattern2D_744488
+    100030: Pattern2D_745912
+    100032: Pattern2D_746204
+    100034: Sleeves
+    100036: Sleeves 1
+    400000: Body_Front_Placket
+    400002: Body_Front_Placket 1
+    400004: Collar
+    400006: Collar 1
+    400008: //RootNode
+    400010: MatShape_3788
+    400012: MatShape_3795
+    400014: Pattern2D_696624
+    400016: Pattern2D_698881
+    400018: Pattern2D_708682
+    400020: Pattern2D_711690
+    400022: Pattern2D_736079
+    400024: Pattern2D_738109
+    400026: Pattern2D_744327
+    400028: Pattern2D_744488
+    400030: Pattern2D_745912
+    400032: Pattern2D_746204
+    400034: Sleeves
+    400036: Sleeves 1
+    2100000: Material3693
+    2100002: Material3678
+    2100004: Material3656
+    2100006: Material3667
+    2300000: Body_Front_Placket
+    2300002: Body_Front_Placket 1
+    2300004: Collar
+    2300006: Collar 1
+    2300008: MatShape_3788
+    2300010: MatShape_3795
+    2300012: Pattern2D_696624
+    2300014: Pattern2D_698881
+    2300016: Pattern2D_708682
+    2300018: Pattern2D_711690
+    2300020: Pattern2D_736079
+    2300022: Pattern2D_738109
+    2300024: Pattern2D_744327
+    2300026: Pattern2D_744488
+    2300028: Pattern2D_745912
+    2300030: Pattern2D_746204
+    2300032: Sleeves
+    2300034: Sleeves 1
+    3300000: Body_Front_Placket
+    3300002: Body_Front_Placket 1
+    3300004: Collar
+    3300006: Collar 1
+    3300008: MatShape_3788
+    3300010: MatShape_3795
+    3300012: Pattern2D_696624
+    3300014: Pattern2D_698881
+    3300016: Pattern2D_708682
+    3300018: Pattern2D_711690
+    3300020: Pattern2D_736079
+    3300022: Pattern2D_738109
+    3300024: Pattern2D_744327
+    3300026: Pattern2D_744488
+    3300028: Pattern2D_745912
+    3300030: Pattern2D_746204
+    3300032: Sleeves
+    3300034: Sleeves 1
+    4300000: MatShape_3788
+    4300002: MatShape_3795
+    4300004: Body_Front_Placket
+    4300006: Body_Front_Placket
+    4300008: Collar
+    4300010: Collar
+    4300012: Sleeves
+    4300014: Sleeves
+    4300016: Pattern2D_696624
+    4300018: Pattern2D_698881
+    4300020: Pattern2D_708682
+    4300022: Pattern2D_711690
+    4300024: Pattern2D_736079
+    4300026: Pattern2D_738109
+    4300028: Pattern2D_744327
+    4300030: Pattern2D_744488
+    4300032: Pattern2D_745912
+    4300034: Pattern2D_746204
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
