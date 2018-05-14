@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: dabe9ace8dc190c45a880ec4e0a617c3
+timeCreated: 1526293750
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 20
+    100002: 22
+    100004: 24
+    100006: 34
+    100008: 35
+    100010: 36
+    100012: 5
+    100014: 57
+    100016: 58
+    100018: 66
+    100020: 69
+    100022: 69 1
+    100024: 70
+    100026: 70 1
+    100028: 71
+    100030: 73
+    100032: MatShape_13581
+    100034: MatShape_13588
+    100036: MatShape_13595
+    100038: MatShape_16972
+    100040: MatShape_16979
+    100042: MatShape_16986
+    100044: MatShape_30649
+    100046: MatShape_30656
+    100048: MatShape_30663
+    100050: MatShape_32419
+    100052: MatShape_32986
+    100054: MatShape_32993
+    100056: MatShape_35469
+    100058: MatShape_35472
+    100060: MatShape_35475
+    100062: MatShape_35488
+    100064: MatShape_35491
+    100066: MatShape_35494
+    100068: Pattern2D_1515539
+    100070: Pattern2D_1515540
+    100072: Pattern2D_1515541
+    100074: Pattern2D_1515542
+    100076: Pattern2D_1515543
+    100078: Pattern2D_1515543 1
+    100080: Pattern2D_31103
+    100082: Pattern2D_31103 1
+    100084: StitchMatShape_35559
+    100086: StitchMatShape_35585
+    100088: StitchMatShape_35627
+    100090: StitchMatShape_35662
+    100092: StitchMatShape_35704
+    100094: StitchMatShape_35751
+    100096: StitchMatShape_35786
+    100098: StitchMatShape_35828
+    100100: StitchMatShape_35854
+    100102: StitchMatShape_35879
+    100104: //RootNode
+    400000: 20
+    400002: 22
+    400004: 24
+    400006: 34
+    400008: 35
+    400010: 36
+    400012: 5
+    400014: 57
+    400016: 58
+    400018: 66
+    400020: 69
+    400022: 69 1
+    400024: 70
+    400026: 70 1
+    400028: 71
+    400030: 73
+    400032: MatShape_13581
+    400034: MatShape_13588
+    400036: MatShape_13595
+    400038: MatShape_16972
+    400040: MatShape_16979
+    400042: MatShape_16986
+    400044: MatShape_30649
+    400046: MatShape_30656
+    400048: MatShape_30663
+    400050: MatShape_32419
+    400052: MatShape_32986
+    400054: MatShape_32993
+    400056: MatShape_35469
+    400058: MatShape_35472
+    400060: MatShape_35475
+    400062: MatShape_35488
+    400064: MatShape_35491
+    400066: MatShape_35494
+    400068: Pattern2D_1515539
+    400070: Pattern2D_1515540
+    400072: Pattern2D_1515541
+    400074: Pattern2D_1515542
+    400076: Pattern2D_1515543
+    400078: Pattern2D_1515543 1
+    400080: Pattern2D_31103
+    400082: Pattern2D_31103 1
+    400084: StitchMatShape_35559
+    400086: StitchMatShape_35585
+    400088: StitchMatShape_35627
+    400090: StitchMatShape_35662
+    400092: StitchMatShape_35704
+    400094: StitchMatShape_35751
+    400096: StitchMatShape_35786
+    400098: StitchMatShape_35828
+    400100: StitchMatShape_35854
+    400102: StitchMatShape_35879
+    400104: //RootNode
+    2100000: Material3656
+    2100002: Material3666
+    2100004: Material3678
+    2100006: Material3700
+    2100008: Material3823
+    2300000: 20
+    2300002: 22
+    2300004: 24
+    2300006: 34
+    2300008: 35
+    2300010: 36
+    2300012: 5
+    2300014: 57
+    2300016: 58
+    2300018: 66
+    2300020: 69
+    2300022: 69 1
+    2300024: 70
+    2300026: 70 1
+    2300028: 71
+    2300030: 73
+    2300032: MatShape_13581
+    2300034: MatShape_13588
+    2300036: MatShape_13595
+    2300038: MatShape_16972
+    2300040: MatShape_16979
+    2300042: MatShape_16986
+    2300044: MatShape_30649
+    2300046: MatShape_30656
+    2300048: MatShape_30663
+    2300050: MatShape_32419
+    2300052: MatShape_32986
+    2300054: MatShape_32993
+    2300056: MatShape_35469
+    2300058: MatShape_35472
+    2300060: MatShape_35475
+    2300062: MatShape_35488
+    2300064: MatShape_35491
+    2300066: MatShape_35494
+    2300068: Pattern2D_1515539
+    2300070: Pattern2D_1515540
+    2300072: Pattern2D_1515541
+    2300074: Pattern2D_1515542
+    2300076: Pattern2D_1515543
+    2300078: Pattern2D_1515543 1
+    2300080: Pattern2D_31103
+    2300082: Pattern2D_31103 1
+    2300084: StitchMatShape_35559
+    2300086: StitchMatShape_35585
+    2300088: StitchMatShape_35627
+    2300090: StitchMatShape_35662
+    2300092: StitchMatShape_35704
+    2300094: StitchMatShape_35751
+    2300096: StitchMatShape_35786
+    2300098: StitchMatShape_35828
+    2300100: StitchMatShape_35854
+    2300102: StitchMatShape_35879
+    3300000: 20
+    3300002: 22
+    3300004: 24
+    3300006: 34
+    3300008: 35
+    3300010: 36
+    3300012: 5
+    3300014: 57
+    3300016: 58
+    3300018: 66
+    3300020: 69
+    3300022: 69 1
+    3300024: 70
+    3300026: 70 1
+    3300028: 71
+    3300030: 73
+    3300032: MatShape_13581
+    3300034: MatShape_13588
+    3300036: MatShape_13595
+    3300038: MatShape_16972
+    3300040: MatShape_16979
+    3300042: MatShape_16986
+    3300044: MatShape_30649
+    3300046: MatShape_30656
+    3300048: MatShape_30663
+    3300050: MatShape_32419
+    3300052: MatShape_32986
+    3300054: MatShape_32993
+    3300056: MatShape_35469
+    3300058: MatShape_35472
+    3300060: MatShape_35475
+    3300062: MatShape_35488
+    3300064: MatShape_35491
+    3300066: MatShape_35494
+    3300068: Pattern2D_1515539
+    3300070: Pattern2D_1515540
+    3300072: Pattern2D_1515541
+    3300074: Pattern2D_1515542
+    3300076: Pattern2D_1515543
+    3300078: Pattern2D_1515543 1
+    3300080: Pattern2D_31103
+    3300082: Pattern2D_31103 1
+    3300084: StitchMatShape_35559
+    3300086: StitchMatShape_35585
+    3300088: StitchMatShape_35627
+    3300090: StitchMatShape_35662
+    3300092: StitchMatShape_35704
+    3300094: StitchMatShape_35751
+    3300096: StitchMatShape_35786
+    3300098: StitchMatShape_35828
+    3300100: StitchMatShape_35854
+    3300102: StitchMatShape_35879
+    4300000: 34
+    4300002: 58
+    4300004: 66
+    4300006: 5
+    4300008: 69
+    4300010: 70
+    4300012: 71
+    4300014: MatShape_13581
+    4300016: MatShape_13588
+    4300018: MatShape_13595
+    4300020: 22
+    4300022: 20
+    4300024: 35
+    4300026: 36
+    4300028: MatShape_16972
+    4300030: MatShape_16979
+    4300032: MatShape_16986
+    4300034: 57
+    4300036: 24
+    4300038: 69
+    4300040: 70
+    4300042: MatShape_30649
+    4300044: MatShape_30656
+    4300046: MatShape_30663
+    4300048: Pattern2D_1515539
+    4300050: Pattern2D_1515540
+    4300052: 73
+    4300054: Pattern2D_1515541
+    4300056: Pattern2D_1515542
+    4300058: MatShape_32419
+    4300060: Pattern2D_31103
+    4300062: Pattern2D_1515543
+    4300064: Pattern2D_31103
+    4300066: Pattern2D_1515543
+    4300068: MatShape_32986
+    4300070: MatShape_32993
+    4300072: MatShape_35469
+    4300074: MatShape_35472
+    4300076: MatShape_35475
+    4300078: MatShape_35488
+    4300080: MatShape_35491
+    4300082: MatShape_35494
+    4300084: StitchMatShape_35559
+    4300086: StitchMatShape_35585
+    4300088: StitchMatShape_35627
+    4300090: StitchMatShape_35662
+    4300092: StitchMatShape_35704
+    4300094: StitchMatShape_35751
+    4300096: StitchMatShape_35786
+    4300098: StitchMatShape_35828
+    4300100: StitchMatShape_35854
+    4300102: StitchMatShape_35879
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

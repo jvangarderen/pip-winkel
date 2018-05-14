@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 7a6a7b6311d43304a9e96ab58da6dd7a
+timeCreated: 1526288528
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body_Back
+    100002: Body_Back 1
+    100004: Body_Back_Panel
+    100006: Body_Back_Panel 1
+    100008: Collar
+    100010: Collar 1
+    100012: Collar_Stand
+    100014: Collar_Stand 1
+    100016: //RootNode
+    100018: MatShape_14930
+    100020: MatShape_14937
+    100022: MatShape_14944
+    100024: MatShape_14984
+    100026: MatShape_14991
+    100028: MatShape_14998
+    100030: MatShape_35778
+    100032: MatShape_35781
+    100034: MatShape_35784
+    100036: MatShape_35807
+    100038: MatShape_35810
+    100040: MatShape_35813
+    100042: MatShape_35831
+    100044: MatShape_35839
+    100046: MatShape_35842
+    100048: MatShape_8037
+    100050: MatShape_8044
+    100052: MatShape_8051
+    100054: MatShape_8058
+    100056: Pattern2D_1683497
+    100058: Pattern2D_1685406
+    100060: Pattern2D_1704273
+    100062: Pattern2D_1709022
+    100064: Pattern2D_1714047
+    100066: Pattern2D_1714048
+    100068: Pattern2D_1725173
+    100070: Pattern2D_1725174
+    100072: Sleeves
+    100074: Sleeves 1
+    100076: Sleeves_Pad
+    100078: Sleeves_Pad 1
+    100080: Sleeves_Panel
+    100082: Sleeves_Panel 1
+    400000: Body_Back
+    400002: Body_Back 1
+    400004: Body_Back_Panel
+    400006: Body_Back_Panel 1
+    400008: Collar
+    400010: Collar 1
+    400012: Collar_Stand
+    400014: Collar_Stand 1
+    400016: //RootNode
+    400018: MatShape_14930
+    400020: MatShape_14937
+    400022: MatShape_14944
+    400024: MatShape_14984
+    400026: MatShape_14991
+    400028: MatShape_14998
+    400030: MatShape_35778
+    400032: MatShape_35781
+    400034: MatShape_35784
+    400036: MatShape_35807
+    400038: MatShape_35810
+    400040: MatShape_35813
+    400042: MatShape_35831
+    400044: MatShape_35839
+    400046: MatShape_35842
+    400048: MatShape_8037
+    400050: MatShape_8044
+    400052: MatShape_8051
+    400054: MatShape_8058
+    400056: Pattern2D_1683497
+    400058: Pattern2D_1685406
+    400060: Pattern2D_1704273
+    400062: Pattern2D_1709022
+    400064: Pattern2D_1714047
+    400066: Pattern2D_1714048
+    400068: Pattern2D_1725173
+    400070: Pattern2D_1725174
+    400072: Sleeves
+    400074: Sleeves 1
+    400076: Sleeves_Pad
+    400078: Sleeves_Pad 1
+    400080: Sleeves_Panel
+    400082: Sleeves_Panel 1
+    2100000: Material3656
+    2100002: Material3671
+    2100004: Material3686
+    2100006: Material3711
+    2300000: Body_Back
+    2300002: Body_Back 1
+    2300004: Body_Back_Panel
+    2300006: Body_Back_Panel 1
+    2300008: Collar
+    2300010: Collar 1
+    2300012: Collar_Stand
+    2300014: Collar_Stand 1
+    2300016: MatShape_14930
+    2300018: MatShape_14937
+    2300020: MatShape_14944
+    2300022: MatShape_14984
+    2300024: MatShape_14991
+    2300026: MatShape_14998
+    2300028: MatShape_35778
+    2300030: MatShape_35781
+    2300032: MatShape_35784
+    2300034: MatShape_35807
+    2300036: MatShape_35810
+    2300038: MatShape_35813
+    2300040: MatShape_35831
+    2300042: MatShape_35839
+    2300044: MatShape_35842
+    2300046: MatShape_8037
+    2300048: MatShape_8044
+    2300050: MatShape_8051
+    2300052: MatShape_8058
+    2300054: Pattern2D_1683497
+    2300056: Pattern2D_1685406
+    2300058: Pattern2D_1704273
+    2300060: Pattern2D_1709022
+    2300062: Pattern2D_1714047
+    2300064: Pattern2D_1714048
+    2300066: Pattern2D_1725173
+    2300068: Pattern2D_1725174
+    2300070: Sleeves
+    2300072: Sleeves 1
+    2300074: Sleeves_Pad
+    2300076: Sleeves_Pad 1
+    2300078: Sleeves_Panel
+    2300080: Sleeves_Panel 1
+    3300000: Body_Back
+    3300002: Body_Back 1
+    3300004: Body_Back_Panel
+    3300006: Body_Back_Panel 1
+    3300008: Collar
+    3300010: Collar 1
+    3300012: Collar_Stand
+    3300014: Collar_Stand 1
+    3300016: MatShape_14930
+    3300018: MatShape_14937
+    3300020: MatShape_14944
+    3300022: MatShape_14984
+    3300024: MatShape_14991
+    3300026: MatShape_14998
+    3300028: MatShape_35778
+    3300030: MatShape_35781
+    3300032: MatShape_35784
+    3300034: MatShape_35807
+    3300036: MatShape_35810
+    3300038: MatShape_35813
+    3300040: MatShape_35831
+    3300042: MatShape_35839
+    3300044: MatShape_35842
+    3300046: MatShape_8037
+    3300048: MatShape_8044
+    3300050: MatShape_8051
+    3300052: MatShape_8058
+    3300054: Pattern2D_1683497
+    3300056: Pattern2D_1685406
+    3300058: Pattern2D_1704273
+    3300060: Pattern2D_1709022
+    3300062: Pattern2D_1714047
+    3300064: Pattern2D_1714048
+    3300066: Pattern2D_1725173
+    3300068: Pattern2D_1725174
+    3300070: Sleeves
+    3300072: Sleeves 1
+    3300074: Sleeves_Pad
+    3300076: Sleeves_Pad 1
+    3300078: Sleeves_Panel
+    3300080: Sleeves_Panel 1
+    4300000: Body_Back_Panel
+    4300002: Body_Back
+    4300004: Body_Back_Panel
+    4300006: Body_Back
+    4300008: Collar
+    4300010: Collar_Stand
+    4300012: Collar
+    4300014: Collar_Stand
+    4300016: MatShape_8037
+    4300018: MatShape_8044
+    4300020: MatShape_8051
+    4300022: MatShape_8058
+    4300024: Sleeves_Panel
+    4300026: Sleeves
+    4300028: Sleeves_Pad
+    4300030: MatShape_14930
+    4300032: MatShape_14937
+    4300034: MatShape_14944
+    4300036: Sleeves_Pad
+    4300038: MatShape_14984
+    4300040: MatShape_14991
+    4300042: MatShape_14998
+    4300044: Sleeves_Panel
+    4300046: Sleeves
+    4300048: Pattern2D_1683497
+    4300050: Pattern2D_1685406
+    4300052: Pattern2D_1704273
+    4300054: Pattern2D_1709022
+    4300056: Pattern2D_1714047
+    4300058: Pattern2D_1714048
+    4300060: Pattern2D_1725173
+    4300062: Pattern2D_1725174
+    4300064: MatShape_35778
+    4300066: MatShape_35781
+    4300068: MatShape_35784
+    4300070: MatShape_35807
+    4300072: MatShape_35810
+    4300074: MatShape_35813
+    4300076: MatShape_35831
+    4300078: MatShape_35839
+    4300080: MatShape_35842
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
