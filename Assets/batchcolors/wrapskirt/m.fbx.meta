@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ee0ef8ea5b5399e438775e4d533ff57e
-timeCreated: 1526247086
+timeCreated: 1526377584
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -9,9 +9,9 @@ ModelImporter:
     100002: MatShape_17942
     100004: MatShape_17949
     100006: MatShape_17956
-    100008: MatShape_32583
-    100010: MatShape_32586
-    100012: MatShape_32589
+    100008: MatShape_31869
+    100010: MatShape_31872
+    100012: MatShape_31875
     100014: Pattern2D_215201
     100016: Pattern2D_447218
     100018: Pattern2D_447219
@@ -19,17 +19,17 @@ ModelImporter:
     100022: Pattern2D_447221
     100024: Pattern2D_50967
     100026: SKIRT1WAB
-    100028: StitchMatShape_32687
-    100030: StitchMatShape_32763
-    100032: StitchMatShape_32844
-    100034: StitchMatShape_32920
+    100028: StitchMatShape_31973
+    100030: StitchMatShape_32049
+    100032: StitchMatShape_32130
+    100034: StitchMatShape_32206
     400000: //RootNode
     400002: MatShape_17942
     400004: MatShape_17949
     400006: MatShape_17956
-    400008: MatShape_32583
-    400010: MatShape_32586
-    400012: MatShape_32589
+    400008: MatShape_31869
+    400010: MatShape_31872
+    400012: MatShape_31875
     400014: Pattern2D_215201
     400016: Pattern2D_447218
     400018: Pattern2D_447219
@@ -37,10 +37,10 @@ ModelImporter:
     400022: Pattern2D_447221
     400024: Pattern2D_50967
     400026: SKIRT1WAB
-    400028: StitchMatShape_32687
-    400030: StitchMatShape_32763
-    400032: StitchMatShape_32844
-    400034: StitchMatShape_32920
+    400028: StitchMatShape_31973
+    400030: StitchMatShape_32049
+    400032: StitchMatShape_32130
+    400034: StitchMatShape_32206
     2100000: Material3656
     2100002: Material3671
     2100004: Material3693
@@ -48,9 +48,9 @@ ModelImporter:
     2300000: MatShape_17942
     2300002: MatShape_17949
     2300004: MatShape_17956
-    2300006: MatShape_32583
-    2300008: MatShape_32586
-    2300010: MatShape_32589
+    2300006: MatShape_31869
+    2300008: MatShape_31872
+    2300010: MatShape_31875
     2300012: Pattern2D_215201
     2300014: Pattern2D_447218
     2300016: Pattern2D_447219
@@ -58,16 +58,16 @@ ModelImporter:
     2300020: Pattern2D_447221
     2300022: Pattern2D_50967
     2300024: SKIRT1WAB
-    2300026: StitchMatShape_32687
-    2300028: StitchMatShape_32763
-    2300030: StitchMatShape_32844
-    2300032: StitchMatShape_32920
+    2300026: StitchMatShape_31973
+    2300028: StitchMatShape_32049
+    2300030: StitchMatShape_32130
+    2300032: StitchMatShape_32206
     3300000: MatShape_17942
     3300002: MatShape_17949
     3300004: MatShape_17956
-    3300006: MatShape_32583
-    3300008: MatShape_32586
-    3300010: MatShape_32589
+    3300006: MatShape_31869
+    3300008: MatShape_31872
+    3300010: MatShape_31875
     3300012: Pattern2D_215201
     3300014: Pattern2D_447218
     3300016: Pattern2D_447219
@@ -75,10 +75,10 @@ ModelImporter:
     3300020: Pattern2D_447221
     3300022: Pattern2D_50967
     3300024: SKIRT1WAB
-    3300026: StitchMatShape_32687
-    3300028: StitchMatShape_32763
-    3300030: StitchMatShape_32844
-    3300032: StitchMatShape_32920
+    3300026: StitchMatShape_31973
+    3300028: StitchMatShape_32049
+    3300030: StitchMatShape_32130
+    3300032: StitchMatShape_32206
     4300000: SKIRT1WAB
     4300002: Pattern2D_50967
     4300004: Pattern2D_447218
@@ -89,34 +89,34 @@ ModelImporter:
     4300014: Pattern2D_447220
     4300016: Pattern2D_215201
     4300018: Pattern2D_447221
-    4300020: MatShape_32583
-    4300022: MatShape_32586
-    4300024: MatShape_32589
-    4300026: StitchMatShape_32687
-    4300028: StitchMatShape_32763
-    4300030: StitchMatShape_32844
-    4300032: StitchMatShape_32920
+    4300020: MatShape_31869
+    4300022: MatShape_31872
+    4300024: MatShape_31875
+    4300026: StitchMatShape_31973
+    4300028: StitchMatShape_32049
+    4300030: StitchMatShape_32130
+    4300032: StitchMatShape_32206
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material3656
-    second: {fileID: 2100000, guid: c09912f6ca8baef4d9d07ed99a0d6d9f, type: 2}
+    second: {fileID: 2100000, guid: 432d0a520dc1569498f8b178ff2adc91, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material3671
-    second: {fileID: 2100000, guid: 91377e824cacb3b43b12dc6fcf584cd3, type: 2}
+    second: {fileID: 2100000, guid: 0e01d5827d1ac824e914863de7e96122, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material3693
-    second: {fileID: 2100000, guid: 040cc6043e9386d42a1cc035fc69bfe1, type: 2}
+    second: {fileID: 2100000, guid: 45513557af2174641ad85abb36f6a472, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material3815
-    second: {fileID: 2100000, guid: 986592b036a3bd24d89875a2deb608e8, type: 2}
+    second: {fileID: 2100000, guid: 87680ff93741a724884c6665053d519e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

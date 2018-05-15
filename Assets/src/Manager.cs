@@ -172,7 +172,7 @@ public class Manager : MonoBehaviour
                     {
                         //light.shadowStrength = 1;
                         popUP.SetActive(false);
-                        camController.enabled = true;
+                       // camController.enabled = true;
                         Destroy(curSelectedGarment);
                     }
                     if (objectHit.tag == "btn_color")
