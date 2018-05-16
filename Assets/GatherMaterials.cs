@@ -7,13 +7,6 @@ public class GatherMaterials : MonoBehaviour {
 
     public List<Material> mats;
     SizeManager sm;
-    //List<GameObject[, ,]> group = new List<GameObject[, ,]>();
-    //public List<GameObject> groups = new List<GameObject>();
-    //public  GameObject[,] playingRings;
-	// Use this for initialization
-
-
-    //private List<List<GameObject>> groups; 
 
     private List<List<GameObject>> grouplist = new List<List<GameObject>>();
     private List<GameObject> group1 = new List<GameObject>();
@@ -49,10 +42,7 @@ public class GatherMaterials : MonoBehaviour {
                 addChildAtIndex(child.gameObject, mats.Count - 1);
             }
         }
-
-
-
-
+        
         // add stuff to the group list
         grouplist.Add(group1);
         grouplist.Add(group2);
@@ -79,16 +69,10 @@ public class GatherMaterials : MonoBehaviour {
                     //Debug.Log(": " + grouplist[i][j].name);
                 }
             }
-            //Debug.Log("MatShape:" + mathshape);
-            createGroupBasedOnMat();
         }
     }
 	void Start () {
-
-       
         sm = gameObject.transform.parent.GetComponent<SizeManager>();
-        sm.SetMatList(mats);
-        //Debug.Log("mats after start:" + mats.Count);
 	}
 
     private void addChildAtIndex(GameObject child, int index)
@@ -117,12 +101,7 @@ public class GatherMaterials : MonoBehaviour {
     {
         return grouplist[index];
     }
-
-    public void createGroupBasedOnMat()
-    {
-
-    }
-
+    
     public List<Material> GetMaterials()
     {
         return mats;
