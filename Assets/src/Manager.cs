@@ -38,7 +38,10 @@ public class Manager : MonoBehaviour
     {
         sizeindex = index;
         sm.SetCurSize(sizeindex);
-        curSelectedGarment = sm.GetCurGarment();
+        while (curSelectedGarment = null)
+        {
+            curSelectedGarment = sm.GetCurGarment();
+        }
     }
 
     public void DropDown_IndexChanged(int index)

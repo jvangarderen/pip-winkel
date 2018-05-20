@@ -66,6 +66,7 @@ public class SizeManager : MonoBehaviour {
             curGarmentOBJ.active = true;
         }
         
+        
     }
 
     public void ChangeSelectedGroupMat(int groupIndex, int newMatIndex)
