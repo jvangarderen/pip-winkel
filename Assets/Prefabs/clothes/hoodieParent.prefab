@@ -3396,5 +3396,9 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   skipFirstGroup: 0
-  mats: []
+  mats:
+  - {fileID: 2100000, guid: c5f57429cf8ca9c4b8cb2ff31f8ffc11, type: 2}
+  - {fileID: 2100000, guid: 88c333b1f5d365e49ada2903d18d9655, type: 2}
+  - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}
+  - {fileID: 2100000, guid: 8b52571daee23ea48a6996197355c04c, type: 2}
   numberOfGroups: []

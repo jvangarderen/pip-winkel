@@ -14592,17 +14592,15 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   skipFirstGroup: 0
-  mats: []
-  numberOfGroups:
-  - gameobject:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-  - gameobject: []
-  - gameobject: []
-  - gameobject: []
-  - gameobject: []
-  - gameobject: []
+  mats:
+  - {fileID: 2100000, guid: 2470e90c3e428844a8e4c52e3fa72dfd, type: 2}
+  - {fileID: 2100000, guid: 7d1a81e06e3ec8445a56734b72ca003b, type: 2}
+  - {fileID: 2100000, guid: c5f57429cf8ca9c4b8cb2ff31f8ffc11, type: 2}
+  - {fileID: 2100000, guid: 88c333b1f5d365e49ada2903d18d9655, type: 2}
+  - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}
+  - {fileID: 2100000, guid: 8da2240a57941fd4eabd8a99c4f8e418, type: 2}
+  - {fileID: 2100000, guid: e161ffa3e24930d4dbb2c01f5da4edcc, type: 2}
+  numberOfGroups: []
 --- !u!114 &114139647633987812
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -11,28 +11,45 @@ ModelImporter:
     100006: Pattern2D_119735
     100008: Pattern2D_120774
     100010: //RootNode
+    100012: MatShape_4598
+    100014: MatShape_4878
+    100016: Pattern2D_120775
     400000: Pattern2D_105376
     400002: Pattern2D_116966
     400004: Pattern2D_116967
     400006: Pattern2D_119735
     400008: Pattern2D_120774
     400010: //RootNode
+    400012: MatShape_4598
+    400014: MatShape_4878
+    400016: Pattern2D_120775
     2100000: Material3656
+    2100002: Material3666
+    2100004: Material3691
     2300000: Pattern2D_105376
     2300002: Pattern2D_116966
     2300004: Pattern2D_116967
     2300006: Pattern2D_119735
     2300008: Pattern2D_120774
+    2300010: MatShape_4598
+    2300012: MatShape_4878
+    2300014: Pattern2D_120775
     3300000: Pattern2D_105376
     3300002: Pattern2D_116966
     3300004: Pattern2D_116967
     3300006: Pattern2D_119735
     3300008: Pattern2D_120774
+    3300010: MatShape_4598
+    3300012: MatShape_4878
+    3300014: Pattern2D_120775
     4300000: Pattern2D_105376
     4300002: Pattern2D_116966
     4300004: Pattern2D_116967
     4300006: Pattern2D_119735
     4300008: Pattern2D_120774
+    4300010: Pattern2D_120775
+    4300012: MatShape_4598
+    4300014: MatShape_4878
   externalObjects: {}
   materials:
     importMaterials: 1

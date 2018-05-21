@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 54e24689eef964646b436238e7a59840
-timeCreated: 1526288846
+guid: e50e3ecb736857242828ec81f233814c
+timeCreated: 1526920192
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -216,7 +216,27 @@ ModelImporter:
     4300076: MatShape_35831
     4300078: MatShape_35839
     4300080: MatShape_35842
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3656
+    second: {fileID: 2100000, guid: b1f973b022b52864eb24d8db8bef087b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3671
+    second: {fileID: 2100000, guid: 17a3e3bec5c66c84d80004900e2f0671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3686
+    second: {fileID: 2100000, guid: 28082e314c3dc2046a014d20313abbbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3711
+    second: {fileID: 2100000, guid: 182d8cc8ffc57aa4ca2404ba8e855b98, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

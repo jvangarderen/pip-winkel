@@ -53,7 +53,7 @@ public class Manager : MonoBehaviour
         }
 
 
-        float maxCollums = 2;
+        float maxCollums = 3;
         float curCollum = 0;
         float curRow = 0;
         //Debug.Log("collors:"+sm.GetMatList().Count);
@@ -133,7 +133,7 @@ public class Manager : MonoBehaviour
                     {
                         //light.shadowStrength = 1;
                         popUP.SetActive(false);
-                       // camController.enabled = true;
+                        camController.enabled = true;
                         Destroy(curSelectedGarment);
                     }
                     if (objectHit.tag == "btn_color")
