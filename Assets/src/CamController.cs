@@ -5,7 +5,7 @@ using UnityEngine;
 public class CamController : MonoBehaviour {
     public float rotSpeed;
     private bool mouseDown = false;
-    private bool skipmousecheck = false;
+    private bool skipmousecheck = true;
 
     private float lastX, lastY;
 	// Use this for initialization

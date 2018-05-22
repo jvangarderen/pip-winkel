@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: d4f9f73877711c34bad5c818ceeb8533
+timeCreated: 1526987853
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body_Back
+    100004: Body_Back 1
+    100006: Body_Front
+    100008: Body_Front 1
+    100010: bodyShape_skin_Shape
+    100012: eye_l_Shape
+    100014: eye_r_Shape
+    100016: eyelash_l_down_Shape
+    100018: eyelash_l_up_Shape
+    100020: eyelash_r_down_Shape
+    100022: eyelash_r_up_Shape
+    100024: MatShape_123668
+    100026: MatShape_123675
+    100028: MatShape_123682
+    100030: MatShape_131444
+    100032: MatShape_143096
+    100034: MatShape_143099
+    100036: MatShape_143102
+    100038: MatShape_143541
+    100040: MatShape_143544
+    100042: MatShape_143547
+    100044: MatShape_99959
+    100046: MatShape_99966
+    100048: Pattern2D_151521
+    100050: Pattern2D_208893
+    100052: Pattern2D_215201
+    100054: Pattern2D_21874
+    100056: Pattern2D_22049
+    100058: Pattern2D_24694
+    100060: Pattern2D_410264
+    100062: Pattern2D_410264 1
+    100064: Pattern2D_410266
+    100066: Pattern2D_410267
+    100068: Pattern2D_410267 1
+    100070: Pattern2D_418687
+    100072: Pattern2D_418688
+    100074: Pattern2D_418689
+    100076: Pattern2D_418690
+    100078: Pattern2D_418691
+    100080: Pattern2D_447218
+    100082: Pattern2D_447219
+    100084: Pattern2D_447220
+    100086: Pattern2D_447221
+    100088: Pattern2D_50967
+    100090: Pattern2D_523797
+    100092: Pattern2D_62876
+    100094: Pattern2D_63033
+    100096: Pattern2D_68544
+    100098: Pattern2D_685601
+    100100: Pattern2D_685602
+    100102: Pattern2D_685603
+    100104: Pattern2D_685604
+    100106: Pattern2D_685605
+    100108: Pattern2D_685606
+    100110: Pattern2D_68691
+    100112: Ribbing
+    100114: Ribbing 1
+    100116: SKIRT1WAB
+    100118: Sleeves
+    100120: Sleeves 1
+    100122: StitchMatShape_140741
+    100124: StitchMatShape_141039
+    100126: StitchMatShape_141153
+    100128: StitchMatShape_141188
+    100130: StitchMatShape_141249
+    100132: StitchMatShape_141309
+    100134: StitchMatShape_141343
+    100136: StitchMatShape_141646
+    100138: StitchMatShape_141913
+    100140: StitchMatShape_142210
+    100142: StitchMatShape_142508
+    100144: StitchMatShape_142811
+    100146: StitchMatShape_143078
+    100148: StitchMatShape_143200
+    100150: StitchMatShape_143276
+    100152: StitchMatShape_143357
+    100154: StitchMatShape_143433
+    400000: //RootNode
+    400002: Body_Back
+    400004: Body_Back 1
+    400006: Body_Front
+    400008: Body_Front 1
+    400010: bodyShape_skin_Shape
+    400012: eye_l_Shape
+    400014: eye_r_Shape
+    400016: eyelash_l_down_Shape
+    400018: eyelash_l_up_Shape
+    400020: eyelash_r_down_Shape
+    400022: eyelash_r_up_Shape
+    400024: MatShape_123668
+    400026: MatShape_123675
+    400028: MatShape_123682
+    400030: MatShape_131444
+    400032: MatShape_143096
+    400034: MatShape_143099
+    400036: MatShape_143102
+    400038: MatShape_143541
+    400040: MatShape_143544
+    400042: MatShape_143547
+    400044: MatShape_99959
+    400046: MatShape_99966
+    400048: Pattern2D_151521
+    400050: Pattern2D_208893
+    400052: Pattern2D_215201
+    400054: Pattern2D_21874
+    400056: Pattern2D_22049
+    400058: Pattern2D_24694
+    400060: Pattern2D_410264
+    400062: Pattern2D_410264 1
+    400064: Pattern2D_410266
+    400066: Pattern2D_410267
+    400068: Pattern2D_410267 1
+    400070: Pattern2D_418687
+    400072: Pattern2D_418688
+    400074: Pattern2D_418689
+    400076: Pattern2D_418690
+    400078: Pattern2D_418691
+    400080: Pattern2D_447218
+    400082: Pattern2D_447219
+    400084: Pattern2D_447220
+    400086: Pattern2D_447221
+    400088: Pattern2D_50967
+    400090: Pattern2D_523797
+    400092: Pattern2D_62876
+    400094: Pattern2D_63033
+    400096: Pattern2D_68544
+    400098: Pattern2D_685601
+    400100: Pattern2D_685602
+    400102: Pattern2D_685603
+    400104: Pattern2D_685604
+    400106: Pattern2D_685605
+    400108: Pattern2D_685606
+    400110: Pattern2D_68691
+    400112: Ribbing
+    400114: Ribbing 1
+    400116: SKIRT1WAB
+    400118: Sleeves
+    400120: Sleeves 1
+    400122: StitchMatShape_140741
+    400124: StitchMatShape_141039
+    400126: StitchMatShape_141153
+    400128: StitchMatShape_141188
+    400130: StitchMatShape_141249
+    400132: StitchMatShape_141309
+    400134: StitchMatShape_141343
+    400136: StitchMatShape_141646
+    400138: StitchMatShape_141913
+    400140: StitchMatShape_142210
+    400142: StitchMatShape_142508
+    400144: StitchMatShape_142811
+    400146: StitchMatShape_143078
+    400148: StitchMatShape_143200
+    400150: StitchMatShape_143276
+    400152: StitchMatShape_143357
+    400154: StitchMatShape_143433
+    2100000: Material83878
+    2100002: Material87789
+    2100004: Material87804
+    2100006: Material121083
+    2100008: Material113744
+    2100010: FABRIC 1_FRONT_121059
+    2100012: Material121073
+    2100014: Material83927
+    2100016: Material87826
+    2100018: Material87874
+    2100020: Material121108
+    2100022: Material38198
+    2100024: Material38203
+    2100026: Material38208
+    2100028: Material38213
+    2100030: Material38240
+    2100032: Material38256
+    2100034: Material38362
+    2300000: Body_Back
+    2300002: Body_Back 1
+    2300004: Body_Front
+    2300006: Body_Front 1
+    2300008: bodyShape_skin_Shape
+    2300010: eye_l_Shape
+    2300012: eye_r_Shape
+    2300014: eyelash_l_down_Shape
+    2300016: eyelash_l_up_Shape
+    2300018: eyelash_r_down_Shape
+    2300020: eyelash_r_up_Shape
+    2300022: MatShape_123668
+    2300024: MatShape_123675
+    2300026: MatShape_123682
+    2300028: MatShape_131444
+    2300030: MatShape_143096
+    2300032: MatShape_143099
+    2300034: MatShape_143102
+    2300036: MatShape_143541
+    2300038: MatShape_143544
+    2300040: MatShape_143547
+    2300042: MatShape_99959
+    2300044: MatShape_99966
+    2300046: Pattern2D_151521
+    2300048: Pattern2D_208893
+    2300050: Pattern2D_215201
+    2300052: Pattern2D_21874
+    2300054: Pattern2D_22049
+    2300056: Pattern2D_24694
+    2300058: Pattern2D_410264
+    2300060: Pattern2D_410264 1
+    2300062: Pattern2D_410266
+    2300064: Pattern2D_410267
+    2300066: Pattern2D_410267 1
+    2300068: Pattern2D_418687
+    2300070: Pattern2D_418688
+    2300072: Pattern2D_418689
+    2300074: Pattern2D_418690
+    2300076: Pattern2D_418691
+    2300078: Pattern2D_447218
+    2300080: Pattern2D_447219
+    2300082: Pattern2D_447220
+    2300084: Pattern2D_447221
+    2300086: Pattern2D_50967
+    2300088: Pattern2D_523797
+    2300090: Pattern2D_62876
+    2300092: Pattern2D_63033
+    2300094: Pattern2D_68544
+    2300096: Pattern2D_685601
+    2300098: Pattern2D_685602
+    2300100: Pattern2D_685603
+    2300102: Pattern2D_685604
+    2300104: Pattern2D_685605
+    2300106: Pattern2D_685606
+    2300108: Pattern2D_68691
+    2300110: Ribbing
+    2300112: Ribbing 1
+    2300114: SKIRT1WAB
+    2300116: Sleeves
+    2300118: Sleeves 1
+    2300120: StitchMatShape_140741
+    2300122: StitchMatShape_141039
+    2300124: StitchMatShape_141153
+    2300126: StitchMatShape_141188
+    2300128: StitchMatShape_141249
+    2300130: StitchMatShape_141309
+    2300132: StitchMatShape_141343
+    2300134: StitchMatShape_141646
+    2300136: StitchMatShape_141913
+    2300138: StitchMatShape_142210
+    2300140: StitchMatShape_142508
+    2300142: StitchMatShape_142811
+    2300144: StitchMatShape_143078
+    2300146: StitchMatShape_143200
+    2300148: StitchMatShape_143276
+    2300150: StitchMatShape_143357
+    2300152: StitchMatShape_143433
+    3300000: Body_Back
+    3300002: Body_Back 1
+    3300004: Body_Front
+    3300006: Body_Front 1
+    3300008: bodyShape_skin_Shape
+    3300010: eye_l_Shape
+    3300012: eye_r_Shape
+    3300014: eyelash_l_down_Shape
+    3300016: eyelash_l_up_Shape
+    3300018: eyelash_r_down_Shape
+    3300020: eyelash_r_up_Shape
+    3300022: MatShape_123668
+    3300024: MatShape_123675
+    3300026: MatShape_123682
+    3300028: MatShape_131444
+    3300030: MatShape_143096
+    3300032: MatShape_143099
+    3300034: MatShape_143102
+    3300036: MatShape_143541
+    3300038: MatShape_143544
+    3300040: MatShape_143547
+    3300042: MatShape_99959
+    3300044: MatShape_99966
+    3300046: Pattern2D_151521
+    3300048: Pattern2D_208893
+    3300050: Pattern2D_215201
+    3300052: Pattern2D_21874
+    3300054: Pattern2D_22049
+    3300056: Pattern2D_24694
+    3300058: Pattern2D_410264
+    3300060: Pattern2D_410264 1
+    3300062: Pattern2D_410266
+    3300064: Pattern2D_410267
+    3300066: Pattern2D_410267 1
+    3300068: Pattern2D_418687
+    3300070: Pattern2D_418688
+    3300072: Pattern2D_418689
+    3300074: Pattern2D_418690
+    3300076: Pattern2D_418691
+    3300078: Pattern2D_447218
+    3300080: Pattern2D_447219
+    3300082: Pattern2D_447220
+    3300084: Pattern2D_447221
+    3300086: Pattern2D_50967
+    3300088: Pattern2D_523797
+    3300090: Pattern2D_62876
+    3300092: Pattern2D_63033
+    3300094: Pattern2D_68544
+    3300096: Pattern2D_685601
+    3300098: Pattern2D_685602
+    3300100: Pattern2D_685603
+    3300102: Pattern2D_685604
+    3300104: Pattern2D_685605
+    3300106: Pattern2D_685606
+    3300108: Pattern2D_68691
+    3300110: Ribbing
+    3300112: Ribbing 1
+    3300114: SKIRT1WAB
+    3300116: Sleeves
+    3300118: Sleeves 1
+    3300120: StitchMatShape_140741
+    3300122: StitchMatShape_141039
+    3300124: StitchMatShape_141153
+    3300126: StitchMatShape_141188
+    3300128: StitchMatShape_141249
+    3300130: StitchMatShape_141309
+    3300132: StitchMatShape_141343
+    3300134: StitchMatShape_141646
+    3300136: StitchMatShape_141913
+    3300138: StitchMatShape_142210
+    3300140: StitchMatShape_142508
+    3300142: StitchMatShape_142811
+    3300144: StitchMatShape_143078
+    3300146: StitchMatShape_143200
+    3300148: StitchMatShape_143276
+    3300150: StitchMatShape_143357
+    3300152: StitchMatShape_143433
+    4300000: Pattern2D_410264
+    4300002: Pattern2D_410266
+    4300004: Pattern2D_410267
+    4300006: Pattern2D_418687
+    4300008: Pattern2D_418688
+    4300010: Pattern2D_418689
+    4300012: Pattern2D_418690
+    4300014: Pattern2D_418691
+    4300016: Pattern2D_410264
+    4300018: Pattern2D_410267
+    4300020: SKIRT1WAB
+    4300022: Pattern2D_50967
+    4300024: Pattern2D_447218
+    4300026: MatShape_99959
+    4300028: MatShape_99966
+    4300030: MatShape_131444
+    4300032: Pattern2D_447219
+    4300034: Pattern2D_447220
+    4300036: Pattern2D_215201
+    4300038: Pattern2D_447221
+    4300040: Body_Front
+    4300042: Body_Front
+    4300044: Ribbing
+    4300046: Body_Back
+    4300048: Body_Back
+    4300050: Ribbing
+    4300052: Sleeves
+    4300054: Sleeves
+    4300056: Pattern2D_523797
+    4300058: Pattern2D_685601
+    4300060: Pattern2D_208893
+    4300062: MatShape_123668
+    4300064: MatShape_123675
+    4300066: MatShape_123682
+    4300068: Pattern2D_151521
+    4300070: Pattern2D_21874
+    4300072: Pattern2D_22049
+    4300074: Pattern2D_24694
+    4300076: Pattern2D_685602
+    4300078: Pattern2D_685603
+    4300080: Pattern2D_685604
+    4300082: Pattern2D_685605
+    4300084: Pattern2D_62876
+    4300086: Pattern2D_63033
+    4300088: Pattern2D_68544
+    4300090: Pattern2D_68691
+    4300092: Pattern2D_685606
+    4300094: StitchMatShape_140741
+    4300096: StitchMatShape_141039
+    4300098: StitchMatShape_141153
+    4300100: StitchMatShape_141188
+    4300102: StitchMatShape_141249
+    4300104: StitchMatShape_141309
+    4300106: StitchMatShape_141343
+    4300108: StitchMatShape_141646
+    4300110: StitchMatShape_141913
+    4300112: StitchMatShape_142210
+    4300114: StitchMatShape_142508
+    4300116: StitchMatShape_142811
+    4300118: StitchMatShape_143078
+    4300120: MatShape_143096
+    4300122: MatShape_143099
+    4300124: MatShape_143102
+    4300126: StitchMatShape_143200
+    4300128: StitchMatShape_143276
+    4300130: StitchMatShape_143357
+    4300132: StitchMatShape_143433
+    4300134: MatShape_143541
+    4300136: MatShape_143544
+    4300138: MatShape_143547
+    4300140: eyelash_r_up_Shape
+    4300142: eyelash_r_down_Shape
+    4300144: eyelash_l_down_Shape
+    4300146: eyelash_l_up_Shape
+    4300148: eye_l_Shape
+    4300150: eye_r_Shape
+    4300152: bodyShape_skin_Shape
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

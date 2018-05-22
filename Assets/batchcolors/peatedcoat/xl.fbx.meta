@@ -272,7 +272,32 @@ ModelImporter:
     4300098: StitchMatShape_35828
     4300100: StitchMatShape_35854
     4300102: StitchMatShape_35879
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3656
+    second: {fileID: 2100000, guid: c6d6cbd0f241e0548aa2a04e0121aa28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3666
+    second: {fileID: 2100000, guid: 678e406c815d1bd4fa132be024e5f24b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3678
+    second: {fileID: 2100000, guid: eebe6892810959d469e8b97fde6bf806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3700
+    second: {fileID: 2100000, guid: b3281e6f8329e8647ac2771ff0a2637b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3823
+    second: {fileID: 2100000, guid: 38b023fcfcf94c44d8470312e66b8ef0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

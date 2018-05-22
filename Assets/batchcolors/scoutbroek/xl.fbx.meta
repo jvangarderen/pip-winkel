@@ -227,7 +227,32 @@ ModelImporter:
     4300080: MatShape_8748
     4300082: MatShape_8751
     4300084: MatShape_8754
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3656
+    second: {fileID: 2100000, guid: 156c1d8776af66346bac21000bc60b63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3667
+    second: {fileID: 2100000, guid: 44a38fe6dd640c64cbb1abaa272a4892, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3675
+    second: {fileID: 2100000, guid: 23710dbd1818e52419d10abf733685b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3700
+    second: {fileID: 2100000, guid: 775e5ba87d9d48146a2b246c2d357145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3720
+    second: {fileID: 2100000, guid: 4f12b01aec973c24b9c772cffb645095, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
