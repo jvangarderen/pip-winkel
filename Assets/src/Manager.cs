@@ -53,34 +53,38 @@ public class Manager : MonoBehaviour
         }
 
 
-        float maxCollums = 3;
+        float maxCollums = 4;
         float curCollum = 0;
         float curRow = 0;
         //Debug.Log("collors:"+sm.GetMatList().Count);
         List<Material> mats = sm.mats;
         //trick to fix location for 3d color buttons//
         Quaternion camrot = camController.gameObject.transform.localRotation;
+        float ofsetdist = 1.25f;
         camController.transform.rotation = Quaternion.identity;
         for (int i = 0; i < mats.Count; i++)
         {
             Vector3 ofset;
             if (curCollum < maxCollums)
             {
-                ofset = new Vector3(1 + (curCollum * 2), 1 + -(2 * curRow), 0);
+                ofset = new Vector3(1 + (curCollum * ofsetdist), 1 + -(ofsetdist * curRow), 0);
                 curCollum++;
             }
             else
             {
-                ofset = new Vector3(1 + (curCollum * 2), 1 + -(2 * curRow), 0);
+                ofset = new Vector3(1 + (curCollum * ofsetdist), 1 + -(ofsetdist * curRow), 0);
                 curRow++;
                 curCollum = 0;
             }
-            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            cube.transform.position = ColorOptionsStartPoint.transform.position + ofset;
-            cube.transform.parent = ColorOptionsStartPoint.transform;
-            cube.name = i.ToString();
-            cube.tag = "btn_color";
-            MeshRenderer mr = cube.GetComponent<MeshRenderer>();
+            GameObject Cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            Cylinder.transform.localScale -= new Vector3(2, 0.5f,2);
+            Cylinder.transform.eulerAngles = new Vector3(-90, 0, 0);
+            Cylinder.transform.position = ColorOptionsStartPoint.transform.position + ofset;
+            Cylinder.transform.parent = ColorOptionsStartPoint.transform;
+            Cylinder.name = i.ToString();
+            Cylinder.tag = "btn_color";
+            MeshRenderer mr = Cylinder.GetComponent<MeshRenderer>();
+            Debug.Log(mats[i].name);
             mr.material = mats[i];
         }
         //trick to fix location for 3d color buttons//
