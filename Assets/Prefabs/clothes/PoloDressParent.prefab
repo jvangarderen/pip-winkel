@@ -5387,6 +5387,11 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Sport Dress
+  garmentprice: 
+  garmentdescription: 'Inspired by vintage tennis players, this dress shows your athletic
+    side! This slightly loose piece has a polo inspired collar and the V-shape makes
+    your silhouette look longer. '
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: a8fee122d676ddc4281b1095c2068178, type: 2}

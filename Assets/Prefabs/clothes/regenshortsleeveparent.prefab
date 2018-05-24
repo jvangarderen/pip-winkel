@@ -4066,7 +4066,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1042657059576930}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.13052624, z: 0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: -4.25, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children:
@@ -4076,7 +4076,7 @@ Transform:
   - {fileID: 4188440630433716}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -15, z: 0}
 --- !u!4 &4840212875431870
 Transform:
   m_ObjectHideFlags: 1
@@ -9983,6 +9983,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Striped Shortsleeve
+  garmentprice: 
+  garmentdescription: This oversized sweatshirt is a true feel good style. Woven with
+    rainbow stripes changeable to your preference.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: 2470e90c3e428844a8e4c52e3fa72dfd, type: 2}

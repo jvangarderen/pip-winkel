@@ -806,6 +806,11 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Sash
+  garmentprice: 
+  garmentdescription: Inspired by the functionality of a fanny pack, this accessoire
+    can be worn over any style, any day. The front pocket is designed for your cell
+    phone so it is handy to reach. The straps makes it adjustable to your size.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: 5826865d1af231c4487a95ff04536184, type: 2}

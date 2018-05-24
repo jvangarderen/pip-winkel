@@ -6527,6 +6527,11 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: "\u2018Silk\u2019 Blouse"
+  garmentprice: 
+  garmentdescription: "Finally a Silk blouse you don\u2019t have to feel guilty about.
+    This \u2018Silk\u2019 blouse is made from 100% organic cotton, but that doesn\u2019t
+    show."
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}

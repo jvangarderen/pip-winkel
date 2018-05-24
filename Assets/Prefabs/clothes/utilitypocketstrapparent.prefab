@@ -1682,6 +1682,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Utility Strap-on
+  garmentprice: 
+  garmentdescription: In need of extra pockets? This Utility Strap-on is your friend.
+    Plenty of room for all your essentials with adjustable straps to your fit.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: 88c333b1f5d365e49ada2903d18d9655, type: 2}

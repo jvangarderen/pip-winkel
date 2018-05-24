@@ -6239,6 +6239,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Slit Shirt
+  garmentprice: 
+  garmentdescription: This piece is a sister from the Classic shirt. Featured with
+    a top half button placket and small slits in the side seams.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}

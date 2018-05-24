@@ -5099,6 +5099,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Scout Shirt
+  garmentprice: 
+  garmentdescription: Vintage Boy Scout shirts. How cool are they! This shirt celebrates
+    outdoor fun. Ideal for layering or worn on its own.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: 88c333b1f5d365e49ada2903d18d9655, type: 2}

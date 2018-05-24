@@ -27,7 +27,9 @@ public class Manager : MonoBehaviour
     private int sizeindex;
     int groupindex;
     private SizeManager sm;
-
+    public Text garmentname;
+    public Text garmentprice;
+    public Text description;
 	// Use this for initialization
 	void Start () {
         originalcam = Camera.main;
@@ -234,6 +236,9 @@ public class Manager : MonoBehaviour
     {
         curSelectedGarment = garment;
         sm = garment.GetComponent<SizeManager>();
+        garmentname.text = sm.garmentname;
+        garmentprice.text = sm.garmentprice;
+        description.text = sm.garmentdescription;
         curSelectedGarment.transform.parent = garmentDisplay.transform;
         PopulateList2();
     }

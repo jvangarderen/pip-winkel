@@ -12563,6 +12563,11 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Scout Pants
+  garmentprice: 
+  garmentdescription: 'Weather is a unpredictable thing. This pants features a button
+    on/off bottom part. Handy when you are warm or have to cross a river. You never
+    know. '
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: 88c333b1f5d365e49ada2903d18d9655, type: 2}

@@ -9443,6 +9443,11 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Trench
+  garmentprice: 
+  garmentdescription: Crafted in cotton, this Trench has an oversized fit and belted
+    details on the sleeves. Side welted pockets makes this coat functional and easy
+    to wear.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}

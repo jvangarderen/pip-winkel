@@ -5099,6 +5099,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Pleated Sweater
+  garmentprice: 
+  garmentdescription: "Roll up your sleeves and let\u2019s get to work! Pleated sleeves
+    makes this an sweater a true hands-on garment."
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: a8fee122d676ddc4281b1095c2068178, type: 2}

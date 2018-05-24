@@ -437,7 +437,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100004, guid: 6517ed500a21d9b46929de44c6419cc7, type: 3}
+  - {fileID: 2100000, guid: 16595c3b116a10140ac34023922f01d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -505,7 +505,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100004, guid: 6517ed500a21d9b46929de44c6419cc7, type: 3}
+  - {fileID: 2100000, guid: 16595c3b116a10140ac34023922f01d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -590,6 +590,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Beret
+  garmentprice: 
+  garmentdescription: 'Crafted from smooth canvas, this style slips on and off and
+    is complete with adjustable buttons. '
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: 5826865d1af231c4487a95ff04536184, type: 2}

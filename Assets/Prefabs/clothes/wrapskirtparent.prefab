@@ -3923,6 +3923,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Wrap Skirt
+  garmentprice: 
+  garmentdescription: 'The Wrap Skirt is made from a 100% organic cotton twill. Fitted
+    with a button closure, this wrap style is finished with a front patch pocket. '
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: 2470e90c3e428844a8e4c52e3fa72dfd, type: 2}

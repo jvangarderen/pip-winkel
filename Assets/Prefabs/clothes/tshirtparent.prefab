@@ -2531,6 +2531,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: T-Shirt
+  garmentprice: 
+  garmentdescription: "A super-soft organic tee with a ribbed rounded neck. Perfect
+    for layering then it\u2019s cold, or wear alone when the weather is hot!"
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: a8fee122d676ddc4281b1095c2068178, type: 2}

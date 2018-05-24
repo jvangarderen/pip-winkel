@@ -1091,6 +1091,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Pleated Skirt
+  garmentprice: 
+  garmentdescription: "A pleated mini skirt with a classic cut. Let\u2019s bring out
+    that inner scout girl!"
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: a8fee122d676ddc4281b1095c2068178, type: 2}

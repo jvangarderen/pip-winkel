@@ -3359,6 +3359,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Sport Shirt
+  garmentprice: 
+  garmentdescription: This T-shirt stays true to the authentic sport-look. Change
+    the colors to alter it to your own team.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}

@@ -302,6 +302,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Sweatband
+  garmentprice: 
+  garmentdescription: "This cotton jersey headband features 3 stripes changeable to
+    your liking. Simply wear over loose hair and you\u2019re ready for action"
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}

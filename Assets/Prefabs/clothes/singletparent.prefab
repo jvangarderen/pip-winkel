@@ -2483,6 +2483,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Singlet
+  garmentprice: 
+  garmentdescription: This wardrobe staple transcends trends, wear yours under a blazer
+    or on top one of the mini skirts.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: 2470e90c3e428844a8e4c52e3fa72dfd, type: 2}

@@ -8243,6 +8243,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Classic Shirt
+  garmentprice: 
+  garmentdescription: 'The classic white shirt stays a great closet staple. Featured
+    with a big collar and a French button placket. '
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: a8fee122d676ddc4281b1095c2068178, type: 2}

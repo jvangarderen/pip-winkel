@@ -6851,6 +6851,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Shirt Dress
+  garmentprice: 
+  garmentdescription: This oversized shirt dress is a dramatic interpretation of a
+    scouting shirt. Super functional with big pockets and side slits.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}

@@ -10,7 +10,9 @@ public class SizeManager : MonoBehaviour {
     public List<Garment> garments;
     public GatherMaterials gatherMats;
     public GameObject curGarmentOBJ;
-
+    public string garmentname;
+    public string garmentprice;
+    public string garmentdescription;
     public bool skipFirstGroup=false;
     public List<Material> mats ;//= new List<Material>();
 

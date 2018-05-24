@@ -5675,6 +5675,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Track Jacket
+  garmentprice: 
+  garmentdescription: Track Jacket features a relaxed silhouette with a contrast stripe
+    across the chest, and an elastic collar and hem.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}

@@ -6515,6 +6515,10 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Bomber Jacket
+  garmentprice: 
+  garmentdescription: This jacket features a low neck and relaxed fit with a cinched
+    waist. Sleeves are crimped to give it a more elegant look.
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: b55ac77d5491fd74a8712ea6385d79ea, type: 2}
