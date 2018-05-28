@@ -386,7 +386,7 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
-  garmentname: 'Hankerchief '
+  garmentname: 'Handkerchief '
   garmentprice: 
   garmentdescription: 'Crafted from lightweight silk, the Hankerchief matches and
     brightens any outfit. '
