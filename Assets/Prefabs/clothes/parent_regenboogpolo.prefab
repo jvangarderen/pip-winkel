@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 33436631008049038}
   - component: {fileID: 23180448711990254}
   m_Layer: 0
-  m_Name: MatShape_3836
+  m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1006,7 +1006,7 @@ GameObject:
   - component: {fileID: 33970803514762618}
   - component: {fileID: 23548243495066212}
   m_Layer: 0
-  m_Name: MatShape_3836
+  m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2941,7 +2941,7 @@ GameObject:
   - component: {fileID: 33836679644947928}
   - component: {fileID: 23744865808602152}
   m_Layer: 0
-  m_Name: MatShape_3836
+  m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3332,7 +3332,7 @@ GameObject:
   - component: {fileID: 33250148474417368}
   - component: {fileID: 23978271701938384}
   m_Layer: 0
-  m_Name: MatShape_3836
+  m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
