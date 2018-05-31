@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33432572953770576}
   - component: {fileID: 23894819911599898}
   m_Layer: 0
-  m_Name: MatShape_37692
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33019101530649800}
   - component: {fileID: 23560045319998992}
   m_Layer: 0
-  m_Name: MatShape_24849
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33312022998576916}
   - component: {fileID: 23222668509680492}
   m_Layer: 0
-  m_Name: Body_Front
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 33911316295285094}
   - component: {fileID: 23832386439838972}
   m_Layer: 0
-  m_Name: Cuffs 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 33303222295978108}
   - component: {fileID: 23351155779003262}
   m_Layer: 0
-  m_Name: Pattern2D_886447
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 33036167933344342}
   - component: {fileID: 23849870911369586}
   m_Layer: 0
-  m_Name: MatShape_36818
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 33827599370679716}
   - component: {fileID: 23285004307911728}
   m_Layer: 0
-  m_Name: MatShape_36827
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 33063591497051930}
   - component: {fileID: 23500191899157170}
   m_Layer: 0
-  m_Name: Sleeves_Placket
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 33475731142952884}
   - component: {fileID: 23229026936251890}
   m_Layer: 0
-  m_Name: MatShape_24835
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 33814361654532548}
   - component: {fileID: 23251966552109012}
   m_Layer: 0
-  m_Name: Collar_Stand
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 33764766880466262}
   - component: {fileID: 23044943403220108}
   m_Layer: 0
-  m_Name: MatShape_24812
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 33058859595368046}
   - component: {fileID: 23976597565919416}
   m_Layer: 0
-  m_Name: Collar
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 33975152422930276}
   - component: {fileID: 23862010082255742}
   m_Layer: 0
-  m_Name: MatShape_24840
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 33618961810396066}
   - component: {fileID: 23663005635388296}
   m_Layer: 0
-  m_Name: MatShape_24856
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 33266424764656732}
   - component: {fileID: 23561813239264520}
   m_Layer: 0
-  m_Name: Collar_Stand
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 33482424494871680}
   - component: {fileID: 23431261867107098}
   m_Layer: 0
-  m_Name: MatShape_26101
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 33257522316414810}
   - component: {fileID: 23037840865795074}
   m_Layer: 0
-  m_Name: Pattern2D_885457
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 33600996066394622}
   - component: {fileID: 23957307273367252}
   m_Layer: 0
-  m_Name: Body_Front 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 33113714632593114}
   - component: {fileID: 23352855351350896}
   m_Layer: 0
-  m_Name: Pattern2D_885457
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 33509784588709014}
   - component: {fileID: 23291663057541688}
   m_Layer: 0
-  m_Name: MatShape_24854
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 33584883678187294}
   - component: {fileID: 23293630797976978}
   m_Layer: 0
-  m_Name: MatShape_24828
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 33319546295963018}
   - component: {fileID: 23009053366272326}
   m_Layer: 0
-  m_Name: Cuffs
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 33397453968379094}
   - component: {fileID: 23492247787809934}
   m_Layer: 0
-  m_Name: MatShape_24820
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 33676728825693258}
   - component: {fileID: 23015864303748710}
   m_Layer: 0
-  m_Name: MatShape_24805
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 33955983690763646}
   - component: {fileID: 23231340192276754}
   m_Layer: 0
-  m_Name: MatShape_36811
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 33621992055143146}
   - component: {fileID: 23618106562788370}
   m_Layer: 0
-  m_Name: MatShape_24868
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 33976731854052250}
   - component: {fileID: 23255036813045922}
   m_Layer: 0
-  m_Name: MatShape_37680
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,7 +481,7 @@ GameObject:
   - component: {fileID: 33439972721271000}
   - component: {fileID: 23391843546221756}
   m_Layer: 0
-  m_Name: Cuffs 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 33342207715507880}
   - component: {fileID: 23493121189326162}
   m_Layer: 0
-  m_Name: MatShape_24813
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 33537042860841326}
   - component: {fileID: 23176484291425152}
   m_Layer: 0
-  m_Name: MatShape_36846
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 33748543929343172}
   - component: {fileID: 23674884404855530}
   m_Layer: 0
-  m_Name: MatShape_24834
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -565,7 +565,7 @@ GameObject:
   - component: {fileID: 33466625002986464}
   - component: {fileID: 23346173661018776}
   m_Layer: 0
-  m_Name: MatShape_24821
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 33333043909210374}
   - component: {fileID: 23574884263360544}
   m_Layer: 0
-  m_Name: Pattern2D_886447
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 33185738053517374}
   - component: {fileID: 23771700139968554}
   m_Layer: 0
-  m_Name: Sleeves_Placket 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 33274850367139166}
   - component: {fileID: 23875663675135962}
   m_Layer: 0
-  m_Name: Sleeves_Panel
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -633,7 +633,7 @@ GameObject:
   - component: {fileID: 33631995312448874}
   - component: {fileID: 23173667576132750}
   m_Layer: 0
-  m_Name: Sleeves_Placket 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 33474922320084356}
   - component: {fileID: 23570517915793500}
   m_Layer: 0
-  m_Name: MatShape_47357
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 33505902563510544}
   - component: {fileID: 23492318191344696}
   m_Layer: 0
-  m_Name: Body_Front
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 33254881563582350}
   - component: {fileID: 23020330768200312}
   m_Layer: 0
-  m_Name: MatShape_37664
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 33043345969576456}
   - component: {fileID: 23815006373553604}
   m_Layer: 0
-  m_Name: MatShape_24826
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 33359712300494680}
   - component: {fileID: 23961031241355216}
   m_Layer: 0
-  m_Name: Sleeves 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 33682889642656262}
   - component: {fileID: 23944935755511986}
   m_Layer: 0
-  m_Name: MatShape_47376
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 33055548583467540}
   - component: {fileID: 23329185107144688}
   m_Layer: 0
-  m_Name: Sleeves 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -769,7 +769,7 @@ GameObject:
   - component: {fileID: 33149414812793276}
   - component: {fileID: 23697378527003122}
   m_Layer: 0
-  m_Name: Body_Front 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 33334390695678202}
   - component: {fileID: 23914334003749672}
   m_Layer: 0
-  m_Name: Sleeves_Panel 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 33960986750870518}
   - component: {fileID: 23251932628354260}
   m_Layer: 0
-  m_Name: Collar
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 33787484938617126}
   - component: {fileID: 23719027431854698}
   m_Layer: 0
-  m_Name: MatShape_37671
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 33220753165672964}
   - component: {fileID: 23926395212808752}
   m_Layer: 0
-  m_Name: MatShape_24840
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 33198611270479594}
   - component: {fileID: 23926137214465182}
   m_Layer: 0
-  m_Name: MatShape_37687
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 33894837935065056}
   - component: {fileID: 23144635293759496}
   m_Layer: 0
-  m_Name: Sleeves_Placket 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -888,7 +888,7 @@ GameObject:
   - component: {fileID: 33035976641318610}
   - component: {fileID: 23339777296422438}
   m_Layer: 0
-  m_Name: MatShape_37679
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -905,7 +905,7 @@ GameObject:
   - component: {fileID: 33011642063385876}
   - component: {fileID: 23549318790769972}
   m_Layer: 0
-  m_Name: Sleeves_Placket 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 33526419331113850}
   - component: {fileID: 23626169323338026}
   m_Layer: 0
-  m_Name: MatShape_35994
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 33217362548450946}
   - component: {fileID: 23071956665928614}
   m_Layer: 0
-  m_Name: Sleeves
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -956,7 +956,7 @@ GameObject:
   - component: {fileID: 33704317579635054}
   - component: {fileID: 23638750358089340}
   m_Layer: 0
-  m_Name: Sleeves 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -973,7 +973,7 @@ GameObject:
   - component: {fileID: 33271214747765264}
   - component: {fileID: 23606683515172540}
   m_Layer: 0
-  m_Name: MatShape_24848
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -990,7 +990,7 @@ GameObject:
   - component: {fileID: 33950931645166352}
   - component: {fileID: 23161121370080710}
   m_Layer: 0
-  m_Name: MatShape_35974
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1007,7 +1007,7 @@ GameObject:
   - component: {fileID: 33935261998603602}
   - component: {fileID: 23938744529996308}
   m_Layer: 0
-  m_Name: Pattern2D_885457
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 33759074613429320}
   - component: {fileID: 23249034258872058}
   m_Layer: 0
-  m_Name: Collar_Stand
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,7 +1041,7 @@ GameObject:
   - component: {fileID: 33699644265658362}
   - component: {fileID: 23485704576537406}
   m_Layer: 0
-  m_Name: MatShape_26093
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,7 +1058,7 @@ GameObject:
   - component: {fileID: 33427434511790348}
   - component: {fileID: 23425082676235586}
   m_Layer: 0
-  m_Name: Collar_Stand
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1075,7 +1075,7 @@ GameObject:
   - component: {fileID: 33301289191942120}
   - component: {fileID: 23254641734358886}
   m_Layer: 0
-  m_Name: Body_Front
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1092,7 +1092,7 @@ GameObject:
   - component: {fileID: 33712840061990672}
   - component: {fileID: 23443749244200084}
   m_Layer: 0
-  m_Name: Body_Front 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1109,7 +1109,7 @@ GameObject:
   - component: {fileID: 33406685746157378}
   - component: {fileID: 23991097271870986}
   m_Layer: 0
-  m_Name: MatShape_24847
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 33850501005410466}
   - component: {fileID: 23478770012032414}
   m_Layer: 0
-  m_Name: MatShape_35982
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1143,7 +1143,7 @@ GameObject:
   - component: {fileID: 33498731805970042}
   - component: {fileID: 23363777976263538}
   m_Layer: 0
-  m_Name: MatShape_36826
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 33464546041292782}
   - component: {fileID: 23927483310137532}
   m_Layer: 0
-  m_Name: Body_Front
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 33072842027378480}
   - component: {fileID: 23200680081924430}
   m_Layer: 0
-  m_Name: Collar
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1194,7 +1194,7 @@ GameObject:
   - component: {fileID: 33241957060725156}
   - component: {fileID: 23534548313523358}
   m_Layer: 0
-  m_Name: Collar
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1211,7 +1211,7 @@ GameObject:
   - component: {fileID: 33586548338057334}
   - component: {fileID: 23302062378841890}
   m_Layer: 0
-  m_Name: Sleeves_Panel
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1228,7 +1228,7 @@ GameObject:
   - component: {fileID: 33978338273932628}
   - component: {fileID: 23499806840406964}
   m_Layer: 0
-  m_Name: Sleeves_Placket
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1245,7 +1245,7 @@ GameObject:
   - component: {fileID: 33228624433513908}
   - component: {fileID: 23968592409218142}
   m_Layer: 0
-  m_Name: Sleeves
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1262,7 +1262,7 @@ GameObject:
   - component: {fileID: 33618849563131838}
   - component: {fileID: 23770204203763640}
   m_Layer: 0
-  m_Name: Sleeves_Panel 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1279,7 +1279,7 @@ GameObject:
   - component: {fileID: 33863256957592330}
   - component: {fileID: 23701501697425034}
   m_Layer: 0
-  m_Name: MatShape_36819
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1296,7 +1296,7 @@ GameObject:
   - component: {fileID: 33809379039054882}
   - component: {fileID: 23728673110700784}
   m_Layer: 0
-  m_Name: Sleeves_Panel
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1313,7 +1313,7 @@ GameObject:
   - component: {fileID: 33660751445795904}
   - component: {fileID: 23434207085627446}
   m_Layer: 0
-  m_Name: MatShape_26738
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1330,7 +1330,7 @@ GameObject:
   - component: {fileID: 33878680099563368}
   - component: {fileID: 23247531474352086}
   m_Layer: 0
-  m_Name: Sleeves_Placket
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 33738444545377154}
   - component: {fileID: 23039870518378312}
   m_Layer: 0
-  m_Name: MatShape_47420
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1364,7 +1364,7 @@ GameObject:
   - component: {fileID: 33531910605939294}
   - component: {fileID: 23612266650970076}
   m_Layer: 0
-  m_Name: Sleeves_Panel 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 33984972017009452}
   - component: {fileID: 23836867058837310}
   m_Layer: 0
-  m_Name: Cuffs 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1398,7 +1398,7 @@ GameObject:
   - component: {fileID: 33321417814630260}
   - component: {fileID: 23525622178523184}
   m_Layer: 0
-  m_Name: Pattern2D_885457
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1415,7 +1415,7 @@ GameObject:
   - component: {fileID: 33664490630516276}
   - component: {fileID: 23194875409482816}
   m_Layer: 0
-  m_Name: Sleeves
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1432,7 +1432,7 @@ GameObject:
   - component: {fileID: 33434607642306172}
   - component: {fileID: 23934842083214682}
   m_Layer: 0
-  m_Name: Cuffs
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1449,7 +1449,7 @@ GameObject:
   - component: {fileID: 33634727778652566}
   - component: {fileID: 23289090927189384}
   m_Layer: 0
-  m_Name: MatShape_24833
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1466,7 +1466,7 @@ GameObject:
   - component: {fileID: 33605001384656650}
   - component: {fileID: 23442100150614028}
   m_Layer: 0
-  m_Name: Sleeves_Panel 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1483,7 +1483,7 @@ GameObject:
   - component: {fileID: 33589879101729204}
   - component: {fileID: 23654619604878260}
   m_Layer: 0
-  m_Name: MatShape_24833
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 33388842845556718}
   - component: {fileID: 23422737766469540}
   m_Layer: 0
-  m_Name: MatShape_24841
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1517,7 +1517,7 @@ GameObject:
   - component: {fileID: 33345767145020176}
   - component: {fileID: 23371606940783428}
   m_Layer: 0
-  m_Name: MatShape_24819
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1534,7 +1534,7 @@ GameObject:
   - component: {fileID: 33351327139061200}
   - component: {fileID: 23537763926601032}
   m_Layer: 0
-  m_Name: Sleeves
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1551,7 +1551,7 @@ GameObject:
   - component: {fileID: 33642274013767048}
   - component: {fileID: 23990121174217160}
   m_Layer: 0
-  m_Name: Sleeves_Panel
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 33214057663013420}
   - component: {fileID: 23917711048573760}
   m_Layer: 0
-  m_Name: MatShape_26758
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 33658751890899344}
   - component: {fileID: 23840480036313764}
   m_Layer: 0
-  m_Name: Cuffs
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1602,7 +1602,7 @@ GameObject:
   - component: {fileID: 33046944938665434}
   - component: {fileID: 23296881946420380}
   m_Layer: 0
-  m_Name: Cuffs
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1619,7 +1619,7 @@ GameObject:
   - component: {fileID: 33386478958682036}
   - component: {fileID: 23134916060715802}
   m_Layer: 0
-  m_Name: MatShape_37672
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1636,7 +1636,7 @@ GameObject:
   - component: {fileID: 33260344015365488}
   - component: {fileID: 23491495198970286}
   m_Layer: 0
-  m_Name: Cuffs 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1653,7 +1653,7 @@ GameObject:
   - component: {fileID: 33409730609551714}
   - component: {fileID: 23355826818370682}
   m_Layer: 0
-  m_Name: Pattern2D_886447
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1670,7 +1670,7 @@ GameObject:
   - component: {fileID: 33444398835200970}
   - component: {fileID: 23199178527496802}
   m_Layer: 0
-  m_Name: MatShape_36834
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1687,7 +1687,7 @@ GameObject:
   - component: {fileID: 33331429681693842}
   - component: {fileID: 23534533761647720}
   m_Layer: 0
-  m_Name: Sleeves_Placket
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1720,7 +1720,7 @@ GameObject:
   - component: {fileID: 33144244758259042}
   - component: {fileID: 23496950769097800}
   m_Layer: 0
-  m_Name: MatShape_26085
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1737,7 +1737,7 @@ GameObject:
   - component: {fileID: 33846058493084104}
   - component: {fileID: 23506160483385430}
   m_Layer: 0
-  m_Name: Body_Front 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1770,7 +1770,7 @@ GameObject:
   - component: {fileID: 33984058032478096}
   - component: {fileID: 23478717292641900}
   m_Layer: 0
-  m_Name: MatShape_35966
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1787,7 +1787,7 @@ GameObject:
   - component: {fileID: 33025713984465812}
   - component: {fileID: 23296946788684632}
   m_Layer: 0
-  m_Name: MatShape_26730
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1836,7 +1836,7 @@ GameObject:
   - component: {fileID: 33557707801726992}
   - component: {fileID: 23972597380113378}
   m_Layer: 0
-  m_Name: MatShape_47395
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1853,7 +1853,7 @@ GameObject:
   - component: {fileID: 33911068328262234}
   - component: {fileID: 23458585348643754}
   m_Layer: 0
-  m_Name: MatShape_24861
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1870,7 +1870,7 @@ GameObject:
   - component: {fileID: 33162173754856198}
   - component: {fileID: 23681791286922030}
   m_Layer: 0
-  m_Name: Pattern2D_886447
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1887,7 +1887,7 @@ GameObject:
   - component: {fileID: 33709189201812336}
   - component: {fileID: 23966527562167112}
   m_Layer: 0
-  m_Name: MatShape_24842
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1904,7 +1904,7 @@ GameObject:
   - component: {fileID: 33093079626024258}
   - component: {fileID: 23373637645757050}
   m_Layer: 0
-  m_Name: Sleeves 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1921,7 +1921,7 @@ GameObject:
   - component: {fileID: 33589062086795602}
   - component: {fileID: 23136251121700888}
   m_Layer: 0
-  m_Name: MatShape_26746
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1938,7 +1938,7 @@ GameObject:
   - component: {fileID: 33803421070212586}
   - component: {fileID: 23553638927866332}
   m_Layer: 0
-  m_Name: MatShape_36839
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1955,7 +1955,7 @@ GameObject:
   - component: {fileID: 33355890004921078}
   - component: {fileID: 23518958381132410}
   m_Layer: 0
-  m_Name: MatShape_24827
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1972,7 +1972,7 @@ GameObject:
   - component: {fileID: 33221916208056764}
   - component: {fileID: 23485405291729072}
   m_Layer: 0
-  m_Name: MatShape_37699
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1989,7 +1989,7 @@ GameObject:
   - component: {fileID: 33546533660140878}
   - component: {fileID: 23899238748781546}
   m_Layer: 0
-  m_Name: MatShape_26113
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8244,7 +8244,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Classic Shirt
-  garmentprice: 
+  garmentprice: 100
   garmentdescription: 'The classic white shirt stays a great closet staple. Featured
     with a big collar and a French button placket. '
   skipFirstGroup: 0
@@ -8272,6 +8272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114375476962278150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8284,6 +8285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114741112315599760
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8296,6 +8298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114824872124807168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8308,3 +8311,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33415147223539308}
   - component: {fileID: 23345005400227988}
   m_Layer: 0
-  m_Name: Pattern2D_614027
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 33582608439481680}
   - component: {fileID: 23833085560789268}
   m_Layer: 0
-  m_Name: Pattern2D_322252
+  m_Name: Stripe 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 33983611886388680}
   - component: {fileID: 23956267255409540}
   m_Layer: 0
-  m_Name: Pattern2D_749386
+  m_Name: Button placket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 33048658085426474}
   - component: {fileID: 23492737488312196}
   m_Layer: 0
-  m_Name: MatShape_3836
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 33512910339294284}
   - component: {fileID: 23252063823583054}
   m_Layer: 0
-  m_Name: MatShape_3836
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 33213500995175594}
   - component: {fileID: 23339572013553516}
   m_Layer: 0
-  m_Name: Pattern2D_533010
+  m_Name: Collar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 33434864138110142}
   - component: {fileID: 23085884163098082}
   m_Layer: 0
-  m_Name: Pattern2D_420074
+  m_Name: Stripe 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 33026244744805652}
   - component: {fileID: 23029706962597582}
   m_Layer: 0
-  m_Name: Pattern2D_338536
+  m_Name: Stripe 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -445,7 +445,7 @@ GameObject:
   - component: {fileID: 33578679181096046}
   - component: {fileID: 23118103002029636}
   m_Layer: 0
-  m_Name: Pattern2D_420063
+  m_Name: Stripe 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 33820042617206278}
   - component: {fileID: 23818884881721438}
   m_Layer: 0
-  m_Name: Pattern2D_322252
+  m_Name: Stripe 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 33585803472024038}
   - component: {fileID: 23140839337835824}
   m_Layer: 0
-  m_Name: Pattern2D_420063
+  m_Name: Stripe 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -699,7 +699,7 @@ GameObject:
   - component: {fileID: 33703141007444476}
   - component: {fileID: 23605034842315668}
   m_Layer: 0
-  m_Name: Pattern2D_338536
+  m_Name: Stripe 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -851,7 +851,7 @@ GameObject:
   - component: {fileID: 33748660465107138}
   - component: {fileID: 23211400610934596}
   m_Layer: 0
-  m_Name: Pattern2D_338536
+  m_Name: Stripe 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -868,7 +868,7 @@ GameObject:
   - component: {fileID: 33099084401091248}
   - component: {fileID: 23393916208839500}
   m_Layer: 0
-  m_Name: Pattern2D_420074
+  m_Name: Stripe 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 33439447195677204}
   - component: {fileID: 23180906729135664}
   m_Layer: 0
-  m_Name: Pattern2D_420052
+  m_Name: Stripe 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -987,7 +987,7 @@ GameObject:
   - component: {fileID: 33541316646744800}
   - component: {fileID: 23371947635792944}
   m_Layer: 0
-  m_Name: Pattern2D_338536
+  m_Name: Stripe 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1055,7 +1055,7 @@ GameObject:
   - component: {fileID: 33049845107314668}
   - component: {fileID: 23472256294677136}
   m_Layer: 0
-  m_Name: Pattern2D_533010
+  m_Name: Collar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1157,7 +1157,7 @@ GameObject:
   - component: {fileID: 33263703471833408}
   - component: {fileID: 23521240920813804}
   m_Layer: 0
-  m_Name: MatShape_3836
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 33669201443415058}
   - component: {fileID: 23436573477027966}
   m_Layer: 0
-  m_Name: MatShape_3836
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1310,7 +1310,7 @@ GameObject:
   - component: {fileID: 33384758278404316}
   - component: {fileID: 23580249785736638}
   m_Layer: 0
-  m_Name: Pattern2D_749386
+  m_Name: Button placket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 33096920004770360}
   - component: {fileID: 23285652203796318}
   m_Layer: 0
-  m_Name: Pattern2D_420052
+  m_Name: Stripe 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 33751173422664524}
   - component: {fileID: 23123774048927424}
   m_Layer: 0
-  m_Name: Pattern2D_614027
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1429,7 +1429,7 @@ GameObject:
   - component: {fileID: 33465306285077766}
   - component: {fileID: 23600850104035370}
   m_Layer: 0
-  m_Name: Pattern2D_420052
+  m_Name: Stripe 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1446,7 +1446,7 @@ GameObject:
   - component: {fileID: 33663458481733918}
   - component: {fileID: 23841231254382502}
   m_Layer: 0
-  m_Name: Pattern2D_614027
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1514,7 +1514,7 @@ GameObject:
   - component: {fileID: 33284440517967820}
   - component: {fileID: 23424131107915958}
   m_Layer: 0
-  m_Name: Pattern2D_322252
+  m_Name: Stripe 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1531,7 +1531,7 @@ GameObject:
   - component: {fileID: 33446632137488378}
   - component: {fileID: 23236563267963618}
   m_Layer: 0
-  m_Name: Pattern2D_420074
+  m_Name: Stripe 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1718,7 +1718,7 @@ GameObject:
   - component: {fileID: 33570515590909430}
   - component: {fileID: 23805086946587484}
   m_Layer: 0
-  m_Name: Pattern2D_614027
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1854,7 +1854,7 @@ GameObject:
   - component: {fileID: 33369807672456648}
   - component: {fileID: 23876800428746640}
   m_Layer: 0
-  m_Name: Pattern2D_322252
+  m_Name: Stripe 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1888,7 +1888,7 @@ GameObject:
   - component: {fileID: 33323859832952232}
   - component: {fileID: 23037458117443100}
   m_Layer: 0
-  m_Name: Pattern2D_533010
+  m_Name: Collar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2075,7 +2075,7 @@ GameObject:
   - component: {fileID: 33141106382543402}
   - component: {fileID: 23069957422217900}
   m_Layer: 0
-  m_Name: Pattern2D_746059
+  m_Name: Button placket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2160,7 +2160,7 @@ GameObject:
   - component: {fileID: 33718611644948730}
   - component: {fileID: 23719010021042942}
   m_Layer: 0
-  m_Name: Pattern2D_420063
+  m_Name: Stripe 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2210,7 +2210,7 @@ GameObject:
   - component: {fileID: 33023376826406532}
   - component: {fileID: 23489649831190206}
   m_Layer: 0
-  m_Name: Pattern2D_420063
+  m_Name: Stripe 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2295,7 +2295,7 @@ GameObject:
   - component: {fileID: 33663155486727496}
   - component: {fileID: 23965363566122960}
   m_Layer: 0
-  m_Name: Pattern2D_746059
+  m_Name: Button placket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2312,7 +2312,7 @@ GameObject:
   - component: {fileID: 33353024390546148}
   - component: {fileID: 23944753505201814}
   m_Layer: 0
-  m_Name: Pattern2D_420052
+  m_Name: Stripe 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2329,7 +2329,7 @@ GameObject:
   - component: {fileID: 33858155143047448}
   - component: {fileID: 23030511719740302}
   m_Layer: 0
-  m_Name: Pattern2D_420074
+  m_Name: Stripe 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2380,7 +2380,7 @@ GameObject:
   - component: {fileID: 33472831502100040}
   - component: {fileID: 23830018523627604}
   m_Layer: 0
-  m_Name: Pattern2D_533010
+  m_Name: Collar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9964,6 +9964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114160412642390098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9984,7 +9985,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Striped Shortsleeve
-  garmentprice: 
+  garmentprice: 100
   garmentdescription: This oversized sweatshirt is a true feel good style. Woven with
     rainbow stripes changeable to your preference.
   skipFirstGroup: 0
@@ -10009,6 +10010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114516188782584990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10021,6 +10023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114798958543552718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10033,3 +10036,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

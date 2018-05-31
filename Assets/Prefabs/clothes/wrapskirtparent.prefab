@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 33392934645897612}
   - component: {fileID: 23231143985143090}
   m_Layer: 0
-  m_Name: Pattern2D_50967
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 33739842467258468}
   - component: {fileID: 23078213558460880}
   m_Layer: 0
-  m_Name: Pattern2D_50967
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 33048279370610654}
   - component: {fileID: 23643771266974878}
   m_Layer: 0
-  m_Name: Pattern2D_50967
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 33015974603522496}
   - component: {fileID: 23710127809937906}
   m_Layer: 0
-  m_Name: Pattern2D_50967
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 33835202072253786}
   - component: {fileID: 23170608591736956}
   m_Layer: 0
-  m_Name: MatShape_17942
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -714,7 +714,7 @@ GameObject:
   - component: {fileID: 33016189193110282}
   - component: {fileID: 23845257972595400}
   m_Layer: 0
-  m_Name: MatShape_17942
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 33771366934825942}
   - component: {fileID: 23361507979071682}
   m_Layer: 0
-  m_Name: MatShape_17942
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -918,7 +918,7 @@ GameObject:
   - component: {fileID: 33859246697906406}
   - component: {fileID: 23903207197475916}
   m_Layer: 0
-  m_Name: MatShape_17942
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3924,7 +3924,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Wrap Skirt
-  garmentprice: 
+  garmentprice: 100
   garmentdescription: 'The Wrap Skirt is made from a 100% organic cotton twill. Fitted
     with a button closure, this wrap style is finished with a front patch pocket. '
   skipFirstGroup: 0
@@ -3949,6 +3949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114541179086092630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3961,6 +3962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114587073947908616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3973,6 +3975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114615883539843288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3985,3 +3988,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

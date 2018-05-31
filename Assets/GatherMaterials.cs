@@ -6,6 +6,7 @@ using System.Linq;
 public class GatherMaterials : MonoBehaviour {
 
     public List<Material> mats;
+    public List<string> groupnames;
     SizeManager sm;
 
     private List<List<GameObject>> grouplist = new List<List<GameObject>>();
@@ -40,6 +41,7 @@ public class GatherMaterials : MonoBehaviour {
             {
                 mats.Add(mr.material);
                 addChildAtIndex(child.gameObject, mats.Count - 1);
+                groupnames.Add(child.name);
             }
         }
         
@@ -90,6 +92,11 @@ public class GatherMaterials : MonoBehaviour {
             case 8: group9.Add(child.gameObject); break;
             case 9: group10.Add(child.gameObject); break;
         }
+    }
+
+    public List<string> GetGroupNames()
+    {
+        return groupnames;
     }
 
     public Material GetMatByIndex(int index)

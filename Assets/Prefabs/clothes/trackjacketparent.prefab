@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33106598520236988}
   - component: {fileID: 23624256045863434}
   m_Layer: 0
-  m_Name: Pattern2D_3808740
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 33085563662756074}
   - component: {fileID: 23953131460093234}
   m_Layer: 0
-  m_Name: 29
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 33323942928503666}
   - component: {fileID: 23174206158470932}
   m_Layer: 0
-  m_Name: Pattern2D_3808740
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -633,7 +633,7 @@ GameObject:
   - component: {fileID: 33720444605707830}
   - component: {fileID: 23813996967993048}
   m_Layer: 0
-  m_Name: Pattern2D_3808740
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 33386011938353566}
   - component: {fileID: 23062407659182340}
   m_Layer: 0
-  m_Name: 29
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 33580340411533328}
   - component: {fileID: 23083055949684108}
   m_Layer: 0
-  m_Name: 29
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1089,7 +1089,7 @@ GameObject:
   - component: {fileID: 33909076486575416}
   - component: {fileID: 23824672230421262}
   m_Layer: 0
-  m_Name: 29
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,7 +1106,7 @@ GameObject:
   - component: {fileID: 33159996141734014}
   - component: {fileID: 23817063729829698}
   m_Layer: 0
-  m_Name: Pattern2D_3808740
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5644,6 +5644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114162755274058458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5656,6 +5657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114536058071853260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5676,7 +5678,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Track Jacket
-  garmentprice: 
+  garmentprice: 150
   garmentdescription: Track Jacket features a relaxed silhouette with a contrast stripe
     across the chest, and an elastic collar and hem.
   skipFirstGroup: 0
@@ -5701,6 +5703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114737051861603306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5713,3 +5716,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

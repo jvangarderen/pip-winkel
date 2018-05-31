@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 33786680937199730}
   - component: {fileID: 23903541762573524}
   m_Layer: 0
-  m_Name: Pattern2D_556758
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 33029040508327830}
   - component: {fileID: 23021080868561540}
   m_Layer: 0
-  m_Name: Pattern2D_408223
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 33975325505482442}
   - component: {fileID: 23594330086773092}
   m_Layer: 0
-  m_Name: Pattern2D_408223
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 33181194070644690}
   - component: {fileID: 23422309392052424}
   m_Layer: 0
-  m_Name: Pattern2D_408223
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 33550091875768010}
   - component: {fileID: 23901425715769552}
   m_Layer: 0
-  m_Name: Pattern2D_556758
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 33829139189335948}
   - component: {fileID: 23099765050286150}
   m_Layer: 0
-  m_Name: Pattern2D_408223
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 33081282382169538}
   - component: {fileID: 23376468927147690}
   m_Layer: 0
-  m_Name: Pattern2D_556758
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -868,7 +868,7 @@ GameObject:
   - component: {fileID: 33348749668634664}
   - component: {fileID: 23499058592180332}
   m_Layer: 0
-  m_Name: Pattern2D_556758
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3628,6 +3628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114232700941421612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3640,6 +3641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114496460828095818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3659,6 +3661,11 @@ MonoBehaviour:
   garments: []
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
+  garmentname: Swimsuit
+  garmentprice: 70
+  garmentdescription: 'This Swimsuit is crafted from a smoothing stretch fabric where
+    the colours are changeable to your liking. Designed without hardware or wiring
+    for a comfortable finish.  '
   skipFirstGroup: 0
   mats:
   - {fileID: 2100000, guid: a8fee122d676ddc4281b1095c2068178, type: 2}
@@ -3684,6 +3691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114949796094540884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3696,3 +3704,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

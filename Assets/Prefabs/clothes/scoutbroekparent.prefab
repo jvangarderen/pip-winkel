@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33777025373310292}
   - component: {fileID: 23940493798665938}
   m_Layer: 0
-  m_Name: OPC00WAB4
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33603061097979344}
   - component: {fileID: 23100928978321360}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 33966125756629472}
   - component: {fileID: 23932995403037852}
   m_Layer: 0
-  m_Name: MatShape_7177
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 33465378314468630}
   - component: {fileID: 23672341613901400}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 33739982067885948}
   - component: {fileID: 23256387311012874}
   m_Layer: 0
-  m_Name: MatShape_7189
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 33983578540947082}
   - component: {fileID: 23962977628295304}
   m_Layer: 0
-  m_Name: MatShape_8686
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 33457606717539726}
   - component: {fileID: 23946815751534970}
   m_Layer: 0
-  m_Name: MatShape_5893
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 33819556976956692}
   - component: {fileID: 23993760404712282}
   m_Layer: 0
-  m_Name: MatShape_5896
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 33804904213610146}
   - component: {fileID: 23350239507163618}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 33766295580675674}
   - component: {fileID: 23377633657988490}
   m_Layer: 0
-  m_Name: OPC00WAB4
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 33845635394077042}
   - component: {fileID: 23841196695414386}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -971,7 +971,7 @@ GameObject:
   - component: {fileID: 33379471290036040}
   - component: {fileID: 23463094827674048}
   m_Layer: 0
-  m_Name: MatShape_8643
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1039,7 +1039,7 @@ GameObject:
   - component: {fileID: 33813431664595138}
   - component: {fileID: 23305314541095450}
   m_Layer: 0
-  m_Name: MatShape_8640
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1056,7 +1056,7 @@ GameObject:
   - component: {fileID: 33949872118295410}
   - component: {fileID: 23477943006292484}
   m_Layer: 0
-  m_Name: MatShape_7186
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1413,7 +1413,7 @@ GameObject:
   - component: {fileID: 33121168930761554}
   - component: {fileID: 23163485378319092}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1532,7 +1532,7 @@ GameObject:
   - component: {fileID: 33079882316751158}
   - component: {fileID: 23235972232866524}
   m_Layer: 0
-  m_Name: Pattern2D_766547
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2144,7 +2144,7 @@ GameObject:
   - component: {fileID: 33775365139667742}
   - component: {fileID: 23917584895817944}
   m_Layer: 0
-  m_Name: MatShape_8681
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2246,7 +2246,7 @@ GameObject:
   - component: {fileID: 33270334543083068}
   - component: {fileID: 23285813183786262}
   m_Layer: 0
-  m_Name: OPC00WAB4
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 33998981317934840}
   - component: {fileID: 23481859985851036}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2432,7 +2432,7 @@ GameObject:
   - component: {fileID: 33206446741588310}
   - component: {fileID: 23469135434787928}
   m_Layer: 0
-  m_Name: MatShape_8683
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2653,7 +2653,7 @@ GameObject:
   - component: {fileID: 33516594860779332}
   - component: {fileID: 23547511465811732}
   m_Layer: 0
-  m_Name: MatShape_5884
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2737,7 +2737,7 @@ GameObject:
   - component: {fileID: 33711736049692010}
   - component: {fileID: 23222997024333654}
   m_Layer: 0
-  m_Name: MatShape_8631
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2856,7 +2856,7 @@ GameObject:
   - component: {fileID: 33281653229407528}
   - component: {fileID: 23753311486881990}
   m_Layer: 0
-  m_Name: MatShape_5874
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2890,7 +2890,7 @@ GameObject:
   - component: {fileID: 33657641885996920}
   - component: {fileID: 23753466877779896}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2907,7 +2907,7 @@ GameObject:
   - component: {fileID: 33370731322499956}
   - component: {fileID: 23700617135283780}
   m_Layer: 0
-  m_Name: MatShape_8674
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2992,7 +2992,7 @@ GameObject:
   - component: {fileID: 33560457353065254}
   - component: {fileID: 23401265213727766}
   m_Layer: 0
-  m_Name: OPC00WAB4
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12564,7 +12564,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Scout Pants
-  garmentprice: 
+  garmentprice: 150,-
   garmentdescription: 'Weather is a unpredictable thing. This pants features a button
     on/off bottom part. Handy when you are warm or have to cross a river. You never
     know. '
@@ -12586,6 +12586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114394520103499316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12598,6 +12599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114455248874349420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12610,6 +12612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114640680813304922
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12622,3 +12625,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

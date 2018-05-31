@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33491243008133270}
   - component: {fileID: 23676029548660364}
   m_Layer: 0
-  m_Name: MatShape_6222
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33405501383147196}
   - component: {fileID: 23294843497710020}
   m_Layer: 0
-  m_Name: Pattern2D_766542
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33096136612745770}
   - component: {fileID: 23936011072722796}
   m_Layer: 0
-  m_Name: Pattern2D_766542
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 33515463655329060}
   - component: {fileID: 23591123405684894}
   m_Layer: 0
-  m_Name: MatShape_7884
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 33281754791335520}
   - component: {fileID: 23872778229611034}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 33773775928797820}
   - component: {fileID: 23509677465254928}
   m_Layer: 0
-  m_Name: Pattern2D_766549
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 33864874940774354}
   - component: {fileID: 23397712576381806}
   m_Layer: 0
-  m_Name: Pattern2D_766543
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 33493959389905666}
   - component: {fileID: 23455136243004310}
   m_Layer: 0
-  m_Name: MatShape_7890
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 33345746202848512}
   - component: {fileID: 23978403063387212}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 33203792902200672}
   - component: {fileID: 23827443593463194}
   m_Layer: 0
-  m_Name: Pattern2D_766544
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 33665596549628208}
   - component: {fileID: 23743597744024400}
   m_Layer: 0
-  m_Name: Pattern2D_766548
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 33733796257761890}
   - component: {fileID: 23524257828408372}
   m_Layer: 0
-  m_Name: AMFI BAP_2
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 33312913880196868}
   - component: {fileID: 23202846843560906}
   m_Layer: 0
-  m_Name: OPC00WAB4
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 33558128224064672}
   - component: {fileID: 23426222457474716}
   m_Layer: 0
-  m_Name: FLL_3
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 33665324509562652}
   - component: {fileID: 23627262372133110}
   m_Layer: 0
-  m_Name: Pattern2D_766547
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 33746121167258678}
   - component: {fileID: 23099281017584094}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 33053150443351536}
   - component: {fileID: 23863387203209490}
   m_Layer: 0
-  m_Name: OPC00WAB4
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 33602762093644456}
   - component: {fileID: 23759775349537362}
   m_Layer: 0
-  m_Name: MatShape_6771
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 33771080579136492}
   - component: {fileID: 23879683831011894}
   m_Layer: 0
-  m_Name: Pattern2D_766547
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 33845464842878334}
   - component: {fileID: 23645482661895148}
   m_Layer: 0
-  m_Name: AMFI BAP_3
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 33317457592736190}
   - component: {fileID: 23588248878612748}
   m_Layer: 0
-  m_Name: AMFI BAP_3
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 33775565997570792}
   - component: {fileID: 23014504799275874}
   m_Layer: 0
-  m_Name: Pattern2D_766543
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 33154326479992236}
   - component: {fileID: 23732816084399848}
   m_Layer: 0
-  m_Name: Pattern2D_766543
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 33459304340550250}
   - component: {fileID: 23885323161747192}
   m_Layer: 0
-  m_Name: MatShape_7866
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 33627791743797800}
   - component: {fileID: 23493367532255414}
   m_Layer: 0
-  m_Name: Pattern2D_766544
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 33678931236500106}
   - component: {fileID: 23806856469564846}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 33304849879512788}
   - component: {fileID: 23762154709371754}
   m_Layer: 0
-  m_Name: Pattern2D_766547
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -513,7 +513,7 @@ GameObject:
   - component: {fileID: 33002726654832692}
   - component: {fileID: 23677617984494828}
   m_Layer: 0
-  m_Name: Pattern2D_766547
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 33726622400187682}
   - component: {fileID: 23524776569165966}
   m_Layer: 0
-  m_Name: OPC00WAB4
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 33597407632726830}
   - component: {fileID: 23960853840784430}
   m_Layer: 0
-  m_Name: AMFI BAP_3
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 33712138930498112}
   - component: {fileID: 23567344372843668}
   m_Layer: 0
-  m_Name: Pattern2D_766548
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 33969799125323932}
   - component: {fileID: 23861205126836462}
   m_Layer: 0
-  m_Name: Pattern2D_766544
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 33098098702617416}
   - component: {fileID: 23927787314757282}
   m_Layer: 0
-  m_Name: MatShape_6783
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 33133176719943856}
   - component: {fileID: 23303618056820692}
   m_Layer: 0
-  m_Name: Pattern2D_766548
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ GameObject:
   - component: {fileID: 33358082264515556}
   - component: {fileID: 23090221894827934}
   m_Layer: 0
-  m_Name: Pattern2D_766549
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 33347190689744298}
   - component: {fileID: 23716178580747356}
   m_Layer: 0
-  m_Name: Pattern2D_766544
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 33289847633359722}
   - component: {fileID: 23102013396044930}
   m_Layer: 0
-  m_Name: Pattern2D_766549
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -683,7 +683,7 @@ GameObject:
   - component: {fileID: 33308989276107838}
   - component: {fileID: 23079769218049170}
   m_Layer: 0
-  m_Name: Pattern2D_766545
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 33521643327009034}
   - component: {fileID: 23908158978812460}
   m_Layer: 0
-  m_Name: AMFI BAP_2
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -717,7 +717,7 @@ GameObject:
   - component: {fileID: 33471573367004030}
   - component: {fileID: 23604718010216336}
   m_Layer: 0
-  m_Name: FLL_3
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 33699180566510278}
   - component: {fileID: 23364888218794964}
   m_Layer: 0
-  m_Name: Pattern2D_766542
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 33776942937754540}
   - component: {fileID: 23148900995141446}
   m_Layer: 0
-  m_Name: AMFI BAP_2
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -784,7 +784,7 @@ GameObject:
   - component: {fileID: 33896394042708432}
   - component: {fileID: 23112222474976044}
   m_Layer: 0
-  m_Name: Pattern2D_766542
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -801,7 +801,7 @@ GameObject:
   - component: {fileID: 33326001558206224}
   - component: {fileID: 23293679514569578}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 33797400627338370}
   - component: {fileID: 23233378015735976}
   m_Layer: 0
-  m_Name: AMFI BAP_2
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 33447125342971574}
   - component: {fileID: 23130120911311660}
   m_Layer: 0
-  m_Name: Pattern2D_766548
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -852,7 +852,7 @@ GameObject:
   - component: {fileID: 33064410999159804}
   - component: {fileID: 23409179448328496}
   m_Layer: 0
-  m_Name: AMFI BAP_3
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -869,7 +869,7 @@ GameObject:
   - component: {fileID: 33702831294678180}
   - component: {fileID: 23544717064523634}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -886,7 +886,7 @@ GameObject:
   - component: {fileID: 33645959794456584}
   - component: {fileID: 23683984402812942}
   m_Layer: 0
-  m_Name: Pattern2D_766545
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 33169654126734356}
   - component: {fileID: 23638431314302306}
   m_Layer: 0
-  m_Name: MatShape_6213
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 33732931699800692}
   - component: {fileID: 23163630460772506}
   m_Layer: 0
-  m_Name: MatShape_7990
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 33231667277419118}
   - component: {fileID: 23102451149304242}
   m_Layer: 0
-  m_Name: FLL_3
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -970,7 +970,7 @@ GameObject:
   - component: {fileID: 33956477707432758}
   - component: {fileID: 23577833960322956}
   m_Layer: 0
-  m_Name: Pattern2D_766545
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -987,7 +987,7 @@ GameObject:
   - component: {fileID: 33115583366019834}
   - component: {fileID: 23989044956229932}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1004,7 +1004,7 @@ GameObject:
   - component: {fileID: 33692683174531706}
   - component: {fileID: 23619689736724474}
   m_Layer: 0
-  m_Name: Pattern2D_766549
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 33991454323958400}
   - component: {fileID: 23172830194158916}
   m_Layer: 0
-  m_Name: FLL_3
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 33947000939891116}
   - component: {fileID: 23701181442036818}
   m_Layer: 0
-  m_Name: Pattern2D_766545
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 33801079139200326}
   - component: {fileID: 23872248166659610}
   m_Layer: 0
-  m_Name: OPC00WAB4
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 33031433311389474}
   - component: {fileID: 23980606611696428}
   m_Layer: 0
-  m_Name: Pattern2D_766543
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1105,7 +1105,7 @@ GameObject:
   - component: {fileID: 33103480133504188}
   - component: {fileID: 23422990657535262}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4492,6 +4492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114378756148562402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4504,6 +4505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114452156738517920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4516,6 +4518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114577023084077052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4528,6 +4531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114863851020906590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4548,7 +4552,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Classic Straight Leg
-  garmentprice: 
+  garmentprice: 150
   garmentdescription: This classic straight pants is the safest choice to wear a more
     casual look. Features a buttoned waistband and an hidden button closure.
   skipFirstGroup: 0

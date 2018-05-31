@@ -126,6 +126,11 @@ public class SizeManager : MonoBehaviour {
         mats = mat;
     }
 
+    public List<string> GetGroupNames()
+    {
+        return gatherMats.GetGroupNames();
+    }
+
     public int GetGroupNumber()
     {
         int count;

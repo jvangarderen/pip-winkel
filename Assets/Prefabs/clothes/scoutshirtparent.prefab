@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 33046730012370606}
   - component: {fileID: 23854158641912704}
   m_Layer: 0
-  m_Name: MatShape_24810
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 33960510110786386}
   - component: {fileID: 23934197991856414}
   m_Layer: 0
-  m_Name: MatShape_24784
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 33960888755798944}
   - component: {fileID: 23931846390643346}
   m_Layer: 0
-  m_Name: 9
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 33320977223928986}
   - component: {fileID: 23334168991949764}
   m_Layer: 0
-  m_Name: 9
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1020,7 +1020,7 @@ GameObject:
   - component: {fileID: 33638058783740680}
   - component: {fileID: 23933015789423688}
   m_Layer: 0
-  m_Name: MatShape_24820
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 33653304016564150}
   - component: {fileID: 23968095566634920}
   m_Layer: 0
-  m_Name: MatShape_24764
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 33773019827689358}
   - component: {fileID: 23014817507529402}
   m_Layer: 0
-  m_Name: 9
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 33401290513734092}
   - component: {fileID: 23459606982718670}
   m_Layer: 0
-  m_Name: 9
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1655,8 +1655,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1074101671699278}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.25, z: 0}
+  m_LocalRotation: {x: -0.53553987, y: 0.3281619, z: -0.43357414, w: 0.6461581}
+  m_LocalPosition: {x: 75.6, y: 104.9, z: 25.7}
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children:
   - {fileID: 4048805019661798}
@@ -1665,7 +1665,7 @@ Transform:
   - {fileID: 4687373876002616}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -24.049002, y: 76.64001, z: -86.83501}
 --- !u!4 &4407705278393496
 Transform:
   m_ObjectHideFlags: 1
@@ -5068,6 +5068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114395049272222644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5080,6 +5081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114418829819265202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5100,7 +5102,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Scout Shirt
-  garmentprice: 
+  garmentprice: 100
   garmentdescription: Vintage Boy Scout shirts. How cool are they! This shirt celebrates
     outdoor fun. Ideal for layering or worn on its own.
   skipFirstGroup: 0
@@ -5121,6 +5123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114911944394063594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5133,3 +5136,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

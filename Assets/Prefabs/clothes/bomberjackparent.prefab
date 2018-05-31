@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33230133295316822}
   - component: {fileID: 23096300004125996}
   m_Layer: 0
-  m_Name: MatShape_11507
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 33522276620296646}
   - component: {fileID: 23429522591823900}
   m_Layer: 0
-  m_Name: MatShape_6337
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 33737792127879944}
   - component: {fileID: 23652560049898000}
   m_Layer: 0
-  m_Name: MatShape_6337
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 33494978879299880}
   - component: {fileID: 23656381004929456}
   m_Layer: 0
-  m_Name: MatShape_11355
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1039,7 +1039,7 @@ GameObject:
   - component: {fileID: 33604717538884738}
   - component: {fileID: 23440332012496976}
   m_Layer: 0
-  m_Name: MatShape_6337
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1224,7 +1224,7 @@ GameObject:
   - component: {fileID: 33952269477508790}
   - component: {fileID: 23067782361998474}
   m_Layer: 0
-  m_Name: MatShape_11593
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1275,7 +1275,7 @@ GameObject:
   - component: {fileID: 33749145939481758}
   - component: {fileID: 23991337453844090}
   m_Layer: 0
-  m_Name: MatShape_6337
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1343,7 +1343,7 @@ GameObject:
   - component: {fileID: 33413225455779238}
   - component: {fileID: 23017411900061986}
   m_Layer: 0
-  m_Name: MatShape_11375
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6516,7 +6516,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Bomber Jacket
-  garmentprice: 
+  garmentprice: 250
   garmentdescription: This jacket features a low neck and relaxed fit with a cinched
     waist. Sleeves are crimped to give it a more elegant look.
   skipFirstGroup: 0
@@ -6539,6 +6539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114442411333584170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6551,6 +6552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114821628733906742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6563,6 +6565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114868578814519290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6575,3 +6578,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

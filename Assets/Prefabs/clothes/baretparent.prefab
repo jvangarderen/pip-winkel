@@ -591,7 +591,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Beret
-  garmentprice: 
+  garmentprice: 25
   garmentdescription: 'Crafted from smooth canvas, this style slips on and off and
     is complete with adjustable buttons. '
   skipFirstGroup: 0
@@ -612,3 +612,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

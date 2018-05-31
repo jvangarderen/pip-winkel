@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 33556127806596600}
   - component: {fileID: 23332482926633278}
   m_Layer: 0
-  m_Name: 24
+  m_Name: Sleeves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 33631353164188086}
   - component: {fileID: 23345509828426138}
   m_Layer: 0
-  m_Name: 24
+  m_Name: Sleeves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 33055350986795574}
   - component: {fileID: 23741712142732364}
   m_Layer: 0
-  m_Name: 24
+  m_Name: Sleeves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3026,7 +3026,7 @@ GameObject:
   - component: {fileID: 33085847657624364}
   - component: {fileID: 23955554619992808}
   m_Layer: 0
-  m_Name: 24
+  m_Name: Sleeves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15148,6 +15148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114368569375869568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15160,6 +15161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114437763939749442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15172,6 +15174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114578453252549924
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15192,7 +15195,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Pleated Coat
-  garmentprice: 
+  garmentprice: 300
   garmentdescription: This long double breasted coat is inspired by the military trenchcoat.
     Features more movability due to knife pleats in the side seams.
   skipFirstGroup: 0
@@ -15216,3 +15219,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

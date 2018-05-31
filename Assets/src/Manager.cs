@@ -218,10 +218,10 @@ public class Manager : MonoBehaviour
         int count = sm.GetGroupNumber();
         dropdown.options.Clear();
        // dropdown.ClearOptions();
-        groupsnames = new List<string>();
+        groupsnames = sm.GetGroupNames();
         for (int i = 0; i < count; i++)
         {
-            groupsnames.Add("garment group "+(i+1).ToString());
+            //groupsnames.Add("garment group "+(i+1).ToString());
         }
         dropdown.AddOptions(groupsnames);
         DropDown_IndexChanged(0);

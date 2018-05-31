@@ -3340,6 +3340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114240297358188832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3352,6 +3353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114264041328040142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3364,6 +3366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114333321552207436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3376,6 +3379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114808243100800146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3396,7 +3400,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Hoodie
-  garmentprice: 
+  garmentprice: 120
   garmentdescription: This hoodie features an fitted silhouette with a rib-knit trim,
     made from super-soft organic cotton.
   skipFirstGroup: 0

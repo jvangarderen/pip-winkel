@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33094728452876312}
   - component: {fileID: 23967034183613172}
   m_Layer: 0
-  m_Name: Pattern2D_39372
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33134002148957250}
   - component: {fileID: 23547838538164676}
   m_Layer: 0
-  m_Name: Pattern2D_8058 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33106923676695766}
   - component: {fileID: 23588128045880436}
   m_Layer: 0
-  m_Name: Pattern2D_41148 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 33904603365095546}
   - component: {fileID: 23192797451494840}
   m_Layer: 0
-  m_Name: Pattern2D_41204
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 33811600345952634}
   - component: {fileID: 23703984372040282}
   m_Layer: 0
-  m_Name: Pattern2D_41137
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 33622624449925164}
   - component: {fileID: 23168898536608244}
   m_Layer: 0
-  m_Name: Pattern2D_41202 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 33456425138714340}
   - component: {fileID: 23534501699392166}
   m_Layer: 0
-  m_Name: Pattern2D_8058
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 33098490420175738}
   - component: {fileID: 23828493620322754}
   m_Layer: 0
-  m_Name: Pattern2D_41191 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 33830785786159024}
   - component: {fileID: 23098471696091592}
   m_Layer: 0
-  m_Name: Pattern2D_41202
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 33500445708663274}
   - component: {fileID: 23506462344661578}
   m_Layer: 0
-  m_Name: Pattern2D_57889
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 33415066377685968}
   - component: {fileID: 23506409747727070}
   m_Layer: 0
-  m_Name: Pattern2D_41203
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 33488802983638548}
   - component: {fileID: 23596855580653018}
   m_Layer: 0
-  m_Name: Pattern2D_39371
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 33076940084900396}
   - component: {fileID: 23839546490449068}
   m_Layer: 0
-  m_Name: Pattern2D_41191
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 33004381999102406}
   - component: {fileID: 23502726447102456}
   m_Layer: 0
-  m_Name: Pattern2D_57889 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 33018656534826512}
   - component: {fileID: 23951664160112768}
   m_Layer: 0
-  m_Name: MatShape_6012
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 33554673988948174}
   - component: {fileID: 23879342915850346}
   m_Layer: 0
-  m_Name: Pattern2D_41148
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 33152984791764698}
   - component: {fileID: 23311140310900476}
   m_Layer: 0
-  m_Name: MatShape_5072
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 33482638311957778}
   - component: {fileID: 23311164526706986}
   m_Layer: 0
-  m_Name: Pattern2D_41137 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 33458995788248742}
   - component: {fileID: 23015761169062462}
   m_Layer: 0
-  m_Name: Pattern2D_57888
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 33030141444505754}
   - component: {fileID: 23876148387295660}
   m_Layer: 0
-  m_Name: MatShape_6020
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 33149331221481096}
   - component: {fileID: 23162817270336584}
   m_Layer: 0
-  m_Name: MatShape_5065
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 33574170870788854}
   - component: {fileID: 23659607190156278}
   m_Layer: 0
-  m_Name: Pattern2D_57888 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -436,9 +436,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1363445694149640}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.25, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_LocalRotation: {x: -0.46001792, y: -0.08281978, z: 0.29963112, w: 0.8317124}
+  m_LocalPosition: {x: 21.621803, y: 8.909679, z: -17.514858}
+  m_LocalScale: {x: 1.4218253, y: 1.4218252, z: 1.421825}
   m_Children:
   - {fileID: 4623234268143558}
   m_Father: {fileID: 0}
@@ -1666,6 +1666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114564833896720218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1683,7 +1684,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Utility Strap-on
-  garmentprice: 
+  garmentprice: 70
   garmentdescription: In need of extra pockets? This Utility Strap-on is your friend.
     Plenty of room for all your essentials with adjustable straps to your fit.
   skipFirstGroup: 0

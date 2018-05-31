@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33999425085000780}
   - component: {fileID: 23928974915914892}
   m_Layer: 0
-  m_Name: Pattern2D_37981
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 33092515862388174}
   - component: {fileID: 23733821021936554}
   m_Layer: 0
-  m_Name: Pattern2D_4640243
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -303,7 +303,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Sweatband
-  garmentprice: 
+  garmentprice: 20
   garmentdescription: "This cotton jersey headband features 3 stripes changeable to
     your liking. Simply wear over loose hair and you\u2019re ready for action"
   skipFirstGroup: 0
@@ -328,3 +328,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

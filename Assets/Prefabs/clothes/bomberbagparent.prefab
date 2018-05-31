@@ -519,7 +519,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Bomber Bag
-  garmentprice: 
+  garmentprice: 20
   garmentdescription: "The perfect bag to store your jacket when you\u2019re on the
     move. "
   skipFirstGroup: 0
@@ -540,3 +540,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

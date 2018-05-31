@@ -370,6 +370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114787358828712468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -387,7 +388,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: 'Handkerchief '
-  garmentprice: 
+  garmentprice: 40
   garmentdescription: 'Crafted from lightweight silk, the Hankerchief matches and
     brightens any outfit. '
   skipFirstGroup: 0

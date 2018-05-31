@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33679210297333836}
   - component: {fileID: 23893326565620996}
   m_Layer: 0
-  m_Name: Pattern2D_16619
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33305383960105192}
   - component: {fileID: 23548383031368676}
   m_Layer: 0
-  m_Name: Pattern2D_40963
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33205951325129334}
   - component: {fileID: 23542609683038982}
   m_Layer: 0
-  m_Name: Pattern2D_36398
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 33563476159408542}
   - component: {fileID: 23032624299273678}
   m_Layer: 0
-  m_Name: Pattern2D_27654
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 33817278097050010}
   - component: {fileID: 23808550856676204}
   m_Layer: 0
-  m_Name: Pattern2D_27655
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 33710140912166314}
   - component: {fileID: 23514330196222600}
   m_Layer: 0
-  m_Name: Pattern2D_40964
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 33269735512043252}
   - component: {fileID: 23037292140981530}
   m_Layer: 0
-  m_Name: Pattern2D_16618
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 33565407360661344}
   - component: {fileID: 23390585734369268}
   m_Layer: 0
-  m_Name: Pattern2D_36400
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 33369853612228282}
   - component: {fileID: 23454359833076360}
   m_Layer: 0
-  m_Name: Pattern2D_40964
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 33122416870133264}
   - component: {fileID: 23582387751760062}
   m_Layer: 0
-  m_Name: Pattern2D_40948
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 33086067127915270}
   - component: {fileID: 23736561962088656}
   m_Layer: 0
-  m_Name: Pattern2D_40963
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,7 +257,7 @@ GameObject:
   - component: {fileID: 33771386954315284}
   - component: {fileID: 23252969757342150}
   m_Layer: 0
-  m_Name: Pattern2D_40948 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 33157918440534000}
   - component: {fileID: 23257361414300228}
   m_Layer: 0
-  m_Name: Pattern2D_16619
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 33059962004209270}
   - component: {fileID: 23112370566000204}
   m_Layer: 0
-  m_Name: Pattern2D_36379
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 33021123074492948}
   - component: {fileID: 23859751441745902}
   m_Layer: 0
-  m_Name: Pattern2D_36400
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 33841318779721416}
   - component: {fileID: 23349538591704682}
   m_Layer: 0
-  m_Name: Pattern2D_40948
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 33608929400130888}
   - component: {fileID: 23132343370395608}
   m_Layer: 0
-  m_Name: Pattern2D_40963
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 33951093333391384}
   - component: {fileID: 23353255013128332}
   m_Layer: 0
-  m_Name: Pattern2D_40963 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 33762766175407048}
   - component: {fileID: 23439971294719700}
   m_Layer: 0
-  m_Name: Pattern2D_27654
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 33158190646119066}
   - component: {fileID: 23593297232377876}
   m_Layer: 0
-  m_Name: Pattern2D_40965
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 33751356586600870}
   - component: {fileID: 23748350047231824}
   m_Layer: 0
-  m_Name: Pattern2D_36399
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 33829085707046074}
   - component: {fileID: 23239749219777568}
   m_Layer: 0
-  m_Name: Pattern2D_26878
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -476,7 +476,7 @@ GameObject:
   - component: {fileID: 33296470874498186}
   - component: {fileID: 23371355430648392}
   m_Layer: 0
-  m_Name: Pattern2D_36399
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 33160772649690182}
   - component: {fileID: 23888010745935446}
   m_Layer: 0
-  m_Name: Pattern2D_40948 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 33059213455319582}
   - component: {fileID: 23939645171980348}
   m_Layer: 0
-  m_Name: Pattern2D_26878
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 33848656278854548}
   - component: {fileID: 23703143849739386}
   m_Layer: 0
-  m_Name: Pattern2D_40964
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -544,7 +544,7 @@ GameObject:
   - component: {fileID: 33863332284485602}
   - component: {fileID: 23843547381395058}
   m_Layer: 0
-  m_Name: Pattern2D_40965
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 33172005281186238}
   - component: {fileID: 23128073205057918}
   m_Layer: 0
-  m_Name: Pattern2D_36399
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 33037400069441062}
   - component: {fileID: 23945434734725276}
   m_Layer: 0
-  m_Name: Pattern2D_40963
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -595,7 +595,7 @@ GameObject:
   - component: {fileID: 33307445363055710}
   - component: {fileID: 23387512384632122}
   m_Layer: 0
-  m_Name: Pattern2D_27655
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 33269898505113520}
   - component: {fileID: 23259545930232660}
   m_Layer: 0
-  m_Name: Pattern2D_36400
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 33456865620103416}
   - component: {fileID: 23585024921331628}
   m_Layer: 0
-  m_Name: Pattern2D_40963 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -646,7 +646,7 @@ GameObject:
   - component: {fileID: 33750006116000618}
   - component: {fileID: 23787830146538154}
   m_Layer: 0
-  m_Name: Pattern2D_36398
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -663,7 +663,7 @@ GameObject:
   - component: {fileID: 33857901379027678}
   - component: {fileID: 23704189141486658}
   m_Layer: 0
-  m_Name: Pattern2D_36379
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -680,7 +680,7 @@ GameObject:
   - component: {fileID: 33371405754456146}
   - component: {fileID: 23737934453095966}
   m_Layer: 0
-  m_Name: Pattern2D_40948 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -697,7 +697,7 @@ GameObject:
   - component: {fileID: 33255184096250728}
   - component: {fileID: 23195038224200972}
   m_Layer: 0
-  m_Name: Pattern2D_36400
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -714,7 +714,7 @@ GameObject:
   - component: {fileID: 33512532572167786}
   - component: {fileID: 23622263745392812}
   m_Layer: 0
-  m_Name: Pattern2D_23540
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -731,7 +731,7 @@ GameObject:
   - component: {fileID: 33241978637493432}
   - component: {fileID: 23800885836924740}
   m_Layer: 0
-  m_Name: Pattern2D_16618
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -748,7 +748,7 @@ GameObject:
   - component: {fileID: 33935524635917692}
   - component: {fileID: 23970046411077960}
   m_Layer: 0
-  m_Name: Pattern2D_27654
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 33523454148060656}
   - component: {fileID: 23410022298266628}
   m_Layer: 0
-  m_Name: Pattern2D_16619
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 33188001457012962}
   - component: {fileID: 23022877037783258}
   m_Layer: 0
-  m_Name: Pattern2D_40948 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -799,7 +799,7 @@ GameObject:
   - component: {fileID: 33929714993352182}
   - component: {fileID: 23297708617215882}
   m_Layer: 0
-  m_Name: Pattern2D_40965
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -816,7 +816,7 @@ GameObject:
   - component: {fileID: 33144070460838436}
   - component: {fileID: 23879952194339420}
   m_Layer: 0
-  m_Name: Pattern2D_23540
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -833,7 +833,7 @@ GameObject:
   - component: {fileID: 33513860798115744}
   - component: {fileID: 23946723106289204}
   m_Layer: 0
-  m_Name: Pattern2D_16618
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -850,7 +850,7 @@ GameObject:
   - component: {fileID: 33834657277242462}
   - component: {fileID: 23590823848503112}
   m_Layer: 0
-  m_Name: Pattern2D_27654
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 33840143339616726}
   - component: {fileID: 23066320051993754}
   m_Layer: 0
-  m_Name: Pattern2D_36398
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -884,7 +884,7 @@ GameObject:
   - component: {fileID: 33150743221298654}
   - component: {fileID: 23783688907249786}
   m_Layer: 0
-  m_Name: Pattern2D_26878
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -901,7 +901,7 @@ GameObject:
   - component: {fileID: 33570729979878260}
   - component: {fileID: 23085290124634370}
   m_Layer: 0
-  m_Name: Pattern2D_36379
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -918,7 +918,7 @@ GameObject:
   - component: {fileID: 33241869186068648}
   - component: {fileID: 23746227555717240}
   m_Layer: 0
-  m_Name: Pattern2D_27655
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -935,7 +935,7 @@ GameObject:
   - component: {fileID: 33751098461484326}
   - component: {fileID: 23204850011542980}
   m_Layer: 0
-  m_Name: Pattern2D_16619
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -952,7 +952,7 @@ GameObject:
   - component: {fileID: 33093589012355286}
   - component: {fileID: 23081736981508990}
   m_Layer: 0
-  m_Name: Pattern2D_16618
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 33424642528896006}
   - component: {fileID: 23830568975190622}
   m_Layer: 0
-  m_Name: Pattern2D_26878
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -986,7 +986,7 @@ GameObject:
   - component: {fileID: 33105255088312578}
   - component: {fileID: 23174922590302524}
   m_Layer: 0
-  m_Name: Pattern2D_40963 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 33016230472202238}
   - component: {fileID: 23611011414804006}
   m_Layer: 0
-  m_Name: Pattern2D_40963 1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1020,7 +1020,7 @@ GameObject:
   - component: {fileID: 33903559569324178}
   - component: {fileID: 23305132869351616}
   m_Layer: 0
-  m_Name: Pattern2D_36398
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 33540438315447386}
   - component: {fileID: 23209093331931632}
   m_Layer: 0
-  m_Name: Pattern2D_27655
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 33162667076337148}
   - component: {fileID: 23530381489512240}
   m_Layer: 0
-  m_Name: Pattern2D_40948
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 33206225083980282}
   - component: {fileID: 23130715426056254}
   m_Layer: 0
-  m_Name: Pattern2D_40948
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 33883455452826132}
   - component: {fileID: 23525255431687804}
   m_Layer: 0
-  m_Name: Pattern2D_36379
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1105,7 +1105,7 @@ GameObject:
   - component: {fileID: 33406074433225350}
   - component: {fileID: 23444982666471442}
   m_Layer: 0
-  m_Name: Pattern2D_36399
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1122,7 +1122,7 @@ GameObject:
   - component: {fileID: 33655979936354508}
   - component: {fileID: 23161926731253494}
   m_Layer: 0
-  m_Name: Pattern2D_40964
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 33443399013655040}
   - component: {fileID: 23700947401784098}
   m_Layer: 0
-  m_Name: Pattern2D_23540
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 33631522147598182}
   - component: {fileID: 23246797137428826}
   m_Layer: 0
-  m_Name: Pattern2D_23540
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1173,7 +1173,7 @@ GameObject:
   - component: {fileID: 33514024449503234}
   - component: {fileID: 23660692296690320}
   m_Layer: 0
-  m_Name: Pattern2D_40965
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4788,7 +4788,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Utility Belt
-  garmentprice: 
+  garmentprice: 70
   garmentdescription: Inspired by the classic Fanny Pack, this scout inspired Utility
     Belt will never let you down. Match with the Strap-on Bag to create extra room.
   skipFirstGroup: 0
@@ -4809,6 +4809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114588911550385042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4821,6 +4822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114625941241561980
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4833,6 +4835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114898751845895328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4845,3 +4848,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []

@@ -11980,6 +11980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114621286139871234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11992,6 +11993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114677744286310300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12004,6 +12006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114714184344161056
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12016,6 +12019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114922377472822880
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12036,7 +12040,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Blazer
-  garmentprice: 
+  garmentprice: 200
   garmentdescription: Tailored from a structured cotton twill, this military-inspired
     blazer from the lineup is cut for a slim fit. It has as double-breasted closure
     that makes your silhouette longer when worn open.

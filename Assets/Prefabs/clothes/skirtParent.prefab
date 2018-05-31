@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 33454585234929332}
   - component: {fileID: 23128192848635432}
   m_Layer: 0
-  m_Name: MatShape_4637
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 33876740509466258}
   - component: {fileID: 23299868708406480}
   m_Layer: 0
-  m_Name: MatShape_4638
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 33450325669618760}
   - component: {fileID: 23198863700060954}
   m_Layer: 0
-  m_Name: MatShape_4638
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 33596093377054260}
   - component: {fileID: 23601895163077296}
   m_Layer: 0
-  m_Name: Pattern2D_17475
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 33823725688130094}
   - component: {fileID: 23478948158626670}
   m_Layer: 0
-  m_Name: Pattern2D_17475
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1056,7 +1056,7 @@ GameObject:
   - component: {fileID: 33212168386727014}
   - component: {fileID: 23221386171740978}
   m_Layer: 0
-  m_Name: Pattern2D_17475
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1174,7 +1174,7 @@ GameObject:
   - component: {fileID: 33179350146998930}
   - component: {fileID: 23265873140342686}
   m_Layer: 0
-  m_Name: Pattern2D_17475
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1292,7 +1292,7 @@ GameObject:
   - component: {fileID: 33238610199771538}
   - component: {fileID: 23894156669294558}
   m_Layer: 0
-  m_Name: MatShape_4638
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5644,6 +5644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114172028775327184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5664,7 +5665,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Scouting Skirt
-  garmentprice: 
+  garmentprice: 100
   garmentdescription: Say hello to this cutie! Perfect to mix and match, especially
     with changeable colorways.
   skipFirstGroup: 0
@@ -5689,6 +5690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114827879231924208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5701,6 +5703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
 --- !u!114 &114897786133476432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5713,3 +5716,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mats: []
+  groupnames: []
