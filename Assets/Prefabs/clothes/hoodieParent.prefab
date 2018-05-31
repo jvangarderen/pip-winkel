@@ -3396,7 +3396,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Hoodie
-  garmentprice: 
+  garmentprice: 120
   garmentdescription: This hoodie features an fitted silhouette with a rib-knit trim,
     made from super-soft organic cotton.
   skipFirstGroup: 0

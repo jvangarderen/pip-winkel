@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33876828657761340}
   - component: {fileID: 23568637266272306}
   m_Layer: 0
-  m_Name: Pattern2D_1251757
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 33543211683238048}
   - component: {fileID: 23001036510184022}
   m_Layer: 0
-  m_Name: Pattern2D_1251757
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 33353737744733948}
   - component: {fileID: 23255210075749482}
   m_Layer: 0
-  m_Name: Pattern2D_1249878
+  m_Name: Waistband
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 33163149871827560}
   - component: {fileID: 23242605078556250}
   m_Layer: 0
-  m_Name: Pattern2D_1249878
+  m_Name: Waistband
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 33141146388794580}
   - component: {fileID: 23072911876475774}
   m_Layer: 0
-  m_Name: Pattern2D_1251757
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 33168335624232964}
   - component: {fileID: 23230782260972344}
   m_Layer: 0
-  m_Name: Pattern2D_1251757
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 33887175083362310}
   - component: {fileID: 23005394705717802}
   m_Layer: 0
-  m_Name: Pattern2D_1249878
+  m_Name: Waistband
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 33861208083537646}
   - component: {fileID: 23547318601423372}
   m_Layer: 0
-  m_Name: Pattern2D_1249878
+  m_Name: Waistband
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1092,7 +1092,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Pleated Skirt
-  garmentprice: 
+  garmentprice: 70
   garmentdescription: "A pleated mini skirt with a classic cut. Let\u2019s bring out
     that inner scout girl!"
   skipFirstGroup: 0

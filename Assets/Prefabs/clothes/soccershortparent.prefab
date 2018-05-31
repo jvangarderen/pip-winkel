@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 33847620348316106}
   - component: {fileID: 23377232384399912}
   m_Layer: 0
-  m_Name: Pattern2D_523325
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 33236487097206460}
   - component: {fileID: 23809833787032492}
   m_Layer: 0
-  m_Name: Pattern2D_523325
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 33733276590875322}
   - component: {fileID: 23354576695267606}
   m_Layer: 0
-  m_Name: Pattern2D_523325
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1224,7 +1224,7 @@ GameObject:
   - component: {fileID: 33059334221650912}
   - component: {fileID: 23526558117436852}
   m_Layer: 0
-  m_Name: Pattern2D_523325
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5124,7 +5124,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Soccer Shorts
-  garmentprice: 
+  garmentprice: 70
   garmentdescription: "Running through the woods doesn't leave your shorts undone!
     All-over ruffle details give the shorts a \u2018ripped\u2019 effect."
   skipFirstGroup: 0

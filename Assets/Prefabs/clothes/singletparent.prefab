@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 33796747657828396}
   - component: {fileID: 23750063201784132}
   m_Layer: 0
-  m_Name: Pattern2D_10728
+  m_Name: Ribbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 33888833403911436}
   - component: {fileID: 23351573452863996}
   m_Layer: 0
-  m_Name: Pattern2D_3236131
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 33666823426897808}
   - component: {fileID: 23098331695598804}
   m_Layer: 0
-  m_Name: Pattern2D_3236131
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 33256306828413588}
   - component: {fileID: 23802598866346828}
   m_Layer: 0
-  m_Name: Pattern2D_3236131
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 33804410289728122}
   - component: {fileID: 23740108289875464}
   m_Layer: 0
-  m_Name: Pattern2D_3236131
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 33748305143447486}
   - component: {fileID: 23222770196529680}
   m_Layer: 0
-  m_Name: Pattern2D_10728
+  m_Name: Ribbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 33607590744938850}
   - component: {fileID: 23464724738526984}
   m_Layer: 0
-  m_Name: Pattern2D_10728
+  m_Name: Ribbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 33238936290752794}
   - component: {fileID: 23271315811769692}
   m_Layer: 0
-  m_Name: Pattern2D_10728
+  m_Name: Ribbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2484,7 +2484,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Singlet
-  garmentprice: 
+  garmentprice: 70
   garmentdescription: This wardrobe staple transcends trends, wear yours under a blazer
     or on top one of the mini skirts.
   skipFirstGroup: 0

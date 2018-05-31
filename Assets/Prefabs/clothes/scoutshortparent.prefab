@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33791038129194044}
   - component: {fileID: 23440680147088450}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33981811584037836}
   - component: {fileID: 23507419980924482}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Pockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33826180580398012}
   - component: {fileID: 23180355409872894}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Pockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 33243113356493952}
   - component: {fileID: 23956019675916534}
   m_Layer: 0
-  m_Name: MatShape_5482
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 33246191932465472}
   - component: {fileID: 23500307170620318}
   m_Layer: 0
-  m_Name: MatShape_5466
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 33719442357389372}
   - component: {fileID: 23083986580568226}
   m_Layer: 0
-  m_Name: MatShape_7831
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 33570452890566746}
   - component: {fileID: 23409824466105240}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Pockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 33260602123925618}
   - component: {fileID: 23922647107524046}
   m_Layer: 0
-  m_Name: MatShape_5446
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 33276450801407040}
   - component: {fileID: 23319136203897608}
   m_Layer: 0
-  m_Name: Pattern2D_766546
+  m_Name: Pockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 33761873622693166}
   - component: {fileID: 23166616339374384}
   m_Layer: 0
-  m_Name: MatShape_7833
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -597,7 +597,7 @@ GameObject:
   - component: {fileID: 33699278664201900}
   - component: {fileID: 23081173208217552}
   m_Layer: 0
-  m_Name: MatShape_7851
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -935,7 +935,7 @@ GameObject:
   - component: {fileID: 33387869545315484}
   - component: {fileID: 23629400352431868}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -952,7 +952,7 @@ GameObject:
   - component: {fileID: 33989293388624550}
   - component: {fileID: 23728224800638800}
   m_Layer: 0
-  m_Name: MatShape_7851
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1020,7 +1020,7 @@ GameObject:
   - component: {fileID: 33743021374915982}
   - component: {fileID: 23101992222814974}
   m_Layer: 0
-  m_Name: MatShape_5500
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 33944652536860238}
   - component: {fileID: 23845813575498212}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1224,7 +1224,7 @@ GameObject:
   - component: {fileID: 33957194824216676}
   - component: {fileID: 23851258611157990}
   m_Layer: 0
-  m_Name: FLF_1
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5700,7 +5700,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Scout Shorts
-  garmentprice: 
+  garmentprice: 100
   garmentdescription: This scout-inspired shorts are the next best thing. With 4 pockets
     ready to take you anywhere you want to go.
   skipFirstGroup: 0

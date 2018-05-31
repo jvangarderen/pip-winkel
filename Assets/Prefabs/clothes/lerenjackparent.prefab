@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 33324260956813486}
   - component: {fileID: 23313914165752206}
   m_Layer: 0
-  m_Name: MatShape_7033
+  m_Name: Button base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 33342670638018788}
   - component: {fileID: 23842629706394324}
   m_Layer: 0
-  m_Name: MatShape_7033
+  m_Name: Button base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 33204880404255118}
   - component: {fileID: 23463038738539790}
   m_Layer: 0
-  m_Name: MatShape_19277
+  m_Name: Buttonhole base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 33173559111226142}
   - component: {fileID: 23315326972290618}
   m_Layer: 0
-  m_Name: MatShape_16694
+  m_Name: Buttonholes base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 33059284190988968}
   - component: {fileID: 23269775849228158}
   m_Layer: 0
-  m_Name: MatShape_16694
+  m_Name: Button flap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 33944066416946320}
   - component: {fileID: 23822084577543132}
   m_Layer: 0
-  m_Name: Pattern2D_628894
+  m_Name: Pocketflap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 33432963691003638}
   - component: {fileID: 23307730447800572}
   m_Layer: 0
-  m_Name: Pattern2D_685601
+  m_Name: Ribbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 33553580980402972}
   - component: {fileID: 23721688148717510}
   m_Layer: 0
-  m_Name: Pattern2D_628894
+  m_Name: Pocketflap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -940,7 +940,7 @@ GameObject:
   - component: {fileID: 33922217560742650}
   - component: {fileID: 23787504904193332}
   m_Layer: 0
-  m_Name: MatShape_19277
+  m_Name: Buttonhole flap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 33900053402579954}
   - component: {fileID: 23799651656984398}
   m_Layer: 0
-  m_Name: Pattern2D_685601
+  m_Name: Ribbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 33159073106247658}
   - component: {fileID: 23835587391717482}
   m_Layer: 0
-  m_Name: Pattern2D_628894
+  m_Name: Pocketflap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1246,7 +1246,7 @@ GameObject:
   - component: {fileID: 33104548827952598}
   - component: {fileID: 23962650324715776}
   m_Layer: 0
-  m_Name: MatShape_19277
+  m_Name: Buttonhole pocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 33780546004250844}
   - component: {fileID: 23546573649473508}
   m_Layer: 0
-  m_Name: MatShape_19277
+  m_Name: Buttonhole flap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1398,7 +1398,7 @@ GameObject:
   - component: {fileID: 33941424234421004}
   - component: {fileID: 23876914121610734}
   m_Layer: 0
-  m_Name: Pattern2D_628894
+  m_Name: Pocketflap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1483,7 +1483,7 @@ GameObject:
   - component: {fileID: 33373075954262612}
   - component: {fileID: 23663260011321012}
   m_Layer: 0
-  m_Name: MatShape_19224
+  m_Name: Buttonhole base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1534,7 +1534,7 @@ GameObject:
   - component: {fileID: 33368848775064634}
   - component: {fileID: 23391254822563334}
   m_Layer: 0
-  m_Name: MatShape_19224
+  m_Name: Buttonhole base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 33820808101836160}
   - component: {fileID: 23410501223469398}
   m_Layer: 0
-  m_Name: MatShape_7033
+  m_Name: Button base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1602,7 +1602,7 @@ GameObject:
   - component: {fileID: 33898554168834092}
   - component: {fileID: 23833387320905206}
   m_Layer: 0
-  m_Name: MatShape_19224
+  m_Name: Buttonhole base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,7 +1754,7 @@ GameObject:
   - component: {fileID: 33361218224310948}
   - component: {fileID: 23402415545661944}
   m_Layer: 0
-  m_Name: MatShape_7033
+  m_Name: Button base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2246,7 +2246,7 @@ GameObject:
   - component: {fileID: 33147810172840396}
   - component: {fileID: 23118185160909866}
   m_Layer: 0
-  m_Name: Pattern2D_685601
+  m_Name: Ribbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2280,7 +2280,7 @@ GameObject:
   - component: {fileID: 33658868151149018}
   - component: {fileID: 23708985243725882}
   m_Layer: 0
-  m_Name: MatShape_16694
+  m_Name: Button flap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2551,7 +2551,7 @@ GameObject:
   - component: {fileID: 33605801237130062}
   - component: {fileID: 23485768583862350}
   m_Layer: 0
-  m_Name: Pattern2D_685601
+  m_Name: Ribbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2653,7 +2653,7 @@ GameObject:
   - component: {fileID: 33460133622823222}
   - component: {fileID: 23793126276989872}
   m_Layer: 0
-  m_Name: MatShape_16694
+  m_Name: Button flap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11412,7 +11412,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Vegan Leather Jacket
-  garmentprice: 
+  garmentprice: 400
   garmentdescription: "Don\u2019t feel guilty wearing this beauty! Made from pineapple
     peels, this Vegan Leather Jacket can be worn as your new, favorite statement piece."
   skipFirstGroup: 0

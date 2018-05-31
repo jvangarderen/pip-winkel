@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 33233937294231758}
   - component: {fileID: 23775108296706556}
   m_Layer: 0
-  m_Name: Pattern2D_155297
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 33989148777585984}
   - component: {fileID: 23951064585607266}
   m_Layer: 0
-  m_Name: Pattern2D_155297
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 33203484917152608}
   - component: {fileID: 23539986976876630}
   m_Layer: 0
-  m_Name: Pattern2D_155309
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 33357804454712456}
   - component: {fileID: 23148130508666764}
   m_Layer: 0
-  m_Name: Pattern2D_155309
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -682,7 +682,7 @@ GameObject:
   - component: {fileID: 33305452522168374}
   - component: {fileID: 23323020698467162}
   m_Layer: 0
-  m_Name: Pattern2D_155297
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -749,7 +749,7 @@ GameObject:
   - component: {fileID: 33313018202679808}
   - component: {fileID: 23703839925788044}
   m_Layer: 0
-  m_Name: Pattern2D_155309
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 33948216932428648}
   - component: {fileID: 23165951459818226}
   m_Layer: 0
-  m_Name: Pattern2D_155297
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 33671570074362462}
   - component: {fileID: 23946933290276436}
   m_Layer: 0
-  m_Name: Pattern2D_155309
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5100,7 +5100,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Pleated Sweater
-  garmentprice: 
+  garmentprice: 100
   garmentdescription: "Roll up your sleeves and let\u2019s get to work! Pleated sleeves
     makes this an sweater a true hands-on garment."
   skipFirstGroup: 0

@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 33289199300265264}
   - component: {fileID: 23610148607916490}
   m_Layer: 0
-  m_Name: Pattern2D_105376
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 33314166795999978}
   - component: {fileID: 23109046254554650}
   m_Layer: 0
-  m_Name: MatShape_4598
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 33620772079774018}
   - component: {fileID: 23369468029796588}
   m_Layer: 0
-  m_Name: Pattern2D_116966
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 33292741228344106}
   - component: {fileID: 23591350730416582}
   m_Layer: 0
-  m_Name: Pattern2D_116967
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 33033963861762416}
   - component: {fileID: 23219024951102678}
   m_Layer: 0
-  m_Name: Pattern2D_119735
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 33736355476137046}
   - component: {fileID: 23361244998584684}
   m_Layer: 0
-  m_Name: Pattern2D_120774
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 33352144473035568}
   - component: {fileID: 23247751260859334}
   m_Layer: 0
-  m_Name: Pattern2D_120775
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 33999912198387504}
   - component: {fileID: 23824183337411210}
   m_Layer: 0
-  m_Name: MatShape_4878
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -663,7 +663,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Strap-on Bag
-  garmentprice: 
+  garmentprice: 20
   garmentdescription: This small bag is an addition to your other accessories, match
     it with the Sash, Utility Belt or Utility Strap-on.
   skipFirstGroup: 0

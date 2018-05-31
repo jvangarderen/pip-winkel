@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 33187268139976534}
   - component: {fileID: 23308843443137254}
   m_Layer: 0
-  m_Name: Pattern2D_4220494
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 33774322501327254}
   - component: {fileID: 23017620448735294}
   m_Layer: 0
-  m_Name: Pattern2D_4220494
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 33504482476841698}
   - component: {fileID: 23038468390920996}
   m_Layer: 0
-  m_Name: Pattern2D_4640238
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,7 +257,7 @@ GameObject:
   - component: {fileID: 33921738487335580}
   - component: {fileID: 23284087540048518}
   m_Layer: 0
-  m_Name: Pattern2D_4640238
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 33177310519131268}
   - component: {fileID: 23146179571736556}
   m_Layer: 0
-  m_Name: Pattern2D_4220494
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 33294691317996614}
   - component: {fileID: 23822720093283970}
   m_Layer: 0
-  m_Name: Pattern2D_4640238
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 33774355333890800}
   - component: {fileID: 23976571101546368}
   m_Layer: 0
-  m_Name: Pattern2D_4220494
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 33839138829523990}
   - component: {fileID: 23382344177858072}
   m_Layer: 0
-  m_Name: Pattern2D_4640238
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2220,7 +2220,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Track Pants
-  garmentprice: 
+  garmentprice: 150
   garmentdescription: The Track Pants features contrasting side panels, with blind
     zipper closures at the hem to add a slit whenever you like.
   skipFirstGroup: 0

@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 33359664874605458}
   - component: {fileID: 23630882915460606}
   m_Layer: 0
-  m_Name: Pattern2D_3648941
+  m_Name: Sleeve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 33094642330345418}
   - component: {fileID: 23946701445985218}
   m_Layer: 0
-  m_Name: Pattern2D_3627920
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 33060493910075374}
   - component: {fileID: 23302347825323328}
   m_Layer: 0
-  m_Name: Pattern2D_3628178
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 33235421935967968}
   - component: {fileID: 23905251195809012}
   m_Layer: 0
-  m_Name: Pattern2D_3648941
+  m_Name: Sleeve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 33727931010461914}
   - component: {fileID: 23159189743044648}
   m_Layer: 0
-  m_Name: Pattern2D_3628178
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 33964240136797358}
   - component: {fileID: 23115488748902090}
   m_Layer: 0
-  m_Name: Pattern2D_3648941
+  m_Name: Sleeve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 33468022402565440}
   - component: {fileID: 23393052336099766}
   m_Layer: 0
-  m_Name: Pattern2D_3627920
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1242,7 +1242,7 @@ GameObject:
   - component: {fileID: 33932034482571828}
   - component: {fileID: 23385738875341696}
   m_Layer: 0
-  m_Name: Pattern2D_3628178
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1293,7 +1293,7 @@ GameObject:
   - component: {fileID: 33744810250668644}
   - component: {fileID: 23828479645318516}
   m_Layer: 0
-  m_Name: Pattern2D_3627920
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1327,7 +1327,7 @@ GameObject:
   - component: {fileID: 33426435054117436}
   - component: {fileID: 23817839624316774}
   m_Layer: 0
-  m_Name: Pattern2D_3648941
+  m_Name: Sleeve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 33122241607245746}
   - component: {fileID: 23165357700358874}
   m_Layer: 0
-  m_Name: Pattern2D_3627920
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 33084452645853562}
   - component: {fileID: 23436494906953206}
   m_Layer: 0
-  m_Name: Pattern2D_3628178
+  m_Name: Stripe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5976,7 +5976,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: 'Colorblock Sweater  '
-  garmentprice: 
+  garmentprice: 120
   garmentdescription: 'This mock-neck sweater has a sporty color blocking look completely
     designed by you! '
   skipFirstGroup: 0

@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 33694360194175882}
   - component: {fileID: 23310484412092474}
   m_Layer: 0
-  m_Name: MatShape_20085
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 33667804694650320}
   - component: {fileID: 23540742403136096}
   m_Layer: 0
-  m_Name: MatShape_6369
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 33967495319067336}
   - component: {fileID: 23773994088662788}
   m_Layer: 0
-  m_Name: MatShape_20163
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 33370080031638908}
   - component: {fileID: 23578448628900542}
   m_Layer: 0
-  m_Name: Collar
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 33315224860446430}
   - component: {fileID: 23243565114747610}
   m_Layer: 0
-  m_Name: MatShape_20062
+  m_Name: Buttonsholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1159,7 +1159,7 @@ GameObject:
   - component: {fileID: 33046958800661360}
   - component: {fileID: 23842047883315900}
   m_Layer: 0
-  m_Name: MatShape_20163
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1227,7 +1227,7 @@ GameObject:
   - component: {fileID: 33639824263270890}
   - component: {fileID: 23243219909681134}
   m_Layer: 0
-  m_Name: MatShape_6369
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1244,7 +1244,7 @@ GameObject:
   - component: {fileID: 33408526587364380}
   - component: {fileID: 23839621043356592}
   m_Layer: 0
-  m_Name: Collar
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1329,7 +1329,7 @@ GameObject:
   - component: {fileID: 33832307272667884}
   - component: {fileID: 23391034818253342}
   m_Layer: 0
-  m_Name: MatShape_20062
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1346,7 +1346,7 @@ GameObject:
   - component: {fileID: 33456096825258106}
   - component: {fileID: 23048646058936758}
   m_Layer: 0
-  m_Name: MatShape_20085
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1397,7 +1397,7 @@ GameObject:
   - component: {fileID: 33736643871106358}
   - component: {fileID: 23352358614068970}
   m_Layer: 0
-  m_Name: MatShape_20171
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1499,7 +1499,7 @@ GameObject:
   - component: {fileID: 33019035839849606}
   - component: {fileID: 23794385989515324}
   m_Layer: 0
-  m_Name: MatShape_20062
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1584,7 +1584,7 @@ GameObject:
   - component: {fileID: 33402337141537850}
   - component: {fileID: 23291744191453686}
   m_Layer: 0
-  m_Name: MatShape_20163
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2298,7 +2298,7 @@ GameObject:
   - component: {fileID: 33093497274842488}
   - component: {fileID: 23372492216163844}
   m_Layer: 0
-  m_Name: MatShape_6369
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2349,7 +2349,7 @@ GameObject:
   - component: {fileID: 33704629239859460}
   - component: {fileID: 23159017181950312}
   m_Layer: 0
-  m_Name: MatShape_6369
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2434,7 +2434,7 @@ GameObject:
   - component: {fileID: 33937315508203258}
   - component: {fileID: 23113029922460536}
   m_Layer: 0
-  m_Name: Collar
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2925,7 +2925,7 @@ GameObject:
   - component: {fileID: 33329291455990646}
   - component: {fileID: 23446852048935942}
   m_Layer: 0
-  m_Name: MatShape_20085
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2993,7 +2993,7 @@ GameObject:
   - component: {fileID: 33753054968471776}
   - component: {fileID: 23004533183363646}
   m_Layer: 0
-  m_Name: MatShape_20062
+  m_Name: Buttonholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3248,7 +3248,7 @@ GameObject:
   - component: {fileID: 33021875120819310}
   - component: {fileID: 23869803318922558}
   m_Layer: 0
-  m_Name: Collar
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14328,7 +14328,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Scout Jacket
-  garmentprice: 
+  garmentprice: 250
   garmentdescription: 'This jacket is inspired by outdoor vibes and military influences.
     An edgy take on the classic  Boy Scout jacket.  '
   skipFirstGroup: 0

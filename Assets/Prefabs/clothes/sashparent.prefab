@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 33233051953730382}
   - component: {fileID: 23468526425447406}
   m_Layer: 0
-  m_Name: Pattern2D_410264
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -807,7 +807,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Sash
-  garmentprice: 
+  garmentprice: 70
   garmentdescription: Inspired by the functionality of a fanny pack, this accessoire
     can be worn over any style, any day. The front pocket is designed for your cell
     phone so it is handy to reach. The straps makes it adjustable to your size.

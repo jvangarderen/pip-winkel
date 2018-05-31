@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 33259598181344028}
   - component: {fileID: 23876845686801838}
   m_Layer: 0
-  m_Name: Pattern2D_711690
+  m_Name: Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 33412917180188016}
   - component: {fileID: 23914880609541302}
   m_Layer: 0
-  m_Name: Body_Front_Placket
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 33899126338226620}
   - component: {fileID: 23904540718576378}
   m_Layer: 0
-  m_Name: MatShape_3788
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 33525747583551334}
   - component: {fileID: 23555432532341154}
   m_Layer: 0
-  m_Name: MatShape_3788
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 33841589405975798}
   - component: {fileID: 23487234757973396}
   m_Layer: 0
-  m_Name: Pattern2D_696624
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 33132686456311060}
   - component: {fileID: 23027656832059986}
   m_Layer: 0
-  m_Name: Body_Front_Placket
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 33219243308368376}
   - component: {fileID: 23029656216992294}
   m_Layer: 0
-  m_Name: MatShape_3788
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 33973861200455400}
   - component: {fileID: 23996160783097306}
   m_Layer: 0
-  m_Name: Body_Front_Placket
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 33818014564855256}
   - component: {fileID: 23750098107065896}
   m_Layer: 0
-  m_Name: Pattern2D_696624
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -816,7 +816,7 @@ GameObject:
   - component: {fileID: 33910471801087180}
   - component: {fileID: 23731552704433840}
   m_Layer: 0
-  m_Name: Pattern2D_711690
+  m_Name: Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -833,7 +833,7 @@ GameObject:
   - component: {fileID: 33380462390462652}
   - component: {fileID: 23239678505381974}
   m_Layer: 0
-  m_Name: Pattern2D_696624
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -901,7 +901,7 @@ GameObject:
   - component: {fileID: 33831622624456304}
   - component: {fileID: 23270936283934284}
   m_Layer: 0
-  m_Name: Pattern2D_696624
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 33138282784415998}
   - component: {fileID: 23489305770631216}
   m_Layer: 0
-  m_Name: Pattern2D_711690
+  m_Name: Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 33989336083671722}
   - component: {fileID: 23183739583081106}
   m_Layer: 0
-  m_Name: Pattern2D_711690
+  m_Name: Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1224,7 +1224,7 @@ GameObject:
   - component: {fileID: 33656956184786642}
   - component: {fileID: 23741156741001462}
   m_Layer: 0
-  m_Name: MatShape_3788
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1275,7 +1275,7 @@ GameObject:
   - component: {fileID: 33867004688212632}
   - component: {fileID: 23968531722719352}
   m_Layer: 0
-  m_Name: Body_Front_Placket
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5388,7 +5388,7 @@ MonoBehaviour:
   gatherMats: {fileID: 0}
   curGarmentOBJ: {fileID: 0}
   garmentname: Sport Dress
-  garmentprice: 
+  garmentprice: 120
   garmentdescription: 'Inspired by vintage tennis players, this dress shows your athletic
     side! This slightly loose piece has a polo inspired collar and the V-shape makes
     your silhouette look longer. '
