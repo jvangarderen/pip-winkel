@@ -30,6 +30,7 @@ public class Manager : MonoBehaviour
     public Text garmentname;
     public Text garmentprice;
     public Text description;
+    public AudioSource futureofshoppingvr;
 	// Use this for initialization
 	void Start () {
         originalcam = Camera.main;
@@ -114,6 +115,11 @@ public class Manager : MonoBehaviour
                         originalcam.enabled = false;
                         vid1cam.enabled = true;
                         camController.enabled = false;
+                        UnityEngine.Video.VideoPlayer vidplayer = vid1cam.transform.parent.GetComponent<UnityEngine.Video.VideoPlayer>();
+                        vidplayer.Stop();
+                        futureofshoppingvr.Play();
+                        vidplayer.Play();
+                        
                     }                    
                 }
 
@@ -191,6 +197,7 @@ public class Manager : MonoBehaviour
                     Debug.Log("Mouse down");
                     if (objectHit.name == "vid1")
                     {
+                        futureofshoppingvr.Stop();
                         Debug.Log("back out of video");
                         originalcam.enabled = true;
                         vid1cam.enabled = false;
