@@ -30,7 +30,6 @@ public class Manager : MonoBehaviour
     public Text garmentname;
     public Text garmentprice;
     public Text description;
-    public AudioSource futureofshoppingvr;
 	// Use this for initialization
 	void Start () {
         originalcam = Camera.main;
@@ -115,8 +114,16 @@ public class Manager : MonoBehaviour
                 {
                     if (objectHit.name == "vid1")
                     {
+<<<<<<< HEAD
                         HandleVidScreen();
                     }
+=======
+                        curcam = vid1cam;
+                        originalcam.enabled = false;
+                        vid1cam.enabled = true;
+                        camController.enabled = false;
+                    }                    
+>>>>>>> parent of 28b5f60... implemented audio & video controls
                 }
 
                 if (Input.GetMouseButton(0)||vr)
@@ -165,7 +172,15 @@ public class Manager : MonoBehaviour
                 {
                     if (objectHit.name == "vid1")
                     {
+<<<<<<< HEAD
                         HandleVidScreen();
+=======
+                        Debug.Log("back out of video");
+                        originalcam.enabled = true;
+                        vid1cam.enabled = false;
+                        curcam = originalcam;
+                        camController.enabled = true;
+>>>>>>> parent of 28b5f60... implemented audio & video controls
                     }
                 }
             }
