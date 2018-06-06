@@ -20,6 +20,8 @@ public class Controller : MonoBehaviour
     public float countdown;
     public AudioSource hlsound;
     private bool hlsoundplayed = false;
+    private Manager manager;
+
     private void OnEnable()
     {
         _controller = GetComponent<SteamVR_TrackedController>();
@@ -33,6 +35,7 @@ public class Controller : MonoBehaviour
 
     void Start()
     {
+        manager = GameObject.Find("Manager").GetComponent<Manager>();
         controller = gameObject.GetComponent<SteamVR_TrackedObject>();
         try
         {
@@ -118,39 +121,16 @@ public class Controller : MonoBehaviour
     private void HandleTriggerClicked(object sender, ClickedEventArgs e)
     {
         RaycastHit hit;
-
-        if(interactiveobj!=null &&interactiveobj.name.Contains("Scope"))
-        {
-            
-            interactiveobj = null;
-        }
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
             GameObject other = hit.collider.gameObject;
-            if (other.tag == "Interactable")
+            if (other.tag == "popup")
             {
-                switch(other.name)
-                {
-                    case "WorldCube 1":
-                        loader.levelName = "Marlies Cube 1";
-                        loader.Trigger();
-                        break;
-                    case "WorldCube 2": 
-                        loader.levelName = "Marlies Cube 2";
-                        loader.Trigger();
-                        break;
-                }
-           
-                if (interactiveobj == null) {
-                    interactiveobj = other;
-                   
-                }
-                else 
-                {
-                    if (other.gameObject.name == interactiveobj.name)
-                    {
-                    }
-                }
+                manager.OpenPopup(hit.transform);
+            }
+            if (other.name == "btn_close")
+            {
+                manager.ClosePopup();
             }
         }
     }

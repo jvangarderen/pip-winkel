@@ -82,7 +82,7 @@ public class Manager : MonoBehaviour
             }
             GameObject Cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             Cylinder.transform.localScale -= new Vector3(2, 0.5f, 2);
-            Cylinder.transform.eulerAngles = new Vector3(-90, 0, 0);
+            //Cylinder.transform.eulerAngles = new Vector3(-90, 0, 0);
             Cylinder.transform.position = ColorOptionsStartPoint.transform.position + ofset;
             Cylinder.transform.parent = ColorOptionsStartPoint.transform;
             Cylinder.name = i.ToString();
@@ -144,10 +144,7 @@ public class Manager : MonoBehaviour
                     }
                     if (objectHit.name == "btn_close")
                     {
-                        //light.shadowStrength = 1;
-                        popUP.SetActive(false);
-                        camController.enabled = true;
-                        Destroy(sm.gameObject);
+                        ClosePopup();
                     }
                     if (objectHit.tag == "btn_color")
                     {
@@ -188,9 +185,17 @@ public class Manager : MonoBehaviour
         }
     }
 
+    public void ClosePopup()
+    {
+        //light.shadowStrength = 1;
+        popUP.SetActive(false);
+        camController.enabled = true;
+        Destroy(sm.gameObject);
+    }
+
     public void OpenPopup(Transform objectHit)
     {
-        // Debug.Log("Need to show popup");
+        Debug.Log("Need to show popup");
         popUP.SetActive(true);
         //Debug.DebugBreak();
         // light.shadowStrength = 0;
