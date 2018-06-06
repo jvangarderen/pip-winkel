@@ -26,52 +26,24 @@ public class Controller : MonoBehaviour
     {
         _controller = GetComponent<SteamVR_TrackedController>();
         _controller.TriggerClicked += HandleTriggerClicked;
+        
     }
 
     private void OnDisable()
     {
         _controller.TriggerClicked -= HandleTriggerClicked;
     }
-
     void Start()
     {
         manager = GameObject.Find("Manager").GetComponent<Manager>();
         controller = gameObject.GetComponent<SteamVR_TrackedObject>();
     }
 
-    void handleMarlies()
-    {
-        device = SteamVR_Controller.Input((int)controller.index);
-        string currentScene = ""; //SceneManagerHelper.ActiveSceneName;
-        if (currentScene == "Marlies Cube 1" || currentScene == "Marlies Cube 2")
-        {
-            if (_controller.triggerPressed)
-            {
-                if (!startedBacking)
-                {
-                    Debug.Log("Doe back shizzle in marlies scene");
-                    startedBacking = true;
-                    countdown = TimeToBack;
-                }
-                else
-                {
-                    countdown -= Time.deltaTime;
-                    if (countdown <= 0)
-                    {
-                        Application.LoadLevel("Marlies");
-                    }
-                }
-            }
-            else
-            {
-                startedBacking = false;
-            }
-        }
-    }
 
     void Update()
     {
         //If finger is on touchpad
+        /*
         if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad))
         {
             
@@ -82,7 +54,7 @@ public class Controller : MonoBehaviour
             if (touchpad.x > 0) manager.RotateGarmentRight();
             // Handle movement via touchpad
 
-        }
+        }*/
     }
 
     private void HandleTriggerClicked(object sender, ClickedEventArgs e)
