@@ -36,6 +36,7 @@ public class Controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        Debug.Log(_controller.triggerPressed);
         if (_controller.triggerPressed)
         {
             RaycastHit hit;
@@ -43,15 +44,19 @@ public class Controller : MonoBehaviour {
 
             if (Physics.Raycast(ray, out hit))
             {
-                Transform objectHit = hit.transform;
+                GameObject other = hit.collider.gameObject;
+                if (other.tag == "popup")
+                {
+                    Debug.Log("popuphitted");
+                    manager.OpenPopup(hit.transform);
+                }
             }
         }
 	}
 
     private void HandleTriggerClicked(object sender, ClickedEventArgs e)
     {
-        RaycastHit hit;
-        Ray ray = new Ray(transform.position, transform.forward);
+        
         //manager.checkRay(ray,true);
     }
 }

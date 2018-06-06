@@ -158,29 +158,7 @@ public class Manager : MonoBehaviour
                      * */
                     if (objectHit.tag == "popup")
                     {
-                        Debug.Log("Need to show popup");
-                        popUP.SetActive(true);
-                        Debug.DebugBreak();
-                        // light.shadowStrength = 0;
-                        camController.enabled = false;
-                        if (lasthittedpopupname == objectHit.name)
-                        {
-                            if (curSelectedGarment == null)
-                            {
-                                SpawnGarment2(objectHit);
-                            }
-                            else
-                            {
-                                Destroy(curSelectedGarment);
-                            }
-                        }
-
-                        else
-                        {
-                            Destroy(curSelectedGarment);
-                            SpawnGarment2(objectHit);
-                        }
-                        lasthittedpopupname = objectHit.name;
+                        OpenPopup(objectHit.transform);
 
                     }
                 }
@@ -208,6 +186,33 @@ public class Manager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void OpenPopup(Transform objectHit)
+    {
+        // Debug.Log("Need to show popup");
+        popUP.SetActive(true);
+        //Debug.DebugBreak();
+        // light.shadowStrength = 0;
+        camController.enabled = false;
+        if (lasthittedpopupname == objectHit.name)
+        {
+            if (curSelectedGarment == null)
+            {
+                SpawnGarment2(objectHit);
+            }
+            else
+            {
+                Destroy(curSelectedGarment);
+            }
+        }
+
+        else
+        {
+            Destroy(curSelectedGarment);
+            SpawnGarment2(objectHit);
+        }
+        lasthittedpopupname = objectHit.name;
     }
 
     private void SpawnGarment2(Transform objectHit)
