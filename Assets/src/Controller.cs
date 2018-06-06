@@ -111,7 +111,8 @@ public class Controller : MonoBehaviour
             {
                 //Read the touchpad values;
                 touchpad = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad);
-
+                if (touchpad.x < 0) manager.RotateGarmentLeft();
+                if (touchpad.x > 0) manager.RotateGarmentRight();
                 // Handle movement via touchpad
                
             }

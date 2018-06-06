@@ -128,11 +128,11 @@ public class Manager : MonoBehaviour
                 {
                     if (objectHit.name == "Left")
                     {
-                        garmentDisplay.transform.Rotate(Vector3.up, garmentDisplayRotSpeed * Time.deltaTime);
+                        RotateGarmentLeft();
                     }
                     if (objectHit.name == "Right")
                     {
-                        garmentDisplay.transform.Rotate(Vector3.down, garmentDisplayRotSpeed * Time.deltaTime);
+                        RotateGarmentRight();
                     }
                 }
 
@@ -183,6 +183,16 @@ public class Manager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void RotateGarmentLeft()
+    {
+        garmentDisplay.transform.Rotate(Vector3.up, garmentDisplayRotSpeed * Time.deltaTime);
+    }
+
+    public void RotateGarmentRight()
+    {
+        garmentDisplay.transform.Rotate(Vector3.down, garmentDisplayRotSpeed * Time.deltaTime);
     }
 
     public void ClosePopup()
