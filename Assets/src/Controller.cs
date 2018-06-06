@@ -52,6 +52,6 @@ public class Controller : MonoBehaviour {
     {
         RaycastHit hit;
         Ray ray = new Ray(transform.position, transform.forward);
-        //manager.checkRay(ray,true);
+        manager.checkRay(ray,true);
     }
 }
