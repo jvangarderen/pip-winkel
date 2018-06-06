@@ -37,33 +37,6 @@ public class Controller : MonoBehaviour
     {
         manager = GameObject.Find("Manager").GetComponent<Manager>();
         controller = gameObject.GetComponent<SteamVR_TrackedObject>();
-        try
-        {
-            loader = GameObject.Find("SceneLoader").GetComponent<SteamVR_LoadLevel>();
-        }
-        catch(System.Exception e)
-        {
-            Debug.Log("add sceneloader to the scene");
-        }
-    }
-
-    void handleHiglight()
-    {
-        RaycastHit hit;
-        Debug.DrawRay(transform.position, transform.forward, Color.blue);
-        if (Physics.Raycast(transform.position, transform.forward, out hit))
-        {
-            // Debug.Log("[Controller.Update] found object " + hit.collider.gameObject.name);
-        }
-        else
-        {
-            hlsoundplayed = false;
-        }
-
-        if (Physics.Raycast(transform.position, transform.forward, out hit))
-        {
-            GameObject other = hit.collider.gameObject;
-        }
     }
 
     void handleMarlies()
