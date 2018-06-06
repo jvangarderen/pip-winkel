@@ -72,7 +72,7 @@ public class Controller : MonoBehaviour
     void Update()
     {
         //If finger is on touchpad
-        if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad))
+        /*if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad))
         {
             
             //Read the touchpad values;
@@ -82,7 +82,7 @@ public class Controller : MonoBehaviour
             if (touchpad.x > 0) manager.RotateGarmentRight();
             // Handle movement via touchpad
 
-        }
+        }*/
     }
 
     private void HandleTriggerClicked(object sender, ClickedEventArgs e)

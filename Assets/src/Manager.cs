@@ -82,7 +82,7 @@ public class Manager : MonoBehaviour
             }
             GameObject Cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             Cylinder.transform.localScale -= new Vector3(2, 0.5f, 2);
-            //Cylinder.transform.eulerAngles = new Vector3(-90, 0, 0);
+            Cylinder.transform.localEulerAngles = new Vector3(-90, 0, 0);
             Cylinder.transform.position = ColorOptionsStartPoint.transform.position + ofset;
             Cylinder.transform.parent = ColorOptionsStartPoint.transform;
             Cylinder.name = i.ToString();
@@ -112,15 +112,7 @@ public class Manager : MonoBehaviour
                 {
                     if (objectHit.name == "vid1")
                     {
-                        curcam = vid1cam;
-                        originalcam.enabled = false;
-                        vid1cam.enabled = true;
-                        camController.enabled = false;
-                        UnityEngine.Video.VideoPlayer vidplayer = vid1cam.transform.parent.GetComponent<UnityEngine.Video.VideoPlayer>();
-                        vidplayer.Stop();
-                        futureofshoppingvr.Play();
-                        vidplayer.Play();
-
+                        HandleVidScreen();//activate
                     }
                 }
 
@@ -173,15 +165,33 @@ public class Manager : MonoBehaviour
                     Debug.Log("Mouse down");
                     if (objectHit.name == "vid1")
                     {
-                        futureofshoppingvr.Stop();
-                        Debug.Log("back out of video");
-                        originalcam.enabled = true;
-                        vid1cam.enabled = false;
-                        curcam = originalcam;
-                        camController.enabled = true;
+                        HandleVidScreen();//close vid screen
                     }
                 }
             }
+        }
+    }
+
+    public void HandleVidScreen()
+    {
+        if (curcam == originalcam)
+        {
+            curcam = vid1cam;
+            originalcam.enabled = false;
+            vid1cam.enabled = true;
+            camController.enabled = false;
+            UnityEngine.Video.VideoPlayer vidplayer = vid1cam.transform.parent.GetComponent<UnityEngine.Video.VideoPlayer>();
+            vidplayer.Stop();
+            futureofshoppingvr.Play();
+            vidplayer.Play();
+        }
+        else
+        {
+            futureofshoppingvr.Stop();
+            originalcam.enabled = true;
+            vid1cam.enabled = false;
+            curcam = originalcam;
+            camController.enabled = true;
         }
     }
 
