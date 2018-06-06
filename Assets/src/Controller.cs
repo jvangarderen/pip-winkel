@@ -98,24 +98,15 @@ public class Controller : MonoBehaviour
 
     void Update()
     {
-
-        handleHiglight();
-        handleMarlies();
-        RaycastHit hit;
-        Debug.DrawRay(transform.position, transform.forward, Color.blue);
-
-        if (interactiveobj != null)
+        //If finger is on touchpad
+        if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad))
         {
-            //If finger is on touchpad
-            if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad))
-            {
-                //Read the touchpad values;
-                touchpad = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad);
-                if (touchpad.x < 0) manager.RotateGarmentLeft();
-                if (touchpad.x > 0) manager.RotateGarmentRight();
-                // Handle movement via touchpad
-               
-            }
+            //Read the touchpad values;
+            touchpad = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad);
+            if (touchpad.x < 0) manager.RotateGarmentLeft();
+            if (touchpad.x > 0) manager.RotateGarmentRight();
+            // Handle movement via touchpad
+
         }
     }
 
