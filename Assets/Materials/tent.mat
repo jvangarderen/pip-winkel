@@ -75,6 +75,6 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Diffusecolor: {r: 0.13994452, g: 0.4044118, b: 0.035683405, a: 1}
+    - _Diffusecolor: {r: 0.07689474, g: 0.09433961, b: 0.06986471, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Speccolor: {r: 1, g: 1, b: 1, a: 1}

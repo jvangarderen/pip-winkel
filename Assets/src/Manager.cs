@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Manager : MonoBehaviour
+public class Manager : MonoBehaviour 
 {
     public Light light;
     public List<GameObject> shoppingList;
@@ -30,13 +30,11 @@ public class Manager : MonoBehaviour
     public Text garmentname;
     public Text garmentprice;
     public Text description;
-    public AudioSource futureofshoppingvr;
-    // Use this for initialization
-    void Start()
-    {
+	// Use this for initialization
+	void Start () {
         originalcam = Camera.main;
         curcam = originalcam;
-    }
+	}
 
     public void ChangeSize_IndexChanged(int index)
     {
@@ -81,8 +79,8 @@ public class Manager : MonoBehaviour
                 curCollum = 0;
             }
             GameObject Cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
-            Cylinder.transform.localScale -= new Vector3(2, 0.5f, 2);
-            Cylinder.transform.localEulerAngles = new Vector3(-90, 0, 0);
+            Cylinder.transform.localScale -= new Vector3(2, 0.5f,2);
+            Cylinder.transform.eulerAngles = new Vector3(-90, 0, 0);
             Cylinder.transform.position = ColorOptionsStartPoint.transform.position + ofset;
             Cylinder.transform.parent = ColorOptionsStartPoint.transform;
             Cylinder.name = i.ToString();
@@ -98,7 +96,7 @@ public class Manager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
         RaycastHit hit;
 
@@ -112,19 +110,22 @@ public class Manager : MonoBehaviour
                 {
                     if (objectHit.name == "vid1")
                     {
-                        HandleVidScreen();//activate
-                    }
+                        curcam = vid1cam;
+                        originalcam.enabled = false;
+                        vid1cam.enabled = true;
+                        camController.enabled = false;
+                    }                    
                 }
 
                 if (Input.GetMouseButton(0))
                 {
                     if (objectHit.name == "Left")
                     {
-                        RotateGarmentLeft();
+                        garmentDisplay.transform.Rotate(Vector3.up, garmentDisplayRotSpeed * Time.deltaTime);
                     }
                     if (objectHit.name == "Right")
                     {
-                        RotateGarmentRight();
+                        garmentDisplay.transform.Rotate(Vector3.down, garmentDisplayRotSpeed * Time.deltaTime);
                     }
                 }
 
@@ -136,7 +137,10 @@ public class Manager : MonoBehaviour
                     }
                     if (objectHit.name == "btn_close")
                     {
-                        ClosePopup();
+                        //light.shadowStrength = 1;
+                        popUP.SetActive(false);
+                        camController.enabled = true;
+                        Destroy(sm.gameObject);
                     }
                     if (objectHit.tag == "btn_color")
                     {
@@ -147,8 +151,30 @@ public class Manager : MonoBehaviour
                      * */
                     if (objectHit.tag == "popup")
                     {
-                        OpenPopup(objectHit.transform);
+                        Debug.Log("Need to show popup");
+                        popUP.SetActive(true);
+                        Debug.DebugBreak();
+                       // light.shadowStrength = 0;
+                        camController.enabled = false;
+                        if (lasthittedpopupname == objectHit.name)
+                        {
+                            if (curSelectedGarment == null)
+                            {
+                                SpawnGarment2(objectHit);
+                            }
+                            else
+                            {
+                                Destroy(curSelectedGarment);
+                            }
+                        }
 
+                        else
+                        {
+                            Destroy(curSelectedGarment);
+                            SpawnGarment2(objectHit);
+                        }
+                        lasthittedpopupname = objectHit.name;
+                        
                     }
                 }
             }
@@ -165,80 +191,16 @@ public class Manager : MonoBehaviour
                     Debug.Log("Mouse down");
                     if (objectHit.name == "vid1")
                     {
-                        HandleVidScreen();//close vid screen
+                        Debug.Log("back out of video");
+                        originalcam.enabled = true;
+                        vid1cam.enabled = false;
+                        curcam = originalcam;
+                        camController.enabled = true;
                     }
                 }
             }
         }
-    }
-
-    public void HandleVidScreen()
-    {
-        if (curcam == originalcam)
-        {
-            curcam = vid1cam;
-            originalcam.enabled = false;
-            vid1cam.enabled = true;
-            camController.enabled = false;
-            UnityEngine.Video.VideoPlayer vidplayer = vid1cam.transform.parent.GetComponent<UnityEngine.Video.VideoPlayer>();
-            vidplayer.Stop();
-            futureofshoppingvr.Play();
-            vidplayer.Play();
-        }
-        else
-        {
-            futureofshoppingvr.Stop();
-            originalcam.enabled = true;
-            vid1cam.enabled = false;
-            curcam = originalcam;
-            camController.enabled = true;
-        }
-    }
-
-    public void RotateGarmentLeft()
-    {
-        garmentDisplay.transform.Rotate(Vector3.up, garmentDisplayRotSpeed * Time.deltaTime);
-    }
-
-    public void RotateGarmentRight()
-    {
-        garmentDisplay.transform.Rotate(Vector3.down, garmentDisplayRotSpeed * Time.deltaTime);
-    }
-
-    public void ClosePopup()
-    {
-        //light.shadowStrength = 1;
-        popUP.SetActive(false);
-        camController.enabled = true;
-        Destroy(sm.gameObject);
-    }
-
-    public void OpenPopup(Transform objectHit)
-    {
-        Debug.Log("Need to show popup");
-        popUP.SetActive(true);
-        //Debug.DebugBreak();
-        // light.shadowStrength = 0;
-        camController.enabled = false;
-        if (lasthittedpopupname == objectHit.name)
-        {
-            if (curSelectedGarment == null)
-            {
-                SpawnGarment2(objectHit);
-            }
-            else
-            {
-                Destroy(curSelectedGarment);
-            }
-        }
-
-        else
-        {
-            Destroy(curSelectedGarment);
-            SpawnGarment2(objectHit);
-        }
-        lasthittedpopupname = objectHit.name;
-    }
+	}
 
     private void SpawnGarment2(Transform objectHit)
     {
@@ -246,7 +208,7 @@ public class Manager : MonoBehaviour
         GameObject temp = Instantiate(allGarments[index], garmentDisplay.transform);
         SetCurGarment2(temp);
     }
-
+  
     private void PopulateList2()
     {
         //Debug.Log(curSelectedGarment.name);
@@ -255,7 +217,7 @@ public class Manager : MonoBehaviour
         //Debug.Log(sm.GetGroupNumber());
         int count = sm.GetGroupNumber();
         dropdown.options.Clear();
-        // dropdown.ClearOptions();
+       // dropdown.ClearOptions();
         groupsnames = sm.GetGroupNames();
         for (int i = 0; i < count; i++)
         {

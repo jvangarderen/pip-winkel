@@ -2,26 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Controller : MonoBehaviour
-{
+public class Controller : MonoBehaviour {
+
+    public GameObject selectedOBJ;
+
+
+
+
     private SteamVR_TrackedController _controller;
     private PrimitiveType _currentPrimitiveType = PrimitiveType.Sphere;
     SteamVR_Controller.Device device;
     SteamVR_TrackedObject controller;
     Vector2 touchpad;
-    private GameObject interactiveobj;
-    private SteamVR_LoadLevel loader;
-    public bool triggerButtonDown = false;
-
-
-    //Marlies back stuff
-    public float TimeToBack;
-    public bool startedBacking = false;
-    public float countdown;
-    public AudioSource hlsound;
-    private bool hlsoundplayed = false;
-    private Manager manager;
-
     private void OnEnable()
     {
         _controller = GetComponent<SteamVR_TrackedController>();
@@ -33,71 +25,77 @@ public class Controller : MonoBehaviour
         _controller.TriggerClicked -= HandleTriggerClicked;
     }
 
-    void Start()
-    {
-        manager = GameObject.Find("Manager").GetComponent<Manager>();
-        controller = gameObject.GetComponent<SteamVR_TrackedObject>();
-    }
 
-    void handleMarlies()
-    {
-        device = SteamVR_Controller.Input((int)controller.index);
-        string currentScene = ""; //SceneManagerHelper.ActiveSceneName;
-        if (currentScene == "Marlies Cube 1" || currentScene == "Marlies Cube 2")
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+        if (Input.GetKeyUp(KeyCode.Space))
         {
-            if (_controller.triggerPressed)
+            if (selectedOBJ.name.Contains("stripe"))
             {
-                if (!startedBacking)
-                {
-                    Debug.Log("Doe back shizzle in marlies scene");
-                    startedBacking = true;
-                    countdown = TimeToBack;
-                }
-                else
-                {
-                    countdown -= Time.deltaTime;
-                    if (countdown <= 0)
-                    {
-                        Application.LoadLevel("Marlies");
-                    }
-                }
-            }
-            else
-            {
-                startedBacking = false;
+                ChangeStripes CS = selectedOBJ.GetComponent<ChangeStripes>();
+                CS.ToggleSelected();
             }
         }
-    }
-
-    void Update()
-    {
-        //If finger is on touchpad
-        /*if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad))
+        if (selectedOBJ != null)
         {
-            
-            //Read the touchpad values;
-            touchpad = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad);
-            Debug.Log(touchpad.x);
-            if (touchpad.x < 0) manager.RotateGarmentLeft();
-            if (touchpad.x > 0) manager.RotateGarmentRight();
-            // Handle movement via touchpad
-
-        }*/
-    }
+            ChangeStripes CS = selectedOBJ.GetComponent<ChangeStripes>();
+            if (Input.GetKeyUp(KeyCode.Alpha1)) CS.PrevMat();
+            if (Input.GetKeyUp(KeyCode.Alpha2)) CS.NextMat();
+        }
+	}
 
     private void HandleTriggerClicked(object sender, ClickedEventArgs e)
     {
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
-            GameObject other = hit.collider.gameObject;
-            if (other.tag == "popup")
+            GameObject hittedOBJ = hit.collider.gameObject;
+
+
+            //als zelfde stripe is disable
+            if (hittedOBJ == selectedOBJ)
             {
-                manager.OpenPopup(hit.transform);
+                if (hittedOBJ.GetComponent<ChangeStripes>() != null)
+                {
+                    ChangeStripes cs = selectedOBJ.GetComponent<ChangeStripes>();
+                    cs.ToggleSelected();
+                    selectedOBJ = null;
+                }
             }
-            if (other.name == "btn_close")
+            else
             {
-                manager.ClosePopup();
+                //als oude stripe is en nieuwe niet 
+                if (hittedOBJ.GetComponent<ChangeStripes>() == null && selectedOBJ.GetComponent<ChangeStripes>() != null)
+                {
+                    ChangeStripes cs = selectedOBJ.GetComponent<ChangeStripes>();
+                    cs.ToggleSelected();
+                    selectedOBJ = hittedOBJ;
+                }
+
+
+                // als beide andere stripe is
+                if (hittedOBJ.GetComponent<ChangeStripes>() != null && selectedOBJ.GetComponent<ChangeStripes>() != null)
+                {
+                    ChangeStripes cs = selectedOBJ.GetComponent<ChangeStripes>();
+                    cs.ToggleSelected();
+                    cs = hittedOBJ.GetComponent<ChangeStripes>();
+                    cs.ToggleSelected();
+                    selectedOBJ = hittedOBJ;
+                }
+
+                //nieuwe stripe oude niks
+                if (hittedOBJ.GetComponent<ChangeStripes>() != null)
+                {
+                    ChangeStripes cs = selectedOBJ.GetComponent<ChangeStripes>();
+                    cs.ToggleSelected();
+                    selectedOBJ = hittedOBJ;
+                }
             }
         }
     }
