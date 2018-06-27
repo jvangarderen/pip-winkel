@@ -66,7 +66,57 @@ ModelImporter:
     4300016: Line04
     4300018: Line05
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box01Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder01Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder02Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder03Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder04Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line01Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line02Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line03Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line04Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line05Mat
+    second: {fileID: 2100000, guid: 37aa83dc337c448c1a6c20dc018f205d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
