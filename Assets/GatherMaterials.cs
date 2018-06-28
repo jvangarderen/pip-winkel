@@ -73,7 +73,9 @@ public class GatherMaterials : MonoBehaviour {
             }
         }
     }
-	void Start () {
+	void Start () 
+    {
+        Debug.Log(transform.name);
         sm = gameObject.transform.parent.GetComponent<SizeManager>();
 	}
 
