@@ -18846,7 +18846,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d599470ed071bf4e9dcd364c3690a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedOBJ: {fileID: 0}
+  triggerButtonDown: 0
+  TimeToBack: 0
+  startedBacking: 0
+  countdown: 0
+  hlsound: {fileID: 0}
 --- !u!114 &1094683419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26880,6 +26884,7 @@ MonoBehaviour:
   garmentname: {fileID: 2057313852}
   garmentprice: {fileID: 1953219031}
   description: {fileID: 1652716887}
+  futureofshoppingvr: {fileID: 0}
 --- !u!4 &1627859189
 Transform:
   m_ObjectHideFlags: 0
