@@ -3162,7 +3162,7 @@ GameObject:
   - component: {fileID: 33764486961858216}
   - component: {fileID: 23163704179148036}
   m_Layer: 0
-  m_Name: Base
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
