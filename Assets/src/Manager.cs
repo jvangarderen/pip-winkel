@@ -160,6 +160,8 @@ public class Manager : MonoBehaviour
                     }
                     if (objectHit.tag == "btn_color")
                     {
+                        Debug.Log("groupindex:"+groupindex);
+                        //Debug.Log("groupindex:" + groupindex);
                         sm.ChangeMAT2(groupindex, objectHit.GetComponent<MeshRenderer>().material);
                     }
                     /*
@@ -168,7 +170,6 @@ public class Manager : MonoBehaviour
                     if (objectHit.tag == "popup")
                     {
                         OpenPopup(objectHit.transform);
-
                     }
                 }
             }
