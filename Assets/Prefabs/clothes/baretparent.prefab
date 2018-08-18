@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 33316886756683644}
   - component: {fileID: 23510447595106166}
   m_Layer: 0
-  m_Name: MatShape_4963
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 33891115121586546}
   - component: {fileID: 23149839313915762}
   m_Layer: 0
-  m_Name: Pattern2D_1491516
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -300,6 +300,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6517ed500a21d9b46929de44c6419cc7, type: 3}
   m_StaticBatchInfo:
@@ -334,6 +335,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6517ed500a21d9b46929de44c6419cc7, type: 3}
   m_StaticBatchInfo:
@@ -368,6 +370,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6517ed500a21d9b46929de44c6419cc7, type: 3}
   m_StaticBatchInfo:
@@ -402,6 +405,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100002, guid: 6517ed500a21d9b46929de44c6419cc7, type: 3}
   m_StaticBatchInfo:
@@ -436,6 +440,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 16595c3b116a10140ac34023922f01d5, type: 2}
   m_StaticBatchInfo:
@@ -470,6 +475,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6517ed500a21d9b46929de44c6419cc7, type: 3}
   m_StaticBatchInfo:
@@ -504,6 +510,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 16595c3b116a10140ac34023922f01d5, type: 2}
   m_StaticBatchInfo:
